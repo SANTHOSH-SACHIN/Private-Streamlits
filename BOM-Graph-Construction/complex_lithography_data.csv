@@ -1,0 +1,1168 @@
+item_id,item_name,item_type,parent_id,quantity,lead_time,cost,supplier,inventory,min_stock,assembly_time,distributor,transport_method,transport_cost,transport_time,timestamp
+FP002,Final_product FP002,final_product,DUMMY_PARENT,4,200,21001382,Supplier_024,3,2,3,Distributor_011,Rail,194,7,2017-05-18 12:48:57
+FP018,Final_product FP018,final_product,DUMMY_PARENT,3,217,11027635,Supplier_019,6,2,11,Distributor_004,Sea Freight,2676,10,2014-12-14 02:17:03
+FP005,Final_product FP005,final_product,DUMMY_PARENT,5,216,10378955,Supplier_005,5,1,69,Distributor_013,Rail,5073,4,2010-06-07 14:09:43
+FP004,Final_product FP004,final_product,DUMMY_PARENT,2,204,13842695,Supplier_027,6,4,27,Distributor_005,Rail,763,23,2010-10-25 06:25:01
+SY010,System SY010,system,FP002,3,109,8147167,Supplier_021,3,4,62,Distributor_014,Truck,6287,30,2010-06-15 02:29:07
+SS002,Subsystem SS002,subsystem,SY010,1,68,1526237,Supplier_018,10,4,9,Distributor_010,Rail,1561,22,2013-05-28 15:40:55
+CP018,Component CP018,component,SS002,1,31,415395,Supplier_004,24,3,31,Distributor_014,Truck,7391,17,2018-09-17 14:21:16
+SC004,Subcomponent SC004,subcomponent,CP018,1,9,38437,Supplier_003,49,5,45,Distributor_006,Sea Freight,1299,18,2015-07-12 23:53:50
+SY017,System SY017,system,FP018,4,93,7791792,Supplier_015,4,2,26,Distributor_008,Air Freight,8014,4,2019-07-29 03:14:49
+SS020,Subsystem SS020,subsystem,SY017,5,35,1008810,Supplier_014,11,5,2,Distributor_011,Truck,2390,27,2020-05-04 10:18:04
+CP007,Component CP007,component,SS020,2,17,331709,Supplier_035,26,4,31,Distributor_004,Rail,1952,8,2021-08-06 22:22:14
+SC013,Subcomponent SC013,subcomponent,CP007,1,20,34205,Supplier_010,42,5,35,Distributor_012,Truck,6169,14,2016-01-24 05:09:54
+SY002,System SY002,system,FP005,2,103,9113825,Supplier_026,2,1,37,Distributor_013,Rail,3719,16,2019-10-02 07:27:51
+SS007,Subsystem SS007,subsystem,SY002,1,96,482243,Supplier_030,6,1,25,Distributor_007,Rail,7593,28,2021-11-16 00:35:59
+CP008,Component CP008,component,SS007,4,17,451164,Supplier_033,22,2,33,Distributor_002,Air Freight,2932,10,2014-07-10 05:23:35
+SC004,Subcomponent SC004,subcomponent,CP008,1,7,15943,Supplier_013,32,5,8,Distributor_001,Sea Freight,4294,11,2012-02-16 15:54:46
+RM014,Raw_material RM014,raw_material,CP008,4,1,2138,Supplier_044,103,2,4,Distributor_006,Rail,6910,17,2011-03-25 18:28:02
+SY018,System SY018,system,FP004,4,104,4189894,Supplier_028,6,1,43,Distributor_012,Rail,7525,10,2013-07-22 07:59:32
+SS005,Subsystem SS005,subsystem,SY018,3,50,710391,Supplier_031,12,1,13,Distributor_011,Rail,2307,24,2013-06-19 05:47:57
+CP003,Component CP003,component,SS005,3,35,279048,Supplier_012,17,2,54,Distributor_003,Rail,6721,18,2019-05-01 23:58:28
+SC015,Subcomponent SC015,subcomponent,CP003,3,11,16118,Supplier_029,34,4,40,Distributor_001,Sea Freight,9368,23,2010-08-18 10:20:00
+RM002,Raw_material RM002,raw_material,CP003,1,3,613,Supplier_004,52,1,65,Distributor_002,Sea Freight,7382,3,2017-06-10 06:01:19
+SY001,System SY001,system,FP002,2,105,9462273,Supplier_018,4,5,72,Distributor_013,Truck,4390,20,2019-06-23 00:55:13
+SS007,Subsystem SS007,subsystem,SY010,4,74,2120958,Supplier_021,9,1,33,Distributor_008,Air Freight,4557,17,2021-12-19 06:00:09
+CP014,Component CP014,component,SS002,3,22,347248,Supplier_011,15,2,37,Distributor_009,Truck,4607,22,2016-05-23 04:40:01
+SC009,Subcomponent SC009,subcomponent,CP018,3,7,37332,Supplier_028,33,4,24,Distributor_003,Sea Freight,8408,1,2015-06-15 06:07:27
+SC018,Subcomponent SC018,subcomponent,CP014,1,5,53708,Supplier_018,27,1,3,Distributor_006,Truck,3829,18,2017-09-11 10:00:15
+CP020,Component CP020,component,SS007,5,37,279200,Supplier_028,12,1,70,Distributor_005,Air Freight,2202,7,2013-04-09 10:07:37
+SC008,Subcomponent SC008,subcomponent,CP020,3,15,16230,Supplier_021,36,2,7,Distributor_009,Air Freight,6967,17,2010-09-26 12:29:45
+RM012,Raw_material RM012,raw_material,CP020,3,10,5567,Supplier_041,38,5,8,Distributor_008,Truck,593,4,2010-03-03 23:54:43
+SS003,Subsystem SS003,subsystem,SY001,4,79,1816939,Supplier_008,13,3,7,Distributor_008,Rail,3901,28,2021-01-07 17:20:34
+CP003,Component CP003,component,SS003,2,16,393145,Supplier_031,15,1,1,Distributor_009,Sea Freight,7339,14,2017-11-23 04:22:18
+SC017,Subcomponent SC017,subcomponent,CP003,3,16,35903,Supplier_019,26,5,12,Distributor_010,Rail,8344,7,2011-04-11 09:59:12
+SY016,System SY016,system,FP018,3,92,6628084,Supplier_029,4,2,53,Distributor_007,Air Freight,667,11,2020-12-22 21:29:47
+SS014,Subsystem SS014,subsystem,SY017,1,66,848921,Supplier_023,11,3,43,Distributor_003,Rail,1896,2,2019-03-31 01:42:03
+CP002,Component CP002,component,SS020,2,30,213517,Supplier_035,15,1,15,Distributor_012,Sea Freight,9021,11,2012-02-16 17:28:41
+SC011,Subcomponent SC011,subcomponent,CP007,2,20,15391,Supplier_027,32,4,56,Distributor_009,Sea Freight,3580,23,2015-01-24 11:14:08
+SC010,Subcomponent SC010,subcomponent,CP002,2,8,47408,Supplier_021,40,3,8,Distributor_014,Rail,3168,7,2015-12-27 05:31:44
+RM006,Raw_material RM006,raw_material,CP002,5,3,1143,Supplier_007,53,5,32,Distributor_009,Truck,8413,22,2016-04-13 13:28:13
+CP010,Component CP010,component,SS014,3,32,195716,Supplier_003,11,5,27,Distributor_004,Air Freight,1171,13,2011-03-25 08:01:53
+SC008,Subcomponent SC008,subcomponent,CP010,4,9,22595,Supplier_015,49,1,23,Distributor_011,Sea Freight,5766,6,2016-12-11 20:31:46
+SS020,Subsystem SS020,subsystem,SY016,4,60,1641582,Supplier_006,12,4,44,Distributor_004,Truck,4384,14,2013-05-03 11:53:41
+CP013,Component CP013,component,SS020,1,32,62709,Supplier_018,30,1,2,Distributor_006,Air Freight,9532,13,2020-06-07 16:52:55
+SC017,Subcomponent SC017,subcomponent,CP013,1,13,46695,Supplier_003,33,3,39,Distributor_001,Air Freight,6345,21,2015-12-23 06:31:49
+RM013,Raw_material RM013,raw_material,CP013,1,4,2753,Supplier_022,69,4,29,Distributor_009,Sea Freight,1610,20,2015-01-12 23:44:20
+SY007,System SY007,system,FP005,5,61,6055040,Supplier_029,6,5,35,Distributor_004,Sea Freight,9194,15,2021-11-28 10:49:30
+SS009,Subsystem SS009,subsystem,SY002,3,44,1072314,Supplier_025,12,4,30,Distributor_003,Air Freight,4369,21,2019-01-09 19:11:03
+CP002,Component CP002,component,SS007,3,36,302613,Supplier_002,15,2,70,Distributor_007,Rail,9985,19,2017-09-18 12:34:15
+SC007,Subcomponent SC007,subcomponent,CP008,4,17,20665,Supplier_011,35,4,7,Distributor_009,Rail,2691,30,2018-05-07 17:42:44
+SC010,Subcomponent SC010,subcomponent,CP002,1,11,16584,Supplier_040,27,3,42,Distributor_011,Truck,5713,24,2018-07-23 07:10:35
+RM001,Raw_material RM001,raw_material,CP002,3,4,1923,Supplier_008,89,1,23,Distributor_003,Air Freight,7290,9,2011-07-23 09:21:03
+CP003,Component CP003,component,SS009,2,27,178815,Supplier_012,21,3,27,Distributor_002,Air Freight,4205,14,2012-12-26 15:44:23
+SC008,Subcomponent SC008,subcomponent,CP003,2,8,26062,Supplier_001,18,5,60,Distributor_008,Air Freight,3240,20,2020-06-25 20:34:11
+SS013,Subsystem SS013,subsystem,SY007,4,47,1348557,Supplier_029,9,3,25,Distributor_013,Rail,883,11,2019-05-28 06:49:06
+CP016,Component CP016,component,SS013,3,25,135763,Supplier_005,14,5,39,Distributor_005,Sea Freight,9069,5,2017-11-04 10:04:02
+SC016,Subcomponent SC016,subcomponent,CP016,2,20,34716,Supplier_044,30,2,53,Distributor_009,Sea Freight,3954,27,2019-10-31 14:52:06
+SY016,System SY016,system,FP004,4,111,5118464,Supplier_044,3,5,16,Distributor_006,Truck,3766,12,2019-11-23 09:57:19
+SS011,Subsystem SS011,subsystem,SY018,1,49,772482,Supplier_020,5,5,67,Distributor_004,Air Freight,1350,23,2019-04-06 03:32:30
+CP006,Component CP006,component,SS005,5,32,215436,Supplier_004,28,4,67,Distributor_010,Sea Freight,714,2,2016-09-25 19:59:31
+SC008,Subcomponent SC008,subcomponent,CP003,3,15,5953,Supplier_011,42,1,30,Distributor_005,Air Freight,6101,6,2019-01-27 10:37:55
+SC018,Subcomponent SC018,subcomponent,CP006,2,16,55587,Supplier_038,58,2,41,Distributor_006,Air Freight,9088,12,2010-04-04 22:41:50
+RM008,Raw_material RM008,raw_material,CP006,4,3,3150,Supplier_043,76,1,62,Distributor_003,Truck,4358,17,2012-01-21 18:32:10
+CP013,Component CP013,component,SS011,1,20,268263,Supplier_015,21,5,46,Distributor_001,Truck,4833,17,2016-12-12 12:14:38
+SC014,Subcomponent SC014,subcomponent,CP013,3,14,29628,Supplier_033,44,5,51,Distributor_003,Truck,2869,22,2011-12-02 18:42:35
+SS016,Subsystem SS016,subsystem,SY016,5,31,1491574,Supplier_041,12,3,13,Distributor_007,Truck,8104,6,2017-12-14 10:36:25
+CP001,Component CP001,component,SS016,1,36,419721,Supplier_024,10,4,63,Distributor_001,Truck,1859,1,2012-10-23 17:30:10
+SC006,Subcomponent SC006,subcomponent,CP001,3,18,43480,Supplier_018,24,4,3,Distributor_008,Sea Freight,4676,28,2018-08-27 03:48:11
+SY016,System SY016,system,FP002,3,121,6421037,Supplier_023,10,5,1,Distributor_005,Truck,9392,9,2015-03-25 04:18:28
+SS018,Subsystem SS018,subsystem,SY010,3,76,566654,Supplier_011,9,5,18,Distributor_010,Truck,8836,3,2013-01-04 17:28:59
+CP002,Component CP002,component,SS002,5,30,44385,Supplier_026,20,4,69,Distributor_013,Air Freight,5057,21,2020-05-15 05:39:41
+SC004,Subcomponent SC004,subcomponent,CP018,3,7,26898,Supplier_040,33,3,38,Distributor_014,Truck,7900,27,2016-11-28 04:00:28
+RM011,Raw_material RM011,raw_material,CP018,2,3,2025,Supplier_015,94,4,33,Distributor_010,Rail,3292,17,2011-05-20 12:57:33
+SC008,Subcomponent SC008,subcomponent,CP014,2,18,9136,Supplier_029,40,4,62,Distributor_010,Rail,8837,21,2020-09-17 11:14:26
+SC006,Subcomponent SC006,subcomponent,CP002,3,17,34936,Supplier_013,20,1,69,Distributor_011,Air Freight,5431,14,2020-11-05 07:07:52
+CP009,Component CP009,component,SS007,5,42,258190,Supplier_021,17,2,63,Distributor_012,Air Freight,6255,24,2014-12-04 14:01:47
+SC014,Subcomponent SC014,subcomponent,CP020,1,9,4804,Supplier_013,21,1,9,Distributor_013,Sea Freight,2559,23,2021-04-12 22:29:24
+SC006,Subcomponent SC006,subcomponent,CP009,4,9,42970,Supplier_018,39,1,35,Distributor_004,Truck,8576,24,2021-12-11 11:09:33
+CP003,Component CP003,component,SS018,3,38,265195,Supplier_033,13,1,14,Distributor_001,Sea Freight,8319,24,2015-12-27 07:20:09
+SC017,Subcomponent SC017,subcomponent,CP003,4,19,21760,Supplier_019,37,3,12,Distributor_014,Sea Freight,5840,20,2012-07-30 04:58:08
+SS004,Subsystem SS004,subsystem,SY001,4,65,702944,Supplier_020,6,2,45,Distributor_008,Sea Freight,5491,18,2017-10-26 03:57:49
+CP012,Component CP012,component,SS003,5,28,268217,Supplier_001,14,1,58,Distributor_004,Rail,1528,16,2014-04-15 23:07:03
+SC015,Subcomponent SC015,subcomponent,CP003,4,13,33271,Supplier_026,37,5,36,Distributor_013,Sea Freight,9378,4,2019-09-07 16:50:39
+SC009,Subcomponent SC009,subcomponent,CP012,4,13,32955,Supplier_031,36,5,38,Distributor_011,Truck,7705,9,2017-05-16 14:26:23
+CP005,Component CP005,component,SS004,4,28,246399,Supplier_025,10,2,51,Distributor_011,Air Freight,2837,16,2014-12-02 11:20:38
+SC004,Subcomponent SC004,subcomponent,CP005,4,13,13811,Supplier_026,36,4,28,Distributor_004,Truck,293,23,2020-09-25 10:51:51
+SS006,Subsystem SS006,subsystem,SY016,1,32,838265,Supplier_035,13,5,42,Distributor_005,Sea Freight,617,17,2013-11-27 08:37:16
+CP004,Component CP004,component,SS006,5,15,365697,Supplier_019,32,2,8,Distributor_003,Truck,8842,9,2019-03-18 07:13:59
+SC004,Subcomponent SC004,subcomponent,CP004,5,14,21407,Supplier_029,34,4,1,Distributor_003,Rail,2112,4,2020-11-28 18:53:36
+SY012,System SY012,system,FP018,1,105,2473717,Supplier_018,2,1,4,Distributor_011,Truck,1572,13,2011-12-16 20:44:53
+SS020,Subsystem SS020,subsystem,SY017,2,62,583111,Supplier_033,7,1,6,Distributor_013,Air Freight,8817,16,2012-03-17 07:24:46
+CP018,Component CP018,component,SS020,2,21,395880,Supplier_010,7,5,39,Distributor_007,Rail,3337,4,2018-09-08 14:10:36
+SC003,Subcomponent SC003,subcomponent,CP007,3,7,27378,Supplier_043,40,2,59,Distributor_005,Truck,2759,23,2017-03-19 07:58:55
+SC010,Subcomponent SC010,subcomponent,CP002,1,16,19118,Supplier_016,37,5,53,Distributor_009,Truck,3197,15,2012-10-05 02:10:28
+RM004,Raw_material RM004,raw_material,CP002,3,1,4729,Supplier_042,107,3,9,Distributor_005,Truck,3300,11,2015-02-17 20:04:35
+SC002,Subcomponent SC002,subcomponent,CP018,2,16,14586,Supplier_023,31,4,61,Distributor_010,Truck,3637,15,2013-07-06 13:01:20
+CP005,Component CP005,component,SS014,5,38,370276,Supplier_001,35,4,39,Distributor_010,Truck,7962,20,2018-12-07 12:40:15
+SC010,Subcomponent SC010,subcomponent,CP010,5,12,37868,Supplier_015,32,1,15,Distributor_011,Rail,5865,6,2017-09-30 01:32:25
+SC019,Subcomponent SC019,subcomponent,CP005,5,10,31704,Supplier_028,39,1,2,Distributor_011,Sea Freight,9303,25,2018-08-03 21:05:05
+RM017,Raw_material RM017,raw_material,CP005,4,7,2794,Supplier_022,83,1,49,Distributor_001,Sea Freight,5968,6,2014-07-25 22:31:45
+CP014,Component CP014,component,SS020,3,40,399313,Supplier_036,19,5,37,Distributor_002,Sea Freight,6197,22,2014-05-31 08:03:48
+SC020,Subcomponent SC020,subcomponent,CP014,4,15,21251,Supplier_021,31,5,12,Distributor_007,Air Freight,6941,6,2015-05-08 03:28:08
+SS014,Subsystem SS014,subsystem,SY016,5,55,1031671,Supplier_013,13,2,8,Distributor_008,Rail,1863,11,2014-11-06 11:53:26
+CP003,Component CP003,component,SS020,5,20,205738,Supplier_009,20,2,0,Distributor_002,Air Freight,2570,4,2016-12-22 03:58:29
+SC008,Subcomponent SC008,subcomponent,CP013,5,14,5258,Supplier_044,39,4,23,Distributor_014,Sea Freight,9776,27,2017-09-19 13:49:06
+SC011,Subcomponent SC011,subcomponent,CP003,5,17,25203,Supplier_032,17,4,52,Distributor_009,Rail,6032,9,2015-03-31 09:42:46
+CP013,Component CP013,component,SS014,3,41,419124,Supplier_012,20,1,29,Distributor_011,Air Freight,4818,13,2014-11-14 16:31:17
+SC015,Subcomponent SC015,subcomponent,CP013,5,16,16454,Supplier_028,45,5,32,Distributor_006,Air Freight,2439,20,2017-08-06 15:42:12
+SS005,Subsystem SS005,subsystem,SY012,5,44,1633169,Supplier_007,14,1,7,Distributor_010,Truck,9073,2,2017-08-14 07:12:56
+CP017,Component CP017,component,SS005,4,15,95237,Supplier_010,24,2,39,Distributor_012,Air Freight,1549,27,2020-09-14 15:27:38
+SC008,Subcomponent SC008,subcomponent,CP017,2,12,28986,Supplier_029,21,2,68,Distributor_010,Sea Freight,1608,15,2020-08-05 08:00:32
+RM004,Raw_material RM004,raw_material,CP017,2,1,1339,Supplier_011,95,5,63,Distributor_003,Truck,5905,6,2013-03-26 12:17:06
+SY016,System SY016,system,FP005,4,69,5015101,Supplier_035,4,5,6,Distributor_005,Air Freight,1310,15,2012-11-27 09:34:58
+SS016,Subsystem SS016,subsystem,SY002,3,87,1112281,Supplier_022,6,4,70,Distributor_008,Sea Freight,4363,7,2013-01-21 12:56:24
+CP019,Component CP019,component,SS007,2,38,156544,Supplier_016,22,4,16,Distributor_013,Air Freight,1143,2,2012-10-03 07:18:08
+SC003,Subcomponent SC003,subcomponent,CP008,5,16,22999,Supplier_011,42,1,51,Distributor_003,Sea Freight,3944,26,2013-12-27 06:37:55
+SC005,Subcomponent SC005,subcomponent,CP002,4,9,15575,Supplier_005,51,3,37,Distributor_011,Air Freight,9522,22,2015-08-04 05:05:59
+SC002,Subcomponent SC002,subcomponent,CP019,5,7,31172,Supplier_023,54,4,70,Distributor_011,Rail,5770,11,2011-12-29 00:01:20
+CP018,Component CP018,component,SS009,3,26,351485,Supplier_018,17,2,55,Distributor_004,Air Freight,8773,5,2016-03-02 14:30:11
+SC015,Subcomponent SC015,subcomponent,CP003,5,11,24215,Supplier_030,27,4,14,Distributor_004,Truck,7178,9,2011-04-04 07:57:30
+RM015,Raw_material RM015,raw_material,CP003,1,2,5287,Supplier_010,80,1,44,Distributor_014,Truck,4284,25,2016-02-08 05:54:45
+SC016,Subcomponent SC016,subcomponent,CP018,5,11,43124,Supplier_034,60,2,14,Distributor_008,Truck,2934,28,2010-07-01 02:42:28
+CP009,Component CP009,component,SS016,1,18,433166,Supplier_012,34,2,57,Distributor_010,Rail,6702,23,2020-05-12 07:52:49
+SC015,Subcomponent SC015,subcomponent,CP009,5,7,15931,Supplier_041,23,3,22,Distributor_005,Truck,222,28,2020-07-10 19:29:32
+SS008,Subsystem SS008,subsystem,SY007,1,41,1555103,Supplier_009,17,2,6,Distributor_014,Truck,7260,19,2017-08-13 06:45:24
+CP010,Component CP010,component,SS013,2,40,110203,Supplier_001,25,2,40,Distributor_002,Rail,7162,23,2012-12-20 02:28:25
+SC002,Subcomponent SC002,subcomponent,CP016,2,13,7526,Supplier_028,51,3,20,Distributor_010,Rail,6749,5,2018-03-20 20:12:08
+RM020,Raw_material RM020,raw_material,CP016,1,8,4479,Supplier_041,114,2,37,Distributor_005,Rail,6448,29,2010-11-07 02:39:55
+SC004,Subcomponent SC004,subcomponent,CP010,4,13,25228,Supplier_032,34,3,44,Distributor_008,Truck,595,7,2015-11-12 23:05:57
+CP007,Component CP007,component,SS008,5,43,481660,Supplier_006,30,1,17,Distributor_008,Sea Freight,763,24,2016-05-22 08:55:33
+SC002,Subcomponent SC002,subcomponent,CP007,4,16,8400,Supplier_039,54,1,31,Distributor_006,Truck,7758,29,2015-09-09 22:00:35
+SS009,Subsystem SS009,subsystem,SY016,3,75,900087,Supplier_015,8,1,53,Distributor_012,Sea Freight,4817,8,2020-01-23 13:21:41
+CP019,Component CP019,component,SS009,1,15,99422,Supplier_015,13,4,56,Distributor_008,Truck,3523,5,2015-12-22 10:08:46
+SC015,Subcomponent SC015,subcomponent,CP019,3,9,35894,Supplier_002,25,2,67,Distributor_001,Air Freight,635,25,2011-11-18 14:06:58
+SY005,System SY005,system,FP004,2,122,1826873,Supplier_011,2,3,27,Distributor_009,Air Freight,3914,26,2014-05-27 18:07:44
+SS001,Subsystem SS001,subsystem,SY018,3,55,1687341,Supplier_003,14,1,56,Distributor_005,Sea Freight,4578,5,2018-09-11 09:52:35
+CP019,Component CP019,component,SS005,3,40,503788,Supplier_043,17,4,53,Distributor_010,Sea Freight,7923,11,2012-10-01 08:01:21
+SC006,Subcomponent SC006,subcomponent,CP003,5,14,32711,Supplier_020,34,2,13,Distributor_014,Rail,5827,22,2012-10-01 17:21:33
+SC016,Subcomponent SC016,subcomponent,CP006,4,16,40179,Supplier_024,49,3,20,Distributor_014,Rail,6749,5,2011-04-01 15:49:16
+SC020,Subcomponent SC020,subcomponent,CP019,2,8,7387,Supplier_003,45,5,50,Distributor_010,Rail,4095,19,2014-04-20 16:31:01
+CP009,Component CP009,component,SS011,3,27,278982,Supplier_011,19,5,37,Distributor_013,Rail,6884,28,2011-01-06 21:10:12
+SC014,Subcomponent SC014,subcomponent,CP013,1,11,50902,Supplier_001,39,3,0,Distributor_010,Rail,4435,22,2011-08-03 16:30:05
+SC016,Subcomponent SC016,subcomponent,CP009,4,7,22426,Supplier_011,20,4,27,Distributor_014,Air Freight,3134,16,2013-08-16 23:24:16
+CP018,Component CP018,component,SS001,5,35,286391,Supplier_013,30,2,32,Distributor_004,Rail,6562,27,2019-05-24 14:32:44
+SC001,Subcomponent SC001,subcomponent,CP018,1,14,17819,Supplier_029,31,3,72,Distributor_005,Sea Freight,3285,8,2018-12-20 01:30:02
+SS004,Subsystem SS004,subsystem,SY016,4,57,770850,Supplier_018,18,5,49,Distributor_011,Truck,2176,27,2017-12-28 14:03:05
+CP008,Component CP008,component,SS016,2,26,109702,Supplier_003,27,1,35,Distributor_002,Sea Freight,1446,19,2010-04-17 00:42:04
+SC008,Subcomponent SC008,subcomponent,CP001,1,14,30264,Supplier_008,31,1,9,Distributor_006,Sea Freight,6589,24,2013-10-26 19:26:10
+SC018,Subcomponent SC018,subcomponent,CP008,4,7,53850,Supplier_032,49,4,43,Distributor_005,Truck,3453,9,2016-12-16 16:15:53
+CP017,Component CP017,component,SS004,3,36,111738,Supplier_018,16,2,45,Distributor_005,Sea Freight,1560,6,2014-05-27 03:13:04
+SC015,Subcomponent SC015,subcomponent,CP017,3,13,54213,Supplier_025,48,4,32,Distributor_005,Air Freight,3424,25,2010-10-30 17:30:35
+SS011,Subsystem SS011,subsystem,SY005,2,37,817376,Supplier_036,3,2,50,Distributor_008,Sea Freight,8921,22,2020-01-26 06:06:38
+CP013,Component CP013,component,SS011,3,22,195194,Supplier_038,24,2,66,Distributor_013,Rail,4993,3,2011-07-06 00:38:40
+SC008,Subcomponent SC008,subcomponent,CP013,3,5,10514,Supplier_004,16,2,41,Distributor_011,Air Freight,1067,10,2012-05-06 07:05:15
+SY015,System SY015,system,FP002,1,111,8530534,Supplier_044,3,1,0,Distributor_004,Truck,7436,20,2014-09-23 05:04:02
+SS012,Subsystem SS012,subsystem,SY010,5,77,610528,Supplier_005,17,5,15,Distributor_004,Rail,726,4,2015-01-09 09:37:12
+CP010,Component CP010,component,SS002,3,34,501002,Supplier_028,24,1,61,Distributor_006,Air Freight,8474,23,2010-12-13 14:38:46
+SC016,Subcomponent SC016,subcomponent,CP018,5,13,48971,Supplier_037,21,3,53,Distributor_014,Truck,1482,10,2015-08-12 11:08:55
+RM005,Raw_material RM005,raw_material,CP018,3,2,972,Supplier_025,64,3,33,Distributor_014,Air Freight,8373,22,2021-08-26 08:21:45
+SC003,Subcomponent SC003,subcomponent,CP002,1,9,9780,Supplier_009,23,4,24,Distributor_014,Truck,3613,20,2017-11-25 02:57:15
+RM013,Raw_material RM013,raw_material,CP002,1,4,1399,Supplier_025,80,3,55,Distributor_008,Air Freight,4279,21,2010-06-27 20:27:16
+SC005,Subcomponent SC005,subcomponent,CP010,4,11,49145,Supplier_016,23,4,62,Distributor_004,Rail,4258,18,2020-08-15 22:15:40
+CP018,Component CP018,component,SS007,3,15,77242,Supplier_003,19,2,32,Distributor_012,Sea Freight,2841,19,2010-08-17 12:28:18
+SC017,Subcomponent SC017,subcomponent,CP020,3,18,18987,Supplier_043,51,2,17,Distributor_012,Air Freight,838,23,2015-07-30 23:13:08
+SC002,Subcomponent SC002,subcomponent,CP009,5,16,31274,Supplier_036,37,2,38,Distributor_001,Rail,8916,4,2012-04-02 08:35:51
+SC008,Subcomponent SC008,subcomponent,CP018,1,12,5538,Supplier_013,46,2,15,Distributor_007,Air Freight,1141,2,2021-03-12 09:56:16
+CP012,Component CP012,component,SS018,1,46,471231,Supplier_036,35,1,26,Distributor_011,Rail,8932,7,2012-04-15 20:46:59
+SC012,Subcomponent SC012,subcomponent,CP003,3,19,36942,Supplier_019,29,4,27,Distributor_009,Rail,5424,17,2015-03-18 00:43:47
+RM013,Raw_material RM013,raw_material,CP003,5,8,3843,Supplier_044,71,1,17,Distributor_004,Sea Freight,4502,28,2013-08-30 21:42:54
+SC012,Subcomponent SC012,subcomponent,CP012,4,9,52320,Supplier_034,24,2,0,Distributor_005,Truck,8019,24,2017-06-17 15:02:37
+RM002,Raw_material RM002,raw_material,CP012,1,9,2141,Supplier_004,106,3,68,Distributor_003,Rail,6535,8,2013-02-07 13:35:18
+CP018,Component CP018,component,SS012,2,38,133394,Supplier_001,22,2,14,Distributor_002,Sea Freight,5650,15,2015-02-26 17:12:32
+SC009,Subcomponent SC009,subcomponent,CP018,3,10,40082,Supplier_007,42,5,26,Distributor_005,Truck,2856,24,2013-11-19 06:58:55
+RM001,Raw_material RM001,raw_material,CP018,3,6,1447,Supplier_039,80,4,3,Distributor_006,Truck,6056,1,2020-09-13 08:19:07
+SS005,Subsystem SS005,subsystem,SY001,1,48,1765259,Supplier_014,9,5,58,Distributor_008,Air Freight,8399,4,2017-05-22 09:41:30
+CP016,Component CP016,component,SS003,2,43,344203,Supplier_013,19,1,47,Distributor_013,Air Freight,7174,10,2013-07-27 23:07:24
+SC019,Subcomponent SC019,subcomponent,CP003,2,11,47902,Supplier_024,36,1,52,Distributor_003,Rail,4334,15,2014-03-30 20:51:58
+SC015,Subcomponent SC015,subcomponent,CP012,4,10,33668,Supplier_016,33,1,16,Distributor_001,Rail,3607,11,2011-09-22 01:36:50
+SC019,Subcomponent SC019,subcomponent,CP016,4,17,18577,Supplier_006,55,5,44,Distributor_002,Truck,1225,11,2014-11-09 21:00:02
+RM009,Raw_material RM009,raw_material,CP016,2,9,487,Supplier_029,68,2,33,Distributor_014,Air Freight,1085,1,2016-11-16 15:44:36
+CP020,Component CP020,component,SS004,2,18,280651,Supplier_012,19,3,47,Distributor_002,Truck,9228,15,2018-01-17 08:36:29
+SC004,Subcomponent SC004,subcomponent,CP005,3,8,20774,Supplier_017,57,3,5,Distributor_014,Rail,293,2,2011-10-08 07:06:45
+SC012,Subcomponent SC012,subcomponent,CP020,1,7,14572,Supplier_027,41,1,60,Distributor_010,Rail,1803,24,2015-07-03 03:09:49
+RM005,Raw_material RM005,raw_material,CP020,1,2,1023,Supplier_012,79,4,56,Distributor_007,Truck,1272,27,2019-06-01 12:51:04
+CP003,Component CP003,component,SS005,2,15,426280,Supplier_004,35,4,71,Distributor_008,Air Freight,9939,19,2013-08-05 01:03:11
+SC017,Subcomponent SC017,subcomponent,CP003,5,16,50426,Supplier_010,33,1,19,Distributor_005,Truck,1322,18,2021-04-23 02:42:51
+RM009,Raw_material RM009,raw_material,CP003,5,9,3536,Supplier_043,110,3,71,Distributor_013,Air Freight,9323,5,2017-02-19 05:23:48
+SS018,Subsystem SS018,subsystem,SY016,5,61,727681,Supplier_016,10,4,0,Distributor_010,Air Freight,7158,9,2019-04-09 08:36:36
+CP010,Component CP010,component,SS006,3,19,496010,Supplier_038,16,3,57,Distributor_002,Rail,2219,2,2014-04-05 19:01:56
+SC013,Subcomponent SC013,subcomponent,CP004,1,21,23100,Supplier_041,50,5,3,Distributor_002,Rail,986,20,2018-09-18 11:31:41
+SC008,Subcomponent SC008,subcomponent,CP010,4,9,20655,Supplier_040,27,5,4,Distributor_012,Air Freight,2308,27,2016-01-24 18:55:37
+RM006,Raw_material RM006,raw_material,CP010,5,2,5042,Supplier_039,77,4,69,Distributor_005,Rail,1876,22,2010-02-06 00:48:14
+CP018,Component CP018,component,SS018,4,35,369064,Supplier_021,18,4,16,Distributor_005,Air Freight,2377,2,2011-10-27 00:38:30
+SC001,Subcomponent SC001,subcomponent,CP018,4,11,43295,Supplier_008,35,4,34,Distributor_013,Truck,6625,30,2015-03-29 23:33:24
+SS014,Subsystem SS014,subsystem,SY015,1,60,906487,Supplier_006,18,1,8,Distributor_007,Rail,2486,6,2016-07-11 23:10:10
+CP017,Component CP017,component,SS014,5,42,126795,Supplier_029,17,5,64,Distributor_003,Truck,1786,28,2016-09-06 12:41:04
+SC011,Subcomponent SC011,subcomponent,CP017,2,15,8227,Supplier_007,21,5,48,Distributor_011,Sea Freight,243,20,2017-02-17 12:54:44
+RM007,Raw_material RM007,raw_material,CP017,5,3,3919,Supplier_042,98,2,46,Distributor_008,Air Freight,6478,18,2010-08-05 10:15:23
+SY006,System SY006,system,FP018,4,105,4848641,Supplier_013,4,3,15,Distributor_005,Truck,3103,16,2010-08-01 05:19:57
+SS018,Subsystem SS018,subsystem,SY017,3,40,650601,Supplier_003,9,4,27,Distributor_010,Air Freight,7375,27,2020-10-16 06:17:11
+CP017,Component CP017,component,SS020,4,34,350015,Supplier_006,10,1,37,Distributor_014,Sea Freight,1510,18,2017-04-10 12:57:20
+SC018,Subcomponent SC018,subcomponent,CP007,2,7,46098,Supplier_016,43,2,7,Distributor_011,Air Freight,2979,21,2016-03-21 01:34:59
+SC020,Subcomponent SC020,subcomponent,CP002,4,8,11993,Supplier_008,49,3,68,Distributor_012,Sea Freight,9583,3,2014-12-11 11:38:23
+RM010,Raw_material RM010,raw_material,CP002,4,9,1494,Supplier_020,110,5,56,Distributor_003,Truck,5206,7,2016-08-03 02:53:39
+SC010,Subcomponent SC010,subcomponent,CP018,4,9,37602,Supplier_043,19,2,37,Distributor_007,Rail,1099,23,2015-11-23 01:25:17
+RM008,Raw_material RM008,raw_material,CP018,1,9,1231,Supplier_004,100,3,9,Distributor_012,Sea Freight,1053,17,2012-07-27 20:59:54
+SC001,Subcomponent SC001,subcomponent,CP017,3,12,30933,Supplier_020,50,2,20,Distributor_005,Air Freight,9627,21,2013-11-26 16:03:52
+CP012,Component CP012,component,SS014,1,14,274052,Supplier_035,26,2,23,Distributor_014,Truck,3321,29,2013-09-05 09:02:10
+SC004,Subcomponent SC004,subcomponent,CP010,4,10,40439,Supplier_038,28,5,19,Distributor_013,Sea Freight,7011,3,2011-08-03 19:08:02
+SC014,Subcomponent SC014,subcomponent,CP005,1,14,35025,Supplier_015,25,5,5,Distributor_014,Rail,8093,21,2012-12-16 00:35:44
+RM007,Raw_material RM007,raw_material,CP005,5,8,2282,Supplier_022,68,5,46,Distributor_005,Air Freight,6205,13,2019-04-01 17:39:25
+SC019,Subcomponent SC019,subcomponent,CP012,5,6,25037,Supplier_026,40,4,65,Distributor_004,Truck,1800,8,2019-06-16 00:15:32
+CP013,Component CP013,component,SS020,2,43,114264,Supplier_033,22,2,10,Distributor_009,Air Freight,1292,24,2020-03-09 16:56:07
+SC016,Subcomponent SC016,subcomponent,CP014,4,19,46365,Supplier_036,47,3,5,Distributor_014,Truck,7114,28,2012-12-17 13:09:53
+SC018,Subcomponent SC018,subcomponent,CP013,3,20,37948,Supplier_036,30,3,4,Distributor_012,Truck,5866,26,2010-08-05 18:15:40
+CP012,Component CP012,component,SS018,5,37,478327,Supplier_026,36,1,15,Distributor_013,Truck,1364,25,2016-11-27 12:31:24
+SC011,Subcomponent SC011,subcomponent,CP012,2,13,25404,Supplier_014,35,5,6,Distributor_002,Air Freight,343,6,2018-03-22 12:32:29
+SS008,Subsystem SS008,subsystem,SY016,3,34,2181716,Supplier_013,15,3,22,Distributor_001,Air Freight,1077,8,2011-01-05 13:11:47
+CP007,Component CP007,component,SS020,4,22,101653,Supplier_031,20,2,61,Distributor_011,Sea Freight,4632,11,2011-11-26 06:57:12
+SC004,Subcomponent SC004,subcomponent,CP003,2,11,30130,Supplier_041,17,4,55,Distributor_013,Sea Freight,5492,28,2012-11-09 22:45:14
+RM015,Raw_material RM015,raw_material,CP003,3,5,2345,Supplier_007,59,3,59,Distributor_006,Sea Freight,5821,4,2011-07-23 16:59:53
+SC018,Subcomponent SC018,subcomponent,CP007,3,18,23901,Supplier_011,20,1,25,Distributor_005,Truck,8544,22,2013-02-10 14:00:49
+CP006,Component CP006,component,SS014,3,39,243241,Supplier_019,17,4,2,Distributor_014,Rail,6651,11,2018-06-19 16:55:13
+SC014,Subcomponent SC014,subcomponent,CP013,4,20,36044,Supplier_032,37,3,62,Distributor_014,Air Freight,6900,12,2011-01-26 21:21:35
+RM010,Raw_material RM010,raw_material,CP013,2,4,4766,Supplier_032,73,2,56,Distributor_008,Rail,7395,14,2014-03-30 08:40:47
+SC011,Subcomponent SC011,subcomponent,CP006,1,5,4532,Supplier_029,21,4,56,Distributor_012,Truck,7289,14,2021-02-26 07:30:22
+CP005,Component CP005,component,SS008,1,29,400415,Supplier_010,16,2,32,Distributor_001,Truck,7697,15,2021-04-30 23:29:30
+SC007,Subcomponent SC007,subcomponent,CP005,4,8,52928,Supplier_034,30,4,25,Distributor_001,Sea Freight,5514,30,2020-08-07 14:02:02
+SS013,Subsystem SS013,subsystem,SY012,4,68,1206220,Supplier_044,5,4,67,Distributor_002,Rail,820,3,2014-12-22 23:24:12
+CP006,Component CP006,component,SS005,5,47,299639,Supplier_032,13,1,8,Distributor_001,Rail,3245,28,2010-10-30 05:09:13
+SC019,Subcomponent SC019,subcomponent,CP017,5,10,24315,Supplier_041,33,1,6,Distributor_010,Truck,7232,1,2014-06-16 16:54:50
+SC019,Subcomponent SC019,subcomponent,CP006,2,10,16566,Supplier_010,35,2,48,Distributor_013,Rail,7457,3,2012-10-22 06:15:10
+CP003,Component CP003,component,SS013,4,35,257749,Supplier_035,12,1,35,Distributor_012,Air Freight,3749,6,2019-09-16 12:06:51
+SC014,Subcomponent SC014,subcomponent,CP003,5,14,5741,Supplier_007,53,2,26,Distributor_014,Air Freight,122,13,2016-01-05 21:49:32
+SS010,Subsystem SS010,subsystem,SY006,4,33,1775348,Supplier_043,3,3,47,Distributor_002,Truck,3183,18,2010-04-26 23:41:55
+CP004,Component CP004,component,SS010,4,19,147385,Supplier_038,22,3,60,Distributor_003,Rail,8174,10,2020-02-18 11:47:27
+SC002,Subcomponent SC002,subcomponent,CP004,4,21,37218,Supplier_009,37,4,13,Distributor_001,Truck,3670,25,2011-09-06 20:09:06
+SS001,Subsystem SS001,subsystem,SY002,2,78,1159023,Supplier_030,7,5,5,Distributor_002,Rail,3902,5,2020-05-14 19:32:51
+CP007,Component CP007,component,SS007,5,24,289503,Supplier_003,9,4,18,Distributor_008,Sea Freight,8050,18,2011-06-14 06:12:11
+RM016,Raw_material RM016,raw_material,CP008,4,4,4517,Supplier_040,88,1,44,Distributor_006,Truck,953,23,2010-02-14 04:27:26
+SC002,Subcomponent SC002,subcomponent,CP002,5,14,25344,Supplier_004,20,3,34,Distributor_008,Rail,5065,19,2010-12-09 12:33:58
+SC017,Subcomponent SC017,subcomponent,CP019,1,13,31525,Supplier_006,38,2,56,Distributor_002,Sea Freight,9470,17,2021-06-12 01:05:25
+SC016,Subcomponent SC016,subcomponent,CP007,3,12,18798,Supplier_017,43,4,67,Distributor_012,Sea Freight,8620,20,2018-03-02 02:13:57
+CP012,Component CP012,component,SS009,4,18,298423,Supplier_016,26,2,18,Distributor_009,Air Freight,143,21,2019-12-31 20:47:36
+SC014,Subcomponent SC014,subcomponent,CP003,5,12,46663,Supplier_011,21,5,29,Distributor_006,Air Freight,9467,25,2019-06-24 12:30:43
+RM008,Raw_material RM008,raw_material,CP003,1,2,2427,Supplier_028,71,1,38,Distributor_002,Truck,6691,29,2013-01-31 00:58:29
+SC014,Subcomponent SC014,subcomponent,CP018,2,6,58762,Supplier_008,25,5,63,Distributor_009,Air Freight,1516,30,2015-10-04 17:06:48
+SC015,Subcomponent SC015,subcomponent,CP012,4,11,7341,Supplier_023,29,3,14,Distributor_009,Truck,9808,19,2017-06-11 18:23:58
+CP003,Component CP003,component,SS016,2,13,367156,Supplier_018,28,1,26,Distributor_011,Sea Freight,6130,2,2019-08-12 02:29:48
+SC017,Subcomponent SC017,subcomponent,CP009,2,13,42088,Supplier_012,28,4,33,Distributor_010,Truck,7929,11,2019-05-19 15:16:39
+SC020,Subcomponent SC020,subcomponent,CP003,5,14,44871,Supplier_033,38,4,31,Distributor_014,Truck,3565,23,2021-02-14 15:33:37
+CP008,Component CP008,component,SS001,2,19,333762,Supplier_037,26,5,33,Distributor_012,Rail,1525,14,2013-09-27 00:08:06
+SC019,Subcomponent SC019,subcomponent,CP008,3,14,18214,Supplier_035,31,5,36,Distributor_013,Truck,211,19,2010-12-23 13:40:14
+SS004,Subsystem SS004,subsystem,SY007,4,56,1650545,Supplier_029,9,4,25,Distributor_005,Sea Freight,7889,9,2021-12-13 20:53:50
+CP016,Component CP016,component,SS013,2,27,290888,Supplier_022,24,5,70,Distributor_002,Air Freight,7535,21,2020-04-25 06:58:44
+SC004,Subcomponent SC004,subcomponent,CP016,5,17,19058,Supplier_003,59,3,5,Distributor_011,Rail,6021,25,2018-06-13 02:20:44
+SC009,Subcomponent SC009,subcomponent,CP010,5,6,31134,Supplier_005,38,3,26,Distributor_004,Sea Freight,8825,3,2016-06-08 01:36:55
+SC002,Subcomponent SC002,subcomponent,CP016,5,14,46387,Supplier_005,27,3,46,Distributor_002,Air Freight,6034,19,2020-03-09 20:21:23
+CP005,Component CP005,component,SS008,5,17,63976,Supplier_039,25,1,65,Distributor_013,Air Freight,4058,17,2019-08-09 10:17:59
+SC008,Subcomponent SC008,subcomponent,CP007,5,7,32996,Supplier_022,29,4,20,Distributor_001,Rail,7390,9,2012-01-02 15:34:10
+RM005,Raw_material RM005,raw_material,CP007,1,3,5138,Supplier_013,51,3,19,Distributor_010,Air Freight,8686,3,2017-10-31 08:03:48
+SC010,Subcomponent SC010,subcomponent,CP005,3,8,15201,Supplier_011,53,4,32,Distributor_012,Air Freight,3803,11,2016-09-10 13:55:48
+RM014,Raw_material RM014,raw_material,CP005,5,1,3696,Supplier_020,67,5,36,Distributor_001,Air Freight,7300,20,2015-08-13 11:40:52
+CP010,Component CP010,component,SS004,5,17,259688,Supplier_002,15,2,45,Distributor_004,Sea Freight,7905,17,2014-06-20 13:40:37
+SC019,Subcomponent SC019,subcomponent,CP010,4,11,47960,Supplier_028,25,3,8,Distributor_013,Rail,5879,14,2019-01-17 09:52:11
+SS015,Subsystem SS015,subsystem,SY016,1,79,1119890,Supplier_044,6,3,1,Distributor_002,Air Freight,1913,4,2018-05-27 20:48:11
+CP002,Component CP002,component,SS009,1,19,106194,Supplier_043,15,1,19,Distributor_012,Truck,1750,4,2018-06-22 12:18:38
+SC013,Subcomponent SC013,subcomponent,CP019,5,20,23304,Supplier_018,21,5,41,Distributor_006,Sea Freight,4698,14,2015-09-09 21:34:11
+SC002,Subcomponent SC002,subcomponent,CP002,4,8,34288,Supplier_041,33,1,68,Distributor_001,Truck,4045,5,2014-12-04 09:54:03
+RM019,Raw_material RM019,raw_material,CP002,2,7,1022,Supplier_011,72,1,57,Distributor_002,Sea Freight,2662,21,2013-03-19 04:34:20
+CP013,Component CP013,component,SS015,3,27,213953,Supplier_031,24,2,27,Distributor_013,Truck,4062,14,2012-12-31 11:45:31
+SC016,Subcomponent SC016,subcomponent,CP013,4,8,47264,Supplier_021,32,2,58,Distributor_007,Rail,5143,26,2013-02-21 04:18:19
+SY019,System SY019,system,FP004,4,115,3579898,Supplier_043,3,1,66,Distributor_002,Rail,3269,1,2011-06-07 09:27:33
+SS011,Subsystem SS011,subsystem,SY018,2,61,848180,Supplier_034,10,2,31,Distributor_011,Sea Freight,5364,20,2021-08-16 01:26:36
+CP005,Component CP005,component,SS005,3,28,326958,Supplier_042,31,5,0,Distributor_011,Sea Freight,2368,14,2021-10-01 17:38:14
+RM001,Raw_material RM001,raw_material,CP003,1,5,1604,Supplier_042,95,5,38,Distributor_009,Air Freight,6444,11,2021-05-12 16:16:19
+SC003,Subcomponent SC003,subcomponent,CP006,1,17,6825,Supplier_006,21,1,5,Distributor_002,Sea Freight,5702,18,2019-07-27 02:25:10
+SC017,Subcomponent SC017,subcomponent,CP019,2,20,23240,Supplier_019,50,3,67,Distributor_012,Air Freight,4312,30,2017-06-10 14:09:31
+RM017,Raw_material RM017,raw_material,CP019,2,8,2762,Supplier_028,98,5,7,Distributor_011,Rail,3854,13,2011-07-19 00:55:25
+SC016,Subcomponent SC016,subcomponent,CP005,5,7,18879,Supplier_012,36,1,20,Distributor_009,Air Freight,2481,28,2015-07-17 07:50:39
+CP007,Component CP007,component,SS011,2,26,443237,Supplier_012,22,3,42,Distributor_014,Truck,4575,9,2012-02-15 07:24:36
+SC013,Subcomponent SC013,subcomponent,CP009,2,18,35028,Supplier_017,20,5,42,Distributor_002,Air Freight,2872,21,2011-07-23 17:58:47
+RM003,Raw_material RM003,raw_material,CP009,4,5,4731,Supplier_017,106,5,10,Distributor_013,Air Freight,590,23,2014-10-22 13:43:01
+SC008,Subcomponent SC008,subcomponent,CP007,4,15,48199,Supplier_016,39,2,8,Distributor_002,Rail,9949,20,2018-08-27 07:50:09
+RM011,Raw_material RM011,raw_material,CP007,3,1,2468,Supplier_039,89,5,53,Distributor_003,Truck,7669,20,2013-09-27 12:59:50
+CP014,Component CP014,component,SS001,2,31,75688,Supplier_003,15,4,9,Distributor_010,Air Freight,4998,17,2013-11-29 00:29:18
+SC013,Subcomponent SC013,subcomponent,CP018,3,9,41557,Supplier_034,35,2,18,Distributor_001,Air Freight,2298,24,2012-09-08 18:05:31
+SC009,Subcomponent SC009,subcomponent,CP014,1,11,57117,Supplier_036,33,5,52,Distributor_009,Truck,3774,11,2010-08-21 02:03:52
+CP007,Component CP007,component,SS011,2,18,70245,Supplier_006,17,5,19,Distributor_010,Sea Freight,6089,2,2010-01-02 21:30:02
+SC009,Subcomponent SC009,subcomponent,CP007,4,10,9206,Supplier_014,45,5,54,Distributor_002,Truck,8585,30,2017-08-07 20:35:29
+SS019,Subsystem SS019,subsystem,SY016,1,80,1530136,Supplier_036,9,5,14,Distributor_004,Rail,3104,9,2014-08-07 05:45:26
+CP020,Component CP020,component,SS016,2,43,268044,Supplier_033,17,1,22,Distributor_014,Air Freight,9193,2,2012-04-07 04:22:30
+SC003,Subcomponent SC003,subcomponent,CP008,4,12,41832,Supplier_025,18,5,40,Distributor_009,Air Freight,7791,14,2017-11-18 02:10:35
+RM013,Raw_material RM013,raw_material,CP008,3,4,3089,Supplier_022,101,5,68,Distributor_003,Sea Freight,9739,24,2016-09-26 15:04:56
+SC004,Subcomponent SC004,subcomponent,CP020,2,8,25013,Supplier_036,37,5,51,Distributor_008,Sea Freight,9881,18,2015-08-25 19:55:50
+RM010,Raw_material RM010,raw_material,CP020,1,9,2897,Supplier_030,88,1,26,Distributor_001,Rail,5733,26,2014-08-30 15:14:44
+CP012,Component CP012,component,SS004,5,37,197365,Supplier_029,21,4,58,Distributor_014,Air Freight,8984,18,2018-06-02 12:19:53
+SC017,Subcomponent SC017,subcomponent,CP017,3,17,19629,Supplier_007,32,4,0,Distributor_013,Truck,1291,6,2021-04-05 01:23:03
+SC020,Subcomponent SC020,subcomponent,CP012,5,6,33235,Supplier_016,26,4,28,Distributor_014,Truck,1764,5,2013-01-07 13:23:52
+CP001,Component CP001,component,SS019,3,28,130830,Supplier_035,35,3,33,Distributor_007,Air Freight,7665,19,2013-06-11 04:03:00
+SC013,Subcomponent SC013,subcomponent,CP001,4,16,28370,Supplier_007,41,4,2,Distributor_008,Truck,6711,22,2020-12-15 18:42:08
+SS015,Subsystem SS015,subsystem,SY005,5,80,1311449,Supplier_035,9,1,12,Distributor_011,Sea Freight,6205,30,2019-08-29 02:25:16
+CP020,Component CP020,component,SS011,1,34,341978,Supplier_026,28,2,51,Distributor_001,Air Freight,7812,11,2017-01-20 19:27:01
+SC011,Subcomponent SC011,subcomponent,CP013,4,15,12889,Supplier_018,28,2,7,Distributor_003,Truck,7832,19,2019-05-11 12:23:18
+RM012,Raw_material RM012,raw_material,CP013,2,7,5017,Supplier_023,82,4,39,Distributor_002,Rail,5567,3,2010-02-18 23:15:42
+SC017,Subcomponent SC017,subcomponent,CP020,5,7,9105,Supplier_002,38,2,62,Distributor_007,Rail,8501,2,2021-06-02 18:22:23
+CP014,Component CP014,component,SS015,3,39,122803,Supplier_011,31,1,44,Distributor_003,Air Freight,2333,23,2012-02-10 08:26:51
+SC017,Subcomponent SC017,subcomponent,CP014,4,14,36335,Supplier_017,45,3,2,Distributor_005,Air Freight,5773,16,2017-10-14 00:54:24
+SS002,Subsystem SS002,subsystem,SY019,1,49,1853915,Supplier_026,10,1,50,Distributor_006,Truck,3539,4,2013-03-17 01:06:46
+CP001,Component CP001,component,SS002,5,45,385278,Supplier_033,14,2,66,Distributor_011,Sea Freight,8541,7,2012-10-16 05:28:42
+SC020,Subcomponent SC020,subcomponent,CP001,2,17,36229,Supplier_022,31,5,29,Distributor_011,Truck,7538,27,2020-10-29 14:11:45
+RM012,Raw_material RM012,raw_material,CP001,5,1,1111,Supplier_029,100,4,4,Distributor_007,Rail,1565,18,2019-07-06 14:18:48
+SS013,Subsystem SS013,subsystem,SY010,2,36,1555713,Supplier_021,11,5,17,Distributor_012,Truck,7812,14,2016-12-13 16:48:04
+CP005,Component CP005,component,SS002,2,32,420979,Supplier_032,12,1,30,Distributor_006,Rail,6758,24,2017-02-02 04:46:48
+SC017,Subcomponent SC017,subcomponent,CP018,3,16,57726,Supplier_042,34,1,54,Distributor_003,Sea Freight,1731,19,2019-11-25 21:57:40
+RM010,Raw_material RM010,raw_material,CP018,3,8,4081,Supplier_022,58,5,39,Distributor_003,Rail,8965,12,2013-05-25 06:11:40
+SC015,Subcomponent SC015,subcomponent,CP014,3,18,46000,Supplier_008,25,2,22,Distributor_011,Air Freight,4205,18,2010-06-22 20:28:12
+SC006,Subcomponent SC006,subcomponent,CP002,5,13,33934,Supplier_019,44,5,54,Distributor_011,Sea Freight,2559,15,2018-06-01 02:37:25
+SC003,Subcomponent SC003,subcomponent,CP010,3,15,18035,Supplier_018,16,2,63,Distributor_002,Sea Freight,4087,25,2021-11-11 07:19:37
+SC003,Subcomponent SC003,subcomponent,CP005,4,8,18390,Supplier_025,23,2,64,Distributor_004,Sea Freight,6337,20,2011-05-11 05:04:01
+RM014,Raw_material RM014,raw_material,CP005,2,10,1475,Supplier_024,85,5,14,Distributor_013,Sea Freight,8305,6,2021-12-09 22:44:49
+CP013,Component CP013,component,SS007,2,20,338655,Supplier_031,9,5,4,Distributor_011,Air Freight,1576,5,2014-06-15 20:11:35
+SC014,Subcomponent SC014,subcomponent,CP020,1,15,27898,Supplier_011,20,3,55,Distributor_011,Sea Freight,7221,2,2020-04-07 17:51:31
+RM011,Raw_material RM011,raw_material,CP020,4,7,1365,Supplier_038,66,2,42,Distributor_007,Rail,7350,29,2020-09-02 10:10:49
+SC001,Subcomponent SC001,subcomponent,CP009,2,13,45165,Supplier_035,29,4,57,Distributor_009,Sea Freight,1823,8,2010-02-05 21:14:57
+SC008,Subcomponent SC008,subcomponent,CP018,2,12,41112,Supplier_019,25,3,67,Distributor_003,Sea Freight,9032,19,2020-11-16 19:52:21
+SC001,Subcomponent SC001,subcomponent,CP013,4,16,40948,Supplier_025,35,2,11,Distributor_012,Air Freight,6587,26,2013-05-12 12:54:28
+CP002,Component CP002,component,SS018,4,25,247128,Supplier_039,11,5,29,Distributor_007,Sea Freight,8011,20,2020-09-03 19:36:31
+SC017,Subcomponent SC017,subcomponent,CP003,5,13,34469,Supplier_027,27,3,72,Distributor_006,Truck,3699,5,2011-05-30 05:37:37
+SC020,Subcomponent SC020,subcomponent,CP012,4,18,29076,Supplier_015,33,1,28,Distributor_007,Truck,428,11,2015-06-06 17:13:32
+SC005,Subcomponent SC005,subcomponent,CP002,5,18,52761,Supplier_021,37,3,8,Distributor_013,Sea Freight,7802,20,2020-05-22 04:06:35
+CP020,Component CP020,component,SS012,4,31,147796,Supplier_001,19,3,60,Distributor_008,Air Freight,379,24,2010-08-05 22:32:17
+SC001,Subcomponent SC001,subcomponent,CP018,3,11,28542,Supplier_041,29,3,32,Distributor_004,Rail,2042,5,2014-04-18 12:06:18
+RM019,Raw_material RM019,raw_material,CP018,4,7,636,Supplier_030,84,1,4,Distributor_013,Air Freight,2457,30,2012-01-21 05:18:24
+SC005,Subcomponent SC005,subcomponent,CP020,4,11,24472,Supplier_017,23,2,55,Distributor_008,Sea Freight,2500,9,2014-08-02 11:35:21
+CP013,Component CP013,component,SS013,1,16,307273,Supplier_037,13,5,42,Distributor_013,Truck,220,17,2017-03-18 11:45:58
+SC013,Subcomponent SC013,subcomponent,CP013,1,9,8199,Supplier_022,37,2,49,Distributor_008,Air Freight,2339,13,2013-11-15 04:27:39
+CP013,Component CP013,component,SS003,4,27,259478,Supplier_036,25,5,9,Distributor_003,Rail,4124,24,2019-02-03 15:17:11
+RM015,Raw_material RM015,raw_material,CP003,2,1,3680,Supplier_006,53,3,56,Distributor_003,Sea Freight,1080,27,2016-05-23 04:01:29
+SC011,Subcomponent SC011,subcomponent,CP016,2,15,10357,Supplier_013,47,1,66,Distributor_013,Rail,518,20,2018-11-16 02:46:36
+SC019,Subcomponent SC019,subcomponent,CP013,4,13,21788,Supplier_041,25,3,41,Distributor_013,Sea Freight,4014,15,2020-11-21 00:03:44
+CP015,Component CP015,component,SS004,3,31,483193,Supplier_022,15,3,47,Distributor_007,Sea Freight,4349,9,2011-10-19 06:34:35
+SC018,Subcomponent SC018,subcomponent,CP005,5,14,41271,Supplier_039,40,3,66,Distributor_010,Sea Freight,3405,26,2013-01-28 18:42:10
+SC018,Subcomponent SC018,subcomponent,CP020,3,16,39928,Supplier_027,35,1,67,Distributor_009,Air Freight,356,15,2012-06-08 17:01:20
+SC008,Subcomponent SC008,subcomponent,CP015,1,17,44572,Supplier_018,56,1,26,Distributor_003,Truck,2690,13,2017-02-27 23:27:59
+RM019,Raw_material RM019,raw_material,CP015,2,3,2574,Supplier_009,74,5,2,Distributor_005,Rail,3226,15,2021-11-15 08:18:00
+CP017,Component CP017,component,SS005,1,15,170034,Supplier_023,29,3,33,Distributor_004,Sea Freight,5982,15,2019-02-26 14:28:14
+SC015,Subcomponent SC015,subcomponent,CP003,3,8,8943,Supplier_026,17,1,40,Distributor_004,Air Freight,480,25,2011-01-12 20:25:54
+RM015,Raw_material RM015,raw_material,CP003,2,3,1252,Supplier_029,77,5,31,Distributor_002,Truck,2018,5,2014-03-11 07:26:06
+SC012,Subcomponent SC012,subcomponent,CP017,1,10,53567,Supplier_004,36,3,39,Distributor_014,Air Freight,1412,4,2018-02-21 11:12:35
+SS013,Subsystem SS013,subsystem,SY016,4,79,785099,Supplier_039,11,4,14,Distributor_009,Air Freight,6917,14,2011-02-07 17:58:51
+CP019,Component CP019,component,SS006,2,21,78985,Supplier_011,20,1,21,Distributor_006,Sea Freight,4632,11,2015-11-22 16:14:47
+SC019,Subcomponent SC019,subcomponent,CP010,2,14,22153,Supplier_007,20,2,32,Distributor_003,Truck,4736,15,2011-02-05 07:43:33
+SC005,Subcomponent SC005,subcomponent,CP019,5,10,20723,Supplier_019,38,3,51,Distributor_011,Truck,5586,22,2017-03-02 12:51:31
+CP019,Component CP019,component,SS018,3,23,246967,Supplier_019,28,2,13,Distributor_014,Sea Freight,2551,23,2017-10-03 05:43:52
+SC004,Subcomponent SC004,subcomponent,CP018,5,9,17504,Supplier_013,23,3,66,Distributor_008,Rail,7224,13,2010-06-17 07:31:45
+SC011,Subcomponent SC011,subcomponent,CP019,3,17,18026,Supplier_036,37,3,17,Distributor_014,Rail,2983,19,2011-07-17 20:31:54
+CP014,Component CP014,component,SS013,1,44,261032,Supplier_032,15,1,22,Distributor_007,Sea Freight,6137,3,2014-07-21 03:56:38
+SC018,Subcomponent SC018,subcomponent,CP014,3,12,24522,Supplier_041,36,3,18,Distributor_011,Truck,2702,18,2016-05-20 16:06:01
+SS014,Subsystem SS014,subsystem,SY015,2,62,2324255,Supplier_020,7,1,13,Distributor_001,Truck,7517,29,2016-06-27 07:48:45
+CP010,Component CP010,component,SS014,1,43,309035,Supplier_017,21,4,15,Distributor_006,Rail,8944,10,2018-12-05 10:47:20
+SC007,Subcomponent SC007,subcomponent,CP017,3,9,27313,Supplier_039,39,3,71,Distributor_008,Sea Freight,2001,24,2015-07-11 19:37:31
+SC005,Subcomponent SC005,subcomponent,CP010,4,7,17212,Supplier_010,24,3,38,Distributor_006,Truck,1725,27,2017-05-21 12:00:20
+CP011,Component CP011,component,SS014,5,38,443776,Supplier_043,17,1,8,Distributor_011,Rail,3169,30,2016-07-12 10:42:01
+SC001,Subcomponent SC001,subcomponent,CP011,3,15,17276,Supplier_003,39,3,9,Distributor_007,Rail,3761,19,2010-11-06 07:26:53
+CP005,Component CP005,component,SS020,3,23,187319,Supplier_041,17,5,7,Distributor_002,Sea Freight,8506,13,2018-09-09 13:04:40
+SC007,Subcomponent SC007,subcomponent,CP002,2,21,18681,Supplier_014,36,1,38,Distributor_012,Truck,2203,6,2013-09-04 01:36:40
+RM006,Raw_material RM006,raw_material,CP002,2,9,1611,Supplier_037,83,4,70,Distributor_005,Rail,228,8,2014-12-04 06:44:46
+SC001,Subcomponent SC001,subcomponent,CP017,4,7,10850,Supplier_020,27,4,16,Distributor_007,Air Freight,4188,12,2013-12-22 11:39:21
+SC013,Subcomponent SC013,subcomponent,CP005,3,5,17311,Supplier_012,48,4,41,Distributor_009,Sea Freight,1165,12,2020-10-01 09:33:13
+RM009,Raw_material RM009,raw_material,CP005,3,1,2568,Supplier_012,79,5,26,Distributor_007,Rail,5803,16,2010-07-13 04:30:57
+CP014,Component CP014,component,SS014,5,35,175373,Supplier_032,19,2,33,Distributor_009,Truck,6737,24,2013-05-04 11:34:37
+SC006,Subcomponent SC006,subcomponent,CP010,4,16,7565,Supplier_010,26,3,33,Distributor_012,Air Freight,4602,16,2011-10-27 02:36:44
+RM019,Raw_material RM019,raw_material,CP010,1,4,1271,Supplier_021,80,4,15,Distributor_005,Sea Freight,9402,24,2019-05-06 02:05:37
+RM006,Raw_material RM006,raw_material,CP005,1,8,1053,Supplier_014,72,1,44,Distributor_011,Rail,9074,2,2019-10-13 13:15:06
+SC003,Subcomponent SC003,subcomponent,CP012,5,18,40288,Supplier_014,48,5,59,Distributor_006,Sea Freight,3035,1,2018-06-02 23:47:17
+SC010,Subcomponent SC010,subcomponent,CP014,3,10,16831,Supplier_020,38,3,12,Distributor_006,Sea Freight,8526,4,2020-01-04 15:59:30
+RM010,Raw_material RM010,raw_material,CP014,1,5,1509,Supplier_026,51,4,13,Distributor_011,Rail,5078,13,2013-10-06 04:55:34
+CP007,Component CP007,component,SS020,1,33,148832,Supplier_007,29,2,70,Distributor_011,Sea Freight,4342,21,2020-08-07 23:52:08
+SC012,Subcomponent SC012,subcomponent,CP014,4,17,30411,Supplier_032,43,3,59,Distributor_004,Rail,5304,28,2015-04-17 23:27:04
+SC013,Subcomponent SC013,subcomponent,CP013,3,11,26187,Supplier_025,61,1,50,Distributor_010,Truck,4949,9,2010-06-23 08:30:46
+SC008,Subcomponent SC008,subcomponent,CP007,1,13,23274,Supplier_012,38,1,19,Distributor_004,Air Freight,9174,22,2016-10-19 15:41:26
+CP016,Component CP016,component,SS018,2,48,59654,Supplier_008,13,4,26,Distributor_004,Sea Freight,9713,27,2017-02-28 16:34:06
+SC016,Subcomponent SC016,subcomponent,CP012,1,10,31607,Supplier_035,25,5,35,Distributor_007,Air Freight,9255,24,2014-08-11 23:12:20
+SC017,Subcomponent SC017,subcomponent,CP016,2,11,27548,Supplier_019,19,2,66,Distributor_006,Truck,7385,2,2019-01-20 00:32:11
+SS010,Subsystem SS010,subsystem,SY016,3,60,1012370,Supplier_019,10,3,26,Distributor_002,Sea Freight,7094,10,2011-04-15 19:28:28
+CP019,Component CP019,component,SS020,2,40,85466,Supplier_039,15,5,35,Distributor_009,Rail,4355,17,2013-11-30 20:25:44
+SC014,Subcomponent SC014,subcomponent,CP013,1,17,35563,Supplier_004,31,4,9,Distributor_002,Air Freight,7711,2,2016-04-22 04:40:08
+RM017,Raw_material RM017,raw_material,CP013,1,8,3591,Supplier_026,63,5,40,Distributor_013,Air Freight,3176,16,2018-01-18 07:54:16
+SC020,Subcomponent SC020,subcomponent,CP003,5,10,26870,Supplier_021,28,2,31,Distributor_014,Rail,2405,8,2019-03-09 06:20:14
+SC018,Subcomponent SC018,subcomponent,CP007,3,16,29277,Supplier_028,27,3,35,Distributor_012,Rail,5680,17,2017-02-02 16:52:44
+RM005,Raw_material RM005,raw_material,CP007,4,1,572,Supplier_039,95,3,46,Distributor_001,Truck,862,19,2011-04-22 08:23:26
+SC016,Subcomponent SC016,subcomponent,CP019,1,16,7816,Supplier_020,33,3,64,Distributor_011,Sea Freight,6238,3,2017-04-26 08:51:23
+CP011,Component CP011,component,SS014,5,31,504392,Supplier_040,35,5,37,Distributor_011,Rail,3563,3,2013-11-23 19:11:30
+SC005,Subcomponent SC005,subcomponent,CP013,4,18,8362,Supplier_028,33,2,60,Distributor_014,Sea Freight,3726,25,2018-02-26 01:17:46
+SC011,Subcomponent SC011,subcomponent,CP006,5,11,29342,Supplier_011,56,4,1,Distributor_004,Truck,1565,21,2017-10-30 23:36:35
+RM004,Raw_material RM004,raw_material,CP006,3,9,1195,Supplier_040,63,2,3,Distributor_006,Rail,3002,10,2016-01-10 04:02:24
+SC016,Subcomponent SC016,subcomponent,CP011,2,13,28168,Supplier_041,48,3,66,Distributor_002,Sea Freight,2874,20,2014-09-15 13:33:58
+CP016,Component CP016,component,SS008,2,18,447331,Supplier_017,13,4,43,Distributor_007,Truck,5360,29,2015-12-04 17:51:59
+SC016,Subcomponent SC016,subcomponent,CP005,4,18,25518,Supplier_016,45,3,44,Distributor_001,Air Freight,4924,27,2012-06-08 15:56:17
+SC001,Subcomponent SC001,subcomponent,CP016,2,17,18979,Supplier_002,19,2,64,Distributor_005,Truck,8966,23,2014-12-05 19:23:49
+CP013,Component CP013,component,SS010,1,18,299839,Supplier_019,22,5,58,Distributor_011,Sea Freight,7995,10,2011-05-31 00:40:22
+SC015,Subcomponent SC015,subcomponent,CP013,2,10,16711,Supplier_016,26,3,57,Distributor_009,Air Freight,4654,25,2014-06-27 08:51:08
+SS001,Subsystem SS001,subsystem,SY012,3,39,1544235,Supplier_003,9,3,28,Distributor_012,Rail,6924,17,2012-08-17 10:34:25
+CP013,Component CP013,component,SS005,4,31,454358,Supplier_031,13,4,9,Distributor_010,Sea Freight,4178,5,2014-10-05 05:31:57
+SC012,Subcomponent SC012,subcomponent,CP017,1,18,41252,Supplier_033,33,3,30,Distributor_001,Air Freight,4174,4,2018-01-23 09:03:46
+SC011,Subcomponent SC011,subcomponent,CP006,4,11,22258,Supplier_037,53,2,25,Distributor_012,Truck,5961,8,2011-08-22 10:55:22
+SC013,Subcomponent SC013,subcomponent,CP013,3,6,39263,Supplier_004,32,3,3,Distributor_013,Sea Freight,4674,18,2013-12-20 17:45:06
+CP004,Component CP004,component,SS013,5,17,129294,Supplier_021,20,2,32,Distributor_008,Sea Freight,7894,5,2012-09-27 22:08:25
+SC020,Subcomponent SC020,subcomponent,CP003,5,12,9392,Supplier_017,22,2,54,Distributor_001,Sea Freight,5281,30,2018-05-18 15:46:23
+SC011,Subcomponent SC011,subcomponent,CP004,3,8,16604,Supplier_035,35,4,29,Distributor_012,Truck,9190,22,2012-04-25 23:42:52
+RM002,Raw_material RM002,raw_material,CP004,3,7,4744,Supplier_007,84,5,24,Distributor_002,Rail,797,23,2013-10-28 23:48:18
+CP006,Component CP006,component,SS001,2,27,492790,Supplier_033,36,2,58,Distributor_011,Truck,1483,25,2013-11-25 01:41:20
+SC013,Subcomponent SC013,subcomponent,CP006,4,13,32645,Supplier_008,38,2,38,Distributor_013,Truck,4473,21,2021-10-31 09:21:59
+SS017,Subsystem SS017,subsystem,SY006,3,45,1715825,Supplier_015,14,4,60,Distributor_005,Truck,5182,1,2017-11-23 21:49:23
+CP019,Component CP019,component,SS010,2,34,366431,Supplier_005,19,3,12,Distributor_011,Air Freight,9016,7,2012-09-30 10:27:35
+SC018,Subcomponent SC018,subcomponent,CP004,5,17,7642,Supplier_033,31,4,21,Distributor_006,Sea Freight,4182,19,2014-01-08 09:42:31
+SC012,Subcomponent SC012,subcomponent,CP019,4,5,21599,Supplier_010,49,3,15,Distributor_001,Rail,905,23,2012-01-03 00:04:39
+CP005,Component CP005,component,SS017,5,16,226944,Supplier_007,22,4,63,Distributor_006,Truck,3028,30,2019-09-25 20:10:28
+SC005,Subcomponent SC005,subcomponent,CP005,4,6,48470,Supplier_040,35,4,70,Distributor_007,Rail,9558,13,2015-03-18 19:38:55
+RM005,Raw_material RM005,raw_material,CP005,5,4,492,Supplier_010,96,3,37,Distributor_013,Sea Freight,1014,18,2019-06-10 22:16:57
+SS011,Subsystem SS011,subsystem,SY002,1,83,1178812,Supplier_016,8,2,13,Distributor_012,Rail,3336,8,2016-05-23 23:00:39
+CP006,Component CP006,component,SS007,2,34,123469,Supplier_018,14,3,7,Distributor_011,Sea Freight,2861,22,2019-02-14 21:51:25
+SC004,Subcomponent SC004,subcomponent,CP008,3,5,37655,Supplier_043,32,1,41,Distributor_006,Truck,2018,3,2020-03-18 02:23:53
+RM005,Raw_material RM005,raw_material,CP019,5,4,3632,Supplier_026,41,2,31,Distributor_011,Air Freight,6850,7,2019-07-16 17:33:49
+SC012,Subcomponent SC012,subcomponent,CP007,5,6,12619,Supplier_041,43,2,24,Distributor_004,Air Freight,1707,20,2010-06-04 09:57:19
+RM001,Raw_material RM001,raw_material,CP007,2,7,572,Supplier_036,72,2,27,Distributor_001,Truck,6923,5,2013-08-21 09:29:43
+SC014,Subcomponent SC014,subcomponent,CP006,1,9,44855,Supplier_040,27,2,12,Distributor_003,Sea Freight,9565,16,2014-12-17 06:17:59
+CP005,Component CP005,component,SS009,3,34,255457,Supplier_037,13,3,60,Distributor_007,Truck,7828,10,2021-10-13 15:31:17
+SC009,Subcomponent SC009,subcomponent,CP018,2,6,5621,Supplier_003,39,1,34,Distributor_003,Rail,7369,12,2016-06-11 17:38:29
+RM016,Raw_material RM016,raw_material,CP018,2,10,4040,Supplier_043,60,1,34,Distributor_009,Truck,8660,6,2016-11-21 01:06:50
+SC007,Subcomponent SC007,subcomponent,CP012,4,8,14700,Supplier_030,36,4,72,Distributor_010,Rail,9880,27,2016-07-02 14:05:30
+SC009,Subcomponent SC009,subcomponent,CP005,4,8,44699,Supplier_025,42,2,62,Distributor_004,Rail,8826,27,2014-10-04 01:45:14
+CP013,Component CP013,component,SS016,5,36,181556,Supplier_013,10,2,72,Distributor_011,Truck,1884,6,2010-04-11 22:04:44
+SC013,Subcomponent SC013,subcomponent,CP009,4,4,32832,Supplier_032,29,1,64,Distributor_013,Truck,6007,2,2017-05-19 03:37:18
+SC013,Subcomponent SC013,subcomponent,CP003,3,17,21009,Supplier_018,35,5,7,Distributor_009,Rail,3375,6,2014-01-18 15:58:56
+SC004,Subcomponent SC004,subcomponent,CP013,5,13,12549,Supplier_033,25,3,31,Distributor_011,Sea Freight,845,1,2017-12-11 23:56:03
+RM004,Raw_material RM004,raw_material,CP013,2,10,3967,Supplier_031,76,1,45,Distributor_001,Truck,5948,8,2021-02-26 16:00:18
+CP002,Component CP002,component,SS001,1,17,118740,Supplier_006,16,4,22,Distributor_001,Rail,4496,27,2015-03-27 14:55:55
+SC009,Subcomponent SC009,subcomponent,CP008,4,13,21074,Supplier_023,36,1,30,Distributor_012,Rail,5914,3,2015-12-26 10:10:46
+SC012,Subcomponent SC012,subcomponent,CP002,4,8,25878,Supplier_016,45,3,12,Distributor_010,Air Freight,1870,18,2018-11-19 21:59:43
+CP012,Component CP012,component,SS011,4,42,289493,Supplier_016,11,3,17,Distributor_013,Air Freight,3579,16,2019-07-03 22:25:15
+SC010,Subcomponent SC010,subcomponent,CP012,4,21,50277,Supplier_015,37,3,70,Distributor_006,Truck,5316,4,2011-01-10 19:45:37
+RM006,Raw_material RM006,raw_material,CP012,2,7,1171,Supplier_007,106,1,48,Distributor_004,Truck,7578,12,2020-03-30 01:46:35
+SS011,Subsystem SS011,subsystem,SY007,1,75,958007,Supplier_017,8,1,32,Distributor_002,Rail,3111,28,2021-01-03 03:53:32
+CP016,Component CP016,component,SS013,4,25,137676,Supplier_002,33,3,35,Distributor_006,Sea Freight,9927,16,2011-08-12 13:23:01
+SC001,Subcomponent SC001,subcomponent,CP016,5,14,41734,Supplier_006,44,4,30,Distributor_002,Truck,3171,20,2015-01-27 07:11:30
+RM020,Raw_material RM020,raw_material,CP016,2,1,632,Supplier_002,71,1,24,Distributor_008,Sea Freight,2274,18,2021-07-09 14:19:54
+SC005,Subcomponent SC005,subcomponent,CP010,1,9,38635,Supplier_043,40,5,67,Distributor_003,Sea Freight,2254,21,2012-02-03 22:25:27
+SC006,Subcomponent SC006,subcomponent,CP016,4,10,5518,Supplier_012,39,2,7,Distributor_007,Truck,8878,17,2012-07-15 15:10:18
+SC008,Subcomponent SC008,subcomponent,CP016,3,17,45795,Supplier_013,45,5,0,Distributor_001,Rail,5171,14,2018-04-22 02:16:56
+CP007,Component CP007,component,SS008,1,17,123593,Supplier_014,12,4,70,Distributor_011,Air Freight,6862,27,2013-05-06 08:14:20
+SC008,Subcomponent SC008,subcomponent,CP007,5,10,15340,Supplier_035,64,5,21,Distributor_003,Truck,6644,22,2016-05-29 00:16:04
+SC002,Subcomponent SC002,subcomponent,CP005,3,14,19771,Supplier_025,25,1,56,Distributor_004,Truck,8731,5,2016-07-18 21:06:14
+RM018,Raw_material RM018,raw_material,CP005,4,5,3853,Supplier_004,84,4,42,Distributor_008,Truck,3828,19,2011-04-20 15:15:22
+SC009,Subcomponent SC009,subcomponent,CP007,1,11,6400,Supplier_039,44,1,62,Distributor_012,Truck,837,12,2010-07-18 09:04:19
+CP001,Component CP001,component,SS004,5,32,443442,Supplier_028,21,1,25,Distributor_005,Sea Freight,8539,10,2019-11-16 16:51:26
+SC006,Subcomponent SC006,subcomponent,CP010,2,8,30725,Supplier_003,34,4,24,Distributor_006,Rail,4903,3,2021-11-25 13:23:36
+RM003,Raw_material RM003,raw_material,CP010,5,8,1013,Supplier_022,74,4,2,Distributor_003,Sea Freight,6151,7,2021-06-22 14:26:10
+SC020,Subcomponent SC020,subcomponent,CP001,1,19,32256,Supplier_038,44,4,45,Distributor_012,Truck,8103,6,2020-11-19 06:23:44
+CP002,Component CP002,component,SS011,5,40,134304,Supplier_017,9,5,16,Distributor_013,Sea Freight,9325,21,2021-09-24 21:11:08
+SC011,Subcomponent SC011,subcomponent,CP002,4,7,15272,Supplier_037,24,3,30,Distributor_005,Rail,6366,21,2021-09-20 01:38:02
+SS005,Subsystem SS005,subsystem,SY016,2,57,1552745,Supplier_030,6,4,38,Distributor_005,Sea Freight,3012,24,2012-03-16 19:51:33
+CP003,Component CP003,component,SS009,5,40,72252,Supplier_031,19,2,30,Distributor_006,Air Freight,8154,5,2010-01-01 02:39:52
+SC010,Subcomponent SC010,subcomponent,CP019,5,11,18903,Supplier_013,36,1,29,Distributor_008,Sea Freight,3045,28,2013-05-09 01:50:01
+SC004,Subcomponent SC004,subcomponent,CP002,5,14,7459,Supplier_010,34,3,56,Distributor_004,Air Freight,3678,5,2011-08-02 11:33:48
+SC017,Subcomponent SC017,subcomponent,CP003,5,6,9563,Supplier_029,46,3,34,Distributor_001,Sea Freight,3100,15,2020-03-27 04:20:31
+CP002,Component CP002,component,SS015,3,26,163371,Supplier_042,14,2,15,Distributor_006,Air Freight,3996,6,2018-12-18 19:43:52
+SC018,Subcomponent SC018,subcomponent,CP013,4,8,32005,Supplier_012,30,3,70,Distributor_009,Air Freight,5964,6,2019-12-29 11:17:42
+RM008,Raw_material RM008,raw_material,CP013,2,5,1355,Supplier_009,66,5,65,Distributor_004,Sea Freight,2908,6,2015-09-14 06:11:21
+SC016,Subcomponent SC016,subcomponent,CP002,1,5,38153,Supplier_007,27,2,5,Distributor_006,Truck,2637,2,2017-12-03 11:07:33
+CP005,Component CP005,component,SS005,1,36,277138,Supplier_023,22,3,71,Distributor_008,Sea Freight,1363,25,2016-09-18 07:11:03
+SC001,Subcomponent SC001,subcomponent,CP005,2,6,21632,Supplier_024,28,5,0,Distributor_014,Rail,2969,26,2012-10-15 17:51:01
+RM006,Raw_material RM006,raw_material,CP005,1,7,4444,Supplier_022,65,3,11,Distributor_003,Air Freight,8956,17,2020-12-21 12:37:26
+CP010,Component CP010,component,SS005,1,27,289714,Supplier_019,14,4,33,Distributor_013,Air Freight,5792,22,2019-02-12 23:39:26
+SC010,Subcomponent SC010,subcomponent,CP005,1,18,17423,Supplier_041,18,3,26,Distributor_006,Air Freight,7862,10,2014-05-11 00:09:05
+SC008,Subcomponent SC008,subcomponent,CP010,4,10,10840,Supplier_010,54,4,6,Distributor_012,Rail,9614,5,2011-12-02 03:15:58
+CP016,Component CP016,component,SS011,5,35,552649,Supplier_038,16,3,65,Distributor_011,Truck,5341,14,2014-04-21 09:50:04
+SC013,Subcomponent SC013,subcomponent,CP013,1,12,43478,Supplier_035,54,5,45,Distributor_014,Sea Freight,5772,25,2013-04-22 01:57:38
+SC016,Subcomponent SC016,subcomponent,CP009,4,7,25395,Supplier_027,37,2,56,Distributor_012,Sea Freight,4594,2,2013-09-22 17:36:05
+SC009,Subcomponent SC009,subcomponent,CP007,4,14,22978,Supplier_043,40,1,8,Distributor_006,Air Freight,6152,7,2012-12-19 12:20:43
+RM005,Raw_material RM005,raw_material,CP007,2,2,3812,Supplier_025,59,5,69,Distributor_010,Air Freight,8810,8,2018-02-06 19:54:15
+SC017,Subcomponent SC017,subcomponent,CP016,4,17,43423,Supplier_026,60,1,65,Distributor_012,Rail,9494,14,2016-07-11 07:48:46
+CP005,Component CP005,component,SS001,2,17,339154,Supplier_026,32,5,10,Distributor_010,Sea Freight,2866,4,2012-07-08 22:05:39
+SC014,Subcomponent SC014,subcomponent,CP018,1,18,40189,Supplier_040,37,5,39,Distributor_009,Sea Freight,3125,27,2019-02-10 08:15:34
+SC002,Subcomponent SC002,subcomponent,CP014,4,14,32720,Supplier_029,37,1,56,Distributor_005,Rail,4003,21,2016-02-19 10:56:11
+RM007,Raw_material RM007,raw_material,CP014,5,8,995,Supplier_022,72,4,17,Distributor_005,Air Freight,573,22,2019-07-06 06:04:54
+SC012,Subcomponent SC012,subcomponent,CP005,4,5,57764,Supplier_014,26,5,17,Distributor_002,Sea Freight,4166,23,2021-04-21 10:44:49
+CP002,Component CP002,component,SS011,4,38,123205,Supplier_024,28,5,72,Distributor_005,Rail,9570,15,2016-09-15 18:14:00
+SC007,Subcomponent SC007,subcomponent,CP007,4,12,34066,Supplier_031,22,4,54,Distributor_010,Sea Freight,4886,20,2014-08-24 11:25:20
+SC020,Subcomponent SC020,subcomponent,CP002,4,13,24206,Supplier_043,36,5,48,Distributor_003,Air Freight,7498,9,2015-10-11 22:26:05
+SS008,Subsystem SS008,subsystem,SY016,2,40,583266,Supplier_039,11,5,55,Distributor_013,Truck,8346,5,2019-12-31 21:34:42
+CP006,Component CP006,component,SS016,1,25,406878,Supplier_032,32,4,2,Distributor_012,Rail,6228,21,2020-04-24 09:39:55
+SC016,Subcomponent SC016,subcomponent,CP008,1,5,34156,Supplier_011,27,2,13,Distributor_013,Sea Freight,1908,23,2014-06-30 13:52:14
+RM003,Raw_material RM003,raw_material,CP008,3,1,4225,Supplier_011,70,3,56,Distributor_011,Rail,7642,18,2010-12-03 06:13:16
+SC013,Subcomponent SC013,subcomponent,CP020,5,13,49279,Supplier_043,22,5,57,Distributor_008,Sea Freight,3117,28,2019-09-30 02:54:01
+SC005,Subcomponent SC005,subcomponent,CP006,1,19,24289,Supplier_040,23,4,34,Distributor_010,Truck,7525,25,2015-01-29 10:05:28
+CP005,Component CP005,component,SS004,2,42,149636,Supplier_003,29,1,66,Distributor_006,Sea Freight,3303,24,2019-09-07 09:46:20
+SC010,Subcomponent SC010,subcomponent,CP017,3,13,25354,Supplier_020,24,4,16,Distributor_003,Truck,2020,26,2018-04-11 15:20:27
+SC002,Subcomponent SC002,subcomponent,CP012,2,11,37010,Supplier_022,55,1,32,Distributor_012,Truck,4190,19,2011-04-13 22:47:42
+SC010,Subcomponent SC010,subcomponent,CP005,5,9,43198,Supplier_020,40,3,21,Distributor_001,Sea Freight,6573,7,2014-07-12 22:11:05
+CP017,Component CP017,component,SS019,5,29,429273,Supplier_004,11,3,26,Distributor_013,Rail,5160,28,2010-05-04 11:49:43
+SC007,Subcomponent SC007,subcomponent,CP001,5,5,33818,Supplier_035,29,1,34,Distributor_004,Truck,8508,28,2019-02-01 05:12:39
+RM011,Raw_material RM011,raw_material,CP001,1,1,2862,Supplier_003,119,3,42,Distributor_009,Rail,6562,22,2021-08-27 20:52:31
+SC018,Subcomponent SC018,subcomponent,CP017,2,15,48386,Supplier_031,21,1,24,Distributor_014,Sea Freight,4757,1,2019-08-26 13:27:09
+RM012,Raw_material RM012,raw_material,CP017,1,1,2496,Supplier_005,77,1,56,Distributor_009,Sea Freight,827,14,2017-02-09 15:34:03
+CP004,Component CP004,component,SS008,2,24,334198,Supplier_043,22,1,50,Distributor_011,Air Freight,6125,8,2019-11-19 19:30:28
+SC009,Subcomponent SC009,subcomponent,CP004,3,5,38432,Supplier_014,39,2,55,Distributor_005,Sea Freight,815,30,2021-10-11 07:24:03
+RM020,Raw_material RM020,raw_material,CP004,3,9,4323,Supplier_034,50,5,48,Distributor_014,Truck,7604,5,2011-11-27 00:05:00
+SS006,Subsystem SS006,subsystem,SY005,2,63,764818,Supplier_018,12,2,71,Distributor_014,Truck,923,10,2014-04-30 05:30:29
+CP003,Component CP003,component,SS011,3,35,404603,Supplier_035,11,5,37,Distributor_004,Air Freight,9938,2,2012-11-28 02:05:43
+SC002,Subcomponent SC002,subcomponent,CP013,3,18,43616,Supplier_037,33,5,65,Distributor_013,Rail,1985,10,2020-11-13 10:56:41
+SC015,Subcomponent SC015,subcomponent,CP020,3,19,14588,Supplier_044,32,4,57,Distributor_008,Rail,7287,2,2021-02-22 22:26:06
+SC009,Subcomponent SC009,subcomponent,CP003,4,5,12783,Supplier_003,25,5,45,Distributor_006,Truck,2104,18,2020-07-28 08:49:04
+CP011,Component CP011,component,SS015,2,25,382633,Supplier_007,16,5,42,Distributor_014,Rail,7106,29,2019-07-24 21:56:57
+SC010,Subcomponent SC010,subcomponent,CP014,1,14,23969,Supplier_001,41,2,19,Distributor_001,Air Freight,1137,25,2014-05-12 20:54:17
+SC002,Subcomponent SC002,subcomponent,CP011,3,4,34880,Supplier_005,23,3,61,Distributor_002,Sea Freight,8332,21,2016-07-19 19:09:17
+CP008,Component CP008,component,SS006,3,35,224552,Supplier_030,26,2,25,Distributor_005,Air Freight,8715,15,2014-11-04 15:19:35
+SC002,Subcomponent SC002,subcomponent,CP008,2,14,46401,Supplier_039,21,5,16,Distributor_011,Sea Freight,1388,29,2014-08-26 06:39:51
+RM017,Raw_material RM017,raw_material,CP008,2,10,1525,Supplier_032,107,4,13,Distributor_011,Sea Freight,8734,10,2011-09-12 21:15:52
+SS008,Subsystem SS008,subsystem,SY019,4,38,949373,Supplier_005,16,1,24,Distributor_002,Sea Freight,5909,15,2021-08-20 06:20:19
+CP005,Component CP005,component,SS002,4,28,89013,Supplier_017,19,4,27,Distributor_010,Truck,8711,19,2010-11-03 19:37:06
+SC010,Subcomponent SC010,subcomponent,CP001,3,8,12035,Supplier_020,54,3,24,Distributor_010,Sea Freight,1702,11,2012-08-27 02:04:33
+SC019,Subcomponent SC019,subcomponent,CP005,4,12,51136,Supplier_030,40,5,66,Distributor_014,Truck,8735,7,2014-03-06 00:40:44
+CP013,Component CP013,component,SS008,1,22,221652,Supplier_015,15,4,14,Distributor_013,Rail,8337,6,2016-05-23 23:04:40
+SC019,Subcomponent SC019,subcomponent,CP013,1,4,10376,Supplier_015,44,1,14,Distributor_008,Sea Freight,4199,1,2011-01-14 05:59:45
+SY009,System SY009,system,FP002,2,103,5507720,Supplier_001,6,3,57,Distributor_012,Sea Freight,7228,3,2010-09-02 14:22:55
+CP007,Component CP007,component,SS002,2,18,150101,Supplier_002,13,4,58,Distributor_011,Truck,8454,13,2020-06-16 08:29:07
+SC019,Subcomponent SC019,subcomponent,CP002,1,14,10241,Supplier_037,27,2,37,Distributor_012,Air Freight,8485,19,2010-04-02 17:29:49
+SC011,Subcomponent SC011,subcomponent,CP005,2,10,13803,Supplier_029,47,4,70,Distributor_008,Sea Freight,9069,3,2012-03-02 12:05:45
+SC018,Subcomponent SC018,subcomponent,CP007,2,20,19412,Supplier_015,43,5,63,Distributor_004,Sea Freight,3368,14,2011-07-14 02:45:42
+CP003,Component CP003,component,SS007,4,21,435461,Supplier_021,9,4,29,Distributor_001,Rail,717,15,2021-10-20 20:26:30
+SC015,Subcomponent SC015,subcomponent,CP020,2,10,23306,Supplier_002,31,3,5,Distributor_008,Air Freight,2625,28,2019-04-02 21:07:00
+SC004,Subcomponent SC004,subcomponent,CP018,1,4,48484,Supplier_003,29,4,43,Distributor_009,Sea Freight,3128,16,2014-09-18 09:24:05
+SC002,Subcomponent SC002,subcomponent,CP013,3,7,15951,Supplier_006,34,2,63,Distributor_014,Sea Freight,1334,6,2017-01-26 03:05:01
+SC019,Subcomponent SC019,subcomponent,CP003,1,16,19281,Supplier_036,15,1,47,Distributor_010,Truck,1585,3,2014-05-11 03:09:23
+RM004,Raw_material RM004,raw_material,CP003,4,7,4520,Supplier_014,69,2,62,Distributor_006,Truck,8231,15,2018-05-08 19:00:19
+CP005,Component CP005,component,SS018,3,19,209983,Supplier_033,15,4,50,Distributor_006,Truck,2288,29,2019-01-24 18:17:39
+SC017,Subcomponent SC017,subcomponent,CP003,4,15,34928,Supplier_012,43,1,21,Distributor_009,Sea Freight,3126,8,2015-03-31 14:12:24
+SC010,Subcomponent SC010,subcomponent,CP012,3,9,30860,Supplier_016,32,1,61,Distributor_012,Truck,6134,6,2010-04-03 14:13:27
+SC008,Subcomponent SC008,subcomponent,CP002,3,6,14916,Supplier_006,52,5,10,Distributor_005,Truck,3581,17,2014-03-12 07:02:08
+RM010,Raw_material RM010,raw_material,CP002,3,4,1180,Supplier_007,93,4,72,Distributor_012,Air Freight,217,11,2017-04-28 21:53:44
+SC002,Subcomponent SC002,subcomponent,CP005,4,14,7782,Supplier_043,15,4,30,Distributor_014,Rail,3809,16,2015-04-01 16:57:48
+CP019,Component CP019,component,SS012,3,25,312527,Supplier_001,13,5,32,Distributor_008,Air Freight,6609,2,2010-02-17 15:05:55
+RM016,Raw_material RM016,raw_material,CP018,2,4,3120,Supplier_004,72,3,47,Distributor_012,Air Freight,258,1,2020-03-19 15:43:00
+SC008,Subcomponent SC008,subcomponent,CP020,3,11,41505,Supplier_040,27,1,8,Distributor_014,Rail,9125,10,2020-10-04 14:48:47
+SC006,Subcomponent SC006,subcomponent,CP019,2,4,31428,Supplier_041,23,3,31,Distributor_007,Sea Freight,175,7,2018-10-17 10:03:40
+RM017,Raw_material RM017,raw_material,CP019,2,1,4095,Supplier_021,41,5,37,Distributor_003,Rail,7169,8,2021-02-26 11:58:54
+CP017,Component CP017,component,SS013,2,38,146762,Supplier_030,27,2,37,Distributor_010,Air Freight,6707,8,2018-01-22 23:58:26
+SC014,Subcomponent SC014,subcomponent,CP013,2,6,47487,Supplier_021,22,1,41,Distributor_001,Truck,8259,26,2010-02-08 00:29:05
+SC011,Subcomponent SC011,subcomponent,CP017,4,20,31955,Supplier_011,28,4,29,Distributor_010,Rail,1606,12,2014-01-06 10:05:52
+RM008,Raw_material RM008,raw_material,CP017,4,5,1766,Supplier_043,46,2,16,Distributor_004,Sea Freight,1816,22,2010-12-29 22:00:23
+SS007,Subsystem SS007,subsystem,SY001,5,51,2057012,Supplier_014,5,2,17,Distributor_013,Truck,4222,5,2020-09-05 02:05:02
+CP004,Component CP004,component,SS003,1,30,114755,Supplier_015,26,1,33,Distributor_002,Truck,4298,25,2019-05-12 11:46:52
+RM018,Raw_material RM018,raw_material,CP012,5,6,2805,Supplier_002,83,1,9,Distributor_010,Air Freight,1599,14,2019-01-10 01:55:06
+SC010,Subcomponent SC010,subcomponent,CP016,2,5,34988,Supplier_015,32,3,13,Distributor_006,Air Freight,7554,24,2020-04-16 07:09:33
+SC020,Subcomponent SC020,subcomponent,CP013,2,5,40700,Supplier_032,61,5,22,Distributor_001,Sea Freight,4803,17,2016-05-04 05:28:55
+RM018,Raw_material RM018,raw_material,CP013,5,5,1493,Supplier_038,61,2,47,Distributor_010,Truck,7404,24,2021-02-15 05:19:14
+SC014,Subcomponent SC014,subcomponent,CP004,4,11,33325,Supplier_032,17,1,2,Distributor_010,Truck,207,29,2010-06-28 14:44:15
+CP018,Component CP018,component,SS004,4,30,358114,Supplier_008,27,4,3,Distributor_007,Truck,9638,4,2012-03-20 16:03:41
+SC008,Subcomponent SC008,subcomponent,CP020,3,13,9988,Supplier_037,47,2,31,Distributor_007,Rail,2604,18,2010-09-06 15:07:08
+SC011,Subcomponent SC011,subcomponent,CP015,3,6,20555,Supplier_043,23,4,4,Distributor_006,Air Freight,5152,17,2010-02-05 13:24:01
+SC001,Subcomponent SC001,subcomponent,CP018,2,15,25592,Supplier_010,51,4,55,Distributor_014,Air Freight,4163,27,2012-03-03 15:50:21
+RM015,Raw_material RM015,raw_material,CP018,2,1,1598,Supplier_035,98,5,54,Distributor_002,Air Freight,3584,1,2012-06-06 22:00:17
+CP002,Component CP002,component,SS005,3,37,474089,Supplier_031,21,5,46,Distributor_001,Sea Freight,1593,18,2018-07-29 03:05:02
+SC004,Subcomponent SC004,subcomponent,CP003,5,9,31016,Supplier_022,29,2,34,Distributor_008,Truck,6779,7,2014-04-07 20:49:22
+SC002,Subcomponent SC002,subcomponent,CP017,4,10,13734,Supplier_011,21,5,65,Distributor_009,Truck,6518,27,2015-01-07 20:29:15
+SC002,Subcomponent SC002,subcomponent,CP002,3,15,26082,Supplier_011,23,2,29,Distributor_002,Sea Freight,1572,4,2010-10-18 13:06:33
+CP003,Component CP003,component,SS007,2,21,371889,Supplier_040,11,2,24,Distributor_014,Sea Freight,4031,21,2021-01-20 16:53:50
+SC015,Subcomponent SC015,subcomponent,CP003,2,14,28910,Supplier_011,23,2,3,Distributor_014,Truck,9907,20,2015-02-02 04:41:38
+SS004,Subsystem SS004,subsystem,SY016,5,42,816067,Supplier_004,9,3,65,Distributor_014,Truck,6451,29,2013-05-13 06:25:24
+CP010,Component CP010,component,SS006,1,28,161181,Supplier_023,12,4,52,Distributor_010,Air Freight,1574,17,2011-05-10 14:29:42
+SC012,Subcomponent SC012,subcomponent,CP004,3,17,33292,Supplier_007,40,2,65,Distributor_007,Truck,9538,17,2015-10-14 01:46:01
+RM014,Raw_material RM014,raw_material,CP010,1,8,2282,Supplier_039,75,4,62,Distributor_014,Air Freight,2676,28,2014-02-28 05:27:06
+SC003,Subcomponent SC003,subcomponent,CP019,2,6,11997,Supplier_044,32,5,25,Distributor_009,Truck,7088,22,2013-01-16 23:12:29
+SC018,Subcomponent SC018,subcomponent,CP010,3,16,27316,Supplier_042,30,1,32,Distributor_009,Sea Freight,3906,15,2015-03-24 22:32:12
+RM020,Raw_material RM020,raw_material,CP010,2,1,2070,Supplier_018,105,1,48,Distributor_004,Rail,6782,1,2021-05-16 11:55:42
+CP008,Component CP008,component,SS018,2,35,98901,Supplier_037,22,1,68,Distributor_012,Air Freight,2274,26,2012-11-01 02:18:54
+SC019,Subcomponent SC019,subcomponent,CP018,3,13,12645,Supplier_015,18,1,4,Distributor_012,Truck,7606,7,2018-11-17 05:06:07
+RM002,Raw_material RM002,raw_material,CP018,1,8,2895,Supplier_020,82,2,3,Distributor_007,Air Freight,6728,21,2017-11-03 23:48:43
+SC018,Subcomponent SC018,subcomponent,CP019,2,18,19598,Supplier_023,20,3,16,Distributor_014,Sea Freight,8346,17,2021-05-11 13:11:40
+SC004,Subcomponent SC004,subcomponent,CP008,3,9,18034,Supplier_039,43,5,43,Distributor_005,Sea Freight,5928,5,2016-11-10 15:00:34
+RM008,Raw_material RM008,raw_material,CP008,1,3,1885,Supplier_035,75,3,47,Distributor_014,Rail,6535,20,2021-01-26 15:56:03
+CP020,Component CP020,component,SS013,1,25,432900,Supplier_040,23,5,47,Distributor_014,Sea Freight,6553,18,2021-10-24 09:53:00
+SC015,Subcomponent SC015,subcomponent,CP014,3,18,22523,Supplier_033,48,4,21,Distributor_012,Rail,5915,13,2013-02-12 17:47:24
+SC001,Subcomponent SC001,subcomponent,CP020,5,9,25424,Supplier_042,31,2,31,Distributor_008,Sea Freight,3430,24,2014-09-11 18:40:02
+CP016,Component CP016,component,SS004,2,18,312509,Supplier_009,14,5,49,Distributor_006,Rail,9763,14,2018-04-30 13:31:21
+SC006,Subcomponent SC006,subcomponent,CP016,3,18,40073,Supplier_025,25,1,60,Distributor_006,Rail,4411,30,2011-02-06 06:34:18
+SS018,Subsystem SS018,subsystem,SY015,1,35,578421,Supplier_043,4,3,33,Distributor_013,Air Freight,6196,25,2011-01-10 00:04:54
+CP001,Component CP001,component,SS014,4,42,475207,Supplier_039,23,5,30,Distributor_001,Truck,1144,27,2015-04-11 08:44:08
+SC014,Subcomponent SC014,subcomponent,CP017,4,10,30557,Supplier_005,34,2,29,Distributor_013,Air Freight,2793,21,2010-03-17 05:35:05
+SC020,Subcomponent SC020,subcomponent,CP010,5,12,39785,Supplier_009,36,1,66,Distributor_008,Air Freight,2815,22,2021-07-04 18:13:28
+SC005,Subcomponent SC005,subcomponent,CP001,5,9,9889,Supplier_019,17,5,4,Distributor_004,Sea Freight,8833,27,2010-06-03 21:50:42
+CP005,Component CP005,component,SS014,4,22,147746,Supplier_012,12,1,64,Distributor_010,Rail,8269,18,2010-06-16 22:12:42
+SC013,Subcomponent SC013,subcomponent,CP011,1,16,39507,Supplier_032,23,5,64,Distributor_011,Sea Freight,8708,21,2019-12-24 03:19:34
+RM004,Raw_material RM004,raw_material,CP011,1,9,4155,Supplier_017,66,2,24,Distributor_012,Rail,7067,11,2016-04-12 01:56:53
+SC013,Subcomponent SC013,subcomponent,CP005,4,12,10388,Supplier_024,25,2,13,Distributor_010,Truck,5624,11,2013-02-13 21:50:43
+CP010,Component CP010,component,SS018,5,24,70992,Supplier_004,18,3,39,Distributor_014,Air Freight,448,7,2017-10-22 00:17:28
+SC013,Subcomponent SC013,subcomponent,CP010,3,8,40738,Supplier_035,32,5,49,Distributor_009,Rail,9315,15,2015-08-23 21:31:10
+SS008,Subsystem SS008,subsystem,SY009,1,43,1241989,Supplier_035,11,5,68,Distributor_001,Rail,7079,12,2013-09-02 15:57:18
+CP016,Component CP016,component,SS008,5,41,393184,Supplier_005,19,2,36,Distributor_010,Rail,8389,5,2013-02-04 02:14:17
+SC004,Subcomponent SC004,subcomponent,CP016,2,11,41048,Supplier_003,46,1,9,Distributor_004,Truck,9429,18,2015-11-13 12:36:29
+SY016,System SY016,system,FP018,2,125,6346765,Supplier_001,5,4,70,Distributor_005,Sea Freight,6265,4,2020-12-16 15:32:08
+SS019,Subsystem SS019,subsystem,SY017,3,52,2100208,Supplier_009,11,4,12,Distributor_009,Sea Freight,4896,28,2020-05-06 03:59:34
+CP020,Component CP020,component,SS020,5,27,329853,Supplier_006,10,4,49,Distributor_004,Air Freight,3517,18,2020-12-27 20:54:18
+RM014,Raw_material RM014,raw_material,CP007,5,1,3800,Supplier_028,85,5,2,Distributor_005,Truck,6296,8,2021-05-29 17:22:28
+RM010,Raw_material RM010,raw_material,CP002,3,3,4567,Supplier_024,62,4,7,Distributor_008,Rail,8157,18,2013-03-26 12:08:04
+SC017,Subcomponent SC017,subcomponent,CP018,3,16,14222,Supplier_022,53,5,68,Distributor_013,Air Freight,5898,5,2018-05-25 18:49:47
+SC002,Subcomponent SC002,subcomponent,CP017,4,7,34171,Supplier_019,37,5,4,Distributor_003,Rail,5384,13,2015-07-16 09:00:53
+SC004,Subcomponent SC004,subcomponent,CP005,3,15,46460,Supplier_001,35,1,50,Distributor_006,Air Freight,9583,8,2011-04-18 14:02:43
+RM005,Raw_material RM005,raw_material,CP005,4,7,1817,Supplier_038,59,5,66,Distributor_006,Truck,5095,25,2015-11-02 20:21:10
+SC016,Subcomponent SC016,subcomponent,CP020,3,5,42398,Supplier_025,16,2,1,Distributor_007,Sea Freight,384,29,2021-05-19 00:16:16
+CP005,Component CP005,component,SS014,2,23,483565,Supplier_019,31,5,45,Distributor_010,Air Freight,6098,22,2019-04-01 00:31:24
+SC014,Subcomponent SC014,subcomponent,CP010,4,12,26520,Supplier_020,34,5,33,Distributor_010,Rail,4015,21,2010-11-08 11:12:50
+SC009,Subcomponent SC009,subcomponent,CP005,4,12,14256,Supplier_035,38,4,47,Distributor_013,Air Freight,8960,27,2019-11-28 06:24:52
+SC007,Subcomponent SC007,subcomponent,CP012,1,15,32635,Supplier_038,20,4,33,Distributor_013,Sea Freight,5739,12,2016-05-02 10:45:04
+SC016,Subcomponent SC016,subcomponent,CP014,4,6,26515,Supplier_002,60,4,54,Distributor_006,Rail,4478,13,2011-03-08 23:14:01
+SC015,Subcomponent SC015,subcomponent,CP005,4,17,14794,Supplier_039,41,4,2,Distributor_005,Air Freight,7201,26,2020-01-28 20:46:43
+CP016,Component CP016,component,SS020,2,41,301517,Supplier_001,15,4,68,Distributor_007,Truck,8420,20,2013-05-15 06:53:04
+SC005,Subcomponent SC005,subcomponent,CP014,4,5,16430,Supplier_020,50,1,47,Distributor_014,Air Freight,5014,27,2018-11-04 10:31:25
+SC004,Subcomponent SC004,subcomponent,CP007,2,10,36042,Supplier_035,33,3,46,Distributor_013,Sea Freight,4241,6,2011-07-01 18:08:19
+SC016,Subcomponent SC016,subcomponent,CP016,2,10,13977,Supplier_017,34,3,2,Distributor_003,Truck,1242,24,2018-08-13 07:57:34
+CP018,Component CP018,component,SS018,3,18,309382,Supplier_029,29,4,43,Distributor_011,Truck,6283,24,2016-03-10 12:10:50
+SC013,Subcomponent SC013,subcomponent,CP012,2,14,33719,Supplier_023,20,2,65,Distributor_005,Rail,5437,6,2010-06-07 00:38:04
+SC019,Subcomponent SC019,subcomponent,CP016,4,9,44297,Supplier_014,54,4,54,Distributor_001,Truck,7912,20,2012-11-22 16:10:01
+RM009,Raw_material RM009,raw_material,CP016,4,7,1841,Supplier_018,68,1,52,Distributor_006,Rail,8747,10,2018-01-24 10:35:29
+SC019,Subcomponent SC019,subcomponent,CP018,3,18,11052,Supplier_043,34,3,6,Distributor_013,Air Freight,5033,18,2020-01-16 23:18:10
+RM019,Raw_material RM019,raw_material,CP018,4,1,4415,Supplier_018,61,3,11,Distributor_004,Truck,2756,27,2012-04-12 08:10:22
+CP002,Component CP002,component,SS019,3,42,544604,Supplier_008,8,5,63,Distributor_006,Rail,3430,21,2017-11-11 09:52:34
+SC003,Subcomponent SC003,subcomponent,CP002,1,12,9485,Supplier_044,39,1,13,Distributor_014,Rail,4056,28,2015-03-06 20:51:50
+CP005,Component CP005,component,SS020,5,32,248878,Supplier_004,23,3,11,Distributor_005,Truck,5535,24,2010-01-29 21:48:44
+SC017,Subcomponent SC017,subcomponent,CP007,2,15,34167,Supplier_005,54,2,20,Distributor_005,Rail,1636,7,2016-03-05 04:33:40
+SC003,Subcomponent SC003,subcomponent,CP019,2,15,25177,Supplier_011,28,5,52,Distributor_004,Air Freight,648,14,2021-03-24 18:41:02
+RM014,Raw_material RM014,raw_material,CP019,4,4,2446,Supplier_023,64,1,61,Distributor_012,Truck,6402,25,2014-11-03 09:51:44
+SC003,Subcomponent SC003,subcomponent,CP005,3,9,17239,Supplier_022,51,2,42,Distributor_011,Sea Freight,6713,7,2021-01-08 06:23:59
+CP013,Component CP013,component,SS014,3,35,399139,Supplier_001,17,3,70,Distributor_008,Truck,2310,28,2021-02-04 10:59:17
+SC017,Subcomponent SC017,subcomponent,CP013,5,7,26528,Supplier_037,32,2,63,Distributor_006,Sea Freight,1777,10,2019-05-01 13:51:03
+SC011,Subcomponent SC011,subcomponent,CP006,4,15,25738,Supplier_028,21,1,28,Distributor_013,Air Freight,6576,15,2013-07-03 18:33:56
+SC020,Subcomponent SC020,subcomponent,CP011,4,14,17033,Supplier_021,31,5,30,Distributor_014,Sea Freight,9045,30,2019-08-16 01:13:33
+SC005,Subcomponent SC005,subcomponent,CP013,4,11,48494,Supplier_038,33,3,15,Distributor_009,Air Freight,424,19,2017-03-03 05:07:07
+CP014,Component CP014,component,SS008,2,21,218377,Supplier_025,20,3,21,Distributor_006,Air Freight,7466,22,2021-03-15 01:55:07
+SC003,Subcomponent SC003,subcomponent,CP005,3,13,11136,Supplier_020,33,4,53,Distributor_003,Air Freight,3192,10,2015-06-28 22:08:09
+SC008,Subcomponent SC008,subcomponent,CP016,1,20,21925,Supplier_039,26,4,20,Distributor_009,Sea Freight,9505,24,2019-03-08 17:38:24
+RM006,Raw_material RM006,raw_material,CP016,1,8,2099,Supplier_044,64,5,67,Distributor_011,Rail,2558,24,2020-09-23 17:00:41
+SC017,Subcomponent SC017,subcomponent,CP014,1,7,35623,Supplier_012,33,4,9,Distributor_013,Air Freight,7976,25,2012-07-07 04:53:26
+RM008,Raw_material RM008,raw_material,CP014,1,6,3621,Supplier_020,64,5,9,Distributor_001,Truck,6749,13,2010-07-13 02:49:21
+CP008,Component CP008,component,SS010,4,31,442807,Supplier_040,19,4,29,Distributor_013,Sea Freight,5706,3,2017-08-18 00:58:45
+SC013,Subcomponent SC013,subcomponent,CP013,5,15,17508,Supplier_001,47,1,35,Distributor_013,Rail,2004,13,2010-01-04 06:44:51
+SC019,Subcomponent SC019,subcomponent,CP008,4,15,42384,Supplier_007,32,4,32,Distributor_001,Truck,3613,22,2015-04-08 19:54:55
+RM014,Raw_material RM014,raw_material,CP008,1,9,3285,Supplier_037,70,2,11,Distributor_004,Sea Freight,3388,19,2015-12-23 19:32:43
+CP004,Component CP004,component,SS005,1,25,133048,Supplier_025,12,4,66,Distributor_007,Sea Freight,1348,24,2018-10-21 21:05:34
+SC005,Subcomponent SC005,subcomponent,CP006,5,18,28917,Supplier_041,53,1,50,Distributor_003,Air Freight,6503,29,2020-10-25 09:13:22
+SC014,Subcomponent SC014,subcomponent,CP013,3,13,25736,Supplier_032,48,5,31,Distributor_002,Rail,7449,25,2017-03-20 04:29:50
+SC004,Subcomponent SC004,subcomponent,CP004,3,5,21874,Supplier_022,32,3,70,Distributor_009,Air Freight,1902,30,2016-12-29 03:00:14
+CP014,Component CP014,component,SS013,5,30,295049,Supplier_035,7,4,60,Distributor_014,Air Freight,1884,10,2017-07-30 13:26:45
+SC015,Subcomponent SC015,subcomponent,CP003,1,11,11594,Supplier_018,25,3,4,Distributor_005,Sea Freight,4202,26,2013-11-07 20:44:29
+SC011,Subcomponent SC011,subcomponent,CP004,3,11,48598,Supplier_017,45,2,57,Distributor_009,Sea Freight,6736,23,2014-09-04 00:55:08
+RM016,Raw_material RM016,raw_material,CP004,5,4,3286,Supplier_039,62,1,66,Distributor_014,Rail,126,7,2017-03-11 08:19:32
+SC016,Subcomponent SC016,subcomponent,CP014,4,15,28008,Supplier_010,25,4,63,Distributor_004,Truck,9622,14,2011-05-26 21:24:52
+CP010,Component CP010,component,SS001,2,37,49261,Supplier_007,20,2,13,Distributor_011,Sea Freight,4504,5,2018-12-14 01:05:11
+SC004,Subcomponent SC004,subcomponent,CP006,5,4,23091,Supplier_038,38,2,50,Distributor_007,Sea Freight,6012,15,2011-11-05 20:31:34
+SC005,Subcomponent SC005,subcomponent,CP010,5,11,20601,Supplier_012,47,2,57,Distributor_014,Truck,1671,4,2016-06-11 07:53:08
+SS020,Subsystem SS020,subsystem,SY006,3,63,1994397,Supplier_016,14,1,1,Distributor_004,Rail,4566,30,2020-03-12 18:17:20
+CP007,Component CP007,component,SS010,5,39,113323,Supplier_038,23,1,62,Distributor_002,Rail,6057,9,2016-08-23 06:51:53
+RM020,Raw_material RM020,raw_material,CP004,1,6,3229,Supplier_017,120,5,55,Distributor_012,Rail,9224,25,2018-05-08 17:10:33
+SC011,Subcomponent SC011,subcomponent,CP019,2,6,15289,Supplier_029,38,2,28,Distributor_009,Sea Freight,7924,26,2019-08-10 21:54:30
+SC008,Subcomponent SC008,subcomponent,CP007,1,7,26297,Supplier_023,52,2,36,Distributor_011,Truck,3710,15,2010-05-04 05:30:48
+RM006,Raw_material RM006,raw_material,CP007,1,4,2912,Supplier_019,58,1,41,Distributor_001,Sea Freight,4657,14,2017-08-13 19:19:15
+CP007,Component CP007,component,SS017,3,18,392210,Supplier_005,17,5,11,Distributor_008,Sea Freight,7300,2,2018-01-17 22:17:54
+SC007,Subcomponent SC007,subcomponent,CP005,1,4,40954,Supplier_041,27,1,16,Distributor_011,Rail,155,5,2012-10-01 16:20:55
+SC013,Subcomponent SC013,subcomponent,CP007,4,16,46541,Supplier_039,18,1,40,Distributor_006,Sea Freight,7837,28,2015-09-21 00:11:48
+CP004,Component CP004,component,SS020,3,36,592284,Supplier_034,9,1,71,Distributor_012,Rail,7764,21,2010-05-21 00:40:10
+SC001,Subcomponent SC001,subcomponent,CP004,3,7,29150,Supplier_004,55,4,13,Distributor_013,Air Freight,6929,5,2020-04-27 20:41:12
+SS015,Subsystem SS015,subsystem,SY016,5,43,1534911,Supplier_015,10,2,56,Distributor_011,Air Freight,3731,24,2020-02-02 18:27:49
+CP016,Component CP016,component,SS015,5,42,338367,Supplier_031,34,2,43,Distributor_007,Rail,5694,23,2012-07-13 16:20:18
+SC020,Subcomponent SC020,subcomponent,CP016,1,12,7292,Supplier_002,58,3,53,Distributor_002,Rail,5850,14,2019-03-16 23:21:03
+SC008,Subcomponent SC008,subcomponent,CP002,2,20,35959,Supplier_022,43,2,7,Distributor_013,Air Freight,567,26,2019-08-13 22:28:44
+SC013,Subcomponent SC013,subcomponent,CP019,5,20,27099,Supplier_002,37,4,27,Distributor_013,Rail,7770,16,2011-07-23 03:30:41
+SC009,Subcomponent SC009,subcomponent,CP007,1,11,57706,Supplier_031,36,4,70,Distributor_005,Air Freight,7303,8,2017-11-28 23:41:01
+SC017,Subcomponent SC017,subcomponent,CP006,4,11,17698,Supplier_009,24,3,12,Distributor_010,Rail,5189,26,2019-11-04 18:01:20
+CP014,Component CP014,component,SS009,5,15,300710,Supplier_010,8,2,9,Distributor_013,Rail,8533,17,2019-01-17 17:22:31
+RM003,Raw_material RM003,raw_material,CP003,5,5,1356,Supplier_013,62,5,18,Distributor_011,Rail,9941,13,2013-11-15 08:20:03
+SC008,Subcomponent SC008,subcomponent,CP018,2,17,21117,Supplier_002,24,2,62,Distributor_010,Rail,1690,1,2012-06-06 22:00:31
+SC005,Subcomponent SC005,subcomponent,CP012,2,7,11986,Supplier_009,33,3,71,Distributor_008,Sea Freight,9176,22,2014-02-28 03:27:07
+SC001,Subcomponent SC001,subcomponent,CP005,5,5,5833,Supplier_031,30,1,52,Distributor_010,Rail,4449,11,2016-05-29 01:26:41
+RM004,Raw_material RM004,raw_material,CP005,1,6,592,Supplier_024,58,5,27,Distributor_010,Truck,9969,14,2015-02-08 17:25:52
+SC001,Subcomponent SC001,subcomponent,CP014,4,14,30190,Supplier_020,44,3,28,Distributor_007,Truck,1538,11,2016-03-31 18:29:30
+CP020,Component CP020,component,SS016,4,30,571666,Supplier_001,14,1,44,Distributor_005,Sea Freight,5332,9,2017-07-01 17:42:36
+SC018,Subcomponent SC018,subcomponent,CP009,4,11,38058,Supplier_006,25,5,36,Distributor_006,Truck,7588,3,2012-06-01 17:23:06
+SC011,Subcomponent SC011,subcomponent,CP003,2,11,44695,Supplier_025,45,1,55,Distributor_005,Sea Freight,5909,16,2010-09-05 03:32:44
+SC006,Subcomponent SC006,subcomponent,CP013,3,10,45276,Supplier_004,21,4,4,Distributor_014,Rail,4283,24,2021-07-02 03:23:38
+SC009,Subcomponent SC009,subcomponent,CP020,2,14,8172,Supplier_033,40,2,51,Distributor_014,Sea Freight,7393,28,2017-10-28 18:44:59
+CP001,Component CP001,component,SS001,4,32,219354,Supplier_019,15,4,59,Distributor_006,Air Freight,6425,21,2011-01-29 12:53:24
+SC019,Subcomponent SC019,subcomponent,CP002,5,15,42478,Supplier_030,42,2,0,Distributor_011,Air Freight,263,25,2013-02-13 18:12:51
+SC007,Subcomponent SC007,subcomponent,CP001,1,11,14898,Supplier_012,25,2,50,Distributor_012,Rail,1025,25,2019-11-21 20:59:29
+CP004,Component CP004,component,SS011,5,29,51116,Supplier_029,25,4,20,Distributor_007,Air Freight,5264,5,2011-09-12 20:49:30
+SC013,Subcomponent SC013,subcomponent,CP012,5,5,6678,Supplier_027,39,2,58,Distributor_004,Truck,8211,10,2019-12-13 15:36:16
+SC015,Subcomponent SC015,subcomponent,CP004,5,7,46486,Supplier_024,30,4,39,Distributor_007,Air Freight,6570,10,2019-10-16 15:56:38
+RM018,Raw_material RM018,raw_material,CP004,5,6,2846,Supplier_042,91,4,36,Distributor_001,Air Freight,6063,8,2021-04-05 08:35:03
+SS013,Subsystem SS013,subsystem,SY007,4,49,1444956,Supplier_041,10,2,12,Distributor_001,Air Freight,1869,23,2019-04-21 18:31:42
+CP011,Component CP011,component,SS013,2,30,178920,Supplier_019,26,2,39,Distributor_012,Rail,9346,30,2017-10-25 06:39:11
+RM001,Raw_material RM001,raw_material,CP016,5,9,655,Supplier_029,86,3,59,Distributor_008,Truck,8041,11,2014-03-30 01:09:39
+SC004,Subcomponent SC004,subcomponent,CP010,4,14,41857,Supplier_031,24,5,25,Distributor_006,Air Freight,9480,14,2019-05-21 22:35:36
+RM004,Raw_material RM004,raw_material,CP010,2,1,3301,Supplier_044,94,4,36,Distributor_003,Truck,8593,23,2012-01-13 10:26:26
+SC015,Subcomponent SC015,subcomponent,CP016,4,12,30079,Supplier_021,24,2,65,Distributor_011,Air Freight,5599,21,2018-08-29 17:26:28
+RM018,Raw_material RM018,raw_material,CP016,5,9,2173,Supplier_031,108,5,20,Distributor_013,Sea Freight,5764,11,2013-11-17 11:52:01
+SC011,Subcomponent SC011,subcomponent,CP011,4,5,29412,Supplier_026,37,2,11,Distributor_011,Air Freight,7569,11,2018-10-30 14:04:27
+RM020,Raw_material RM020,raw_material,CP011,4,10,968,Supplier_021,51,1,11,Distributor_009,Air Freight,5507,8,2018-05-15 22:31:53
+CP001,Component CP001,component,SS008,1,39,213791,Supplier_009,11,4,18,Distributor_011,Air Freight,1150,10,2012-04-11 13:53:35
+SC010,Subcomponent SC010,subcomponent,CP007,2,20,35555,Supplier_025,37,2,54,Distributor_013,Air Freight,7586,16,2013-02-18 15:46:49
+SC012,Subcomponent SC012,subcomponent,CP007,5,13,41579,Supplier_013,43,4,71,Distributor_001,Air Freight,6719,17,2011-10-14 18:53:54
+SC001,Subcomponent SC001,subcomponent,CP001,4,5,5909,Supplier_008,38,5,65,Distributor_008,Rail,3835,26,2010-04-01 20:34:41
+CP011,Component CP011,component,SS004,3,46,269081,Supplier_013,14,1,65,Distributor_009,Truck,5298,1,2010-06-29 09:40:09
+SC003,Subcomponent SC003,subcomponent,CP010,4,11,45672,Supplier_016,59,4,53,Distributor_014,Rail,8359,19,2011-05-13 16:44:15
+SC013,Subcomponent SC013,subcomponent,CP001,5,8,13506,Supplier_017,23,3,11,Distributor_011,Sea Freight,2887,2,2010-03-09 14:32:00
+RM018,Raw_material RM018,raw_material,CP001,3,7,3577,Supplier_026,69,2,44,Distributor_012,Sea Freight,5322,4,2017-12-12 20:04:47
+SC004,Subcomponent SC004,subcomponent,CP011,2,11,18677,Supplier_009,29,5,32,Distributor_001,Air Freight,5827,21,2014-03-03 00:26:29
+CP006,Component CP006,component,SS011,4,23,231772,Supplier_029,10,4,47,Distributor_002,Sea Freight,1254,8,2017-05-18 21:41:04
+SC018,Subcomponent SC018,subcomponent,CP002,3,15,56059,Supplier_042,35,4,15,Distributor_006,Sea Freight,5330,25,2013-04-24 10:52:20
+SC016,Subcomponent SC016,subcomponent,CP006,1,15,14915,Supplier_037,37,4,12,Distributor_012,Rail,2731,21,2019-11-18 11:01:39
+RM010,Raw_material RM010,raw_material,CP006,2,3,2562,Supplier_043,74,3,32,Distributor_014,Rail,2020,23,2019-07-10 18:25:48
+CP008,Component CP008,component,SS013,5,38,544293,Supplier_031,28,5,4,Distributor_003,Truck,2048,20,2017-08-06 10:37:31
+SC001,Subcomponent SC001,subcomponent,CP008,2,17,22527,Supplier_041,52,5,20,Distributor_012,Air Freight,865,29,2012-03-23 13:13:46
+RM002,Raw_material RM002,raw_material,CP008,4,3,2126,Supplier_004,47,4,3,Distributor_008,Sea Freight,395,15,2016-08-10 19:32:56
+SS011,Subsystem SS011,subsystem,SY016,2,29,1624425,Supplier_004,5,2,41,Distributor_010,Truck,819,18,2021-09-02 11:55:59
+CP003,Component CP003,component,SS009,3,17,185383,Supplier_043,18,1,55,Distributor_014,Air Freight,7535,24,2014-02-19 16:08:31
+RM005,Raw_material RM005,raw_material,CP019,1,1,3255,Supplier_006,48,2,59,Distributor_014,Truck,798,2,2014-07-06 02:32:07
+SC003,Subcomponent SC003,subcomponent,CP002,2,9,48740,Supplier_009,24,5,4,Distributor_005,Sea Freight,2136,12,2016-05-24 20:11:34
+SC001,Subcomponent SC001,subcomponent,CP003,2,19,6002,Supplier_002,47,2,45,Distributor_010,Air Freight,9380,8,2019-12-01 01:13:22
+SC008,Subcomponent SC008,subcomponent,CP003,3,14,19130,Supplier_013,28,2,35,Distributor_008,Rail,2648,1,2017-12-23 02:09:44
+CP009,Component CP009,component,SS015,4,26,86604,Supplier_042,15,5,40,Distributor_010,Sea Freight,1209,14,2021-12-17 20:48:49
+SC010,Subcomponent SC010,subcomponent,CP002,5,21,26965,Supplier_039,26,3,72,Distributor_002,Air Freight,3944,3,2013-09-20 02:42:02
+SC013,Subcomponent SC013,subcomponent,CP009,5,7,37554,Supplier_040,36,5,25,Distributor_009,Rail,5354,29,2017-11-11 16:43:40
+CP012,Component CP012,component,SS005,2,24,88987,Supplier_026,22,2,48,Distributor_012,Truck,6292,15,2019-07-03 06:40:35
+SC008,Subcomponent SC008,subcomponent,CP005,2,9,23761,Supplier_029,41,3,38,Distributor_012,Sea Freight,700,7,2018-01-29 16:58:15
+SC012,Subcomponent SC012,subcomponent,CP012,2,20,36603,Supplier_018,41,3,31,Distributor_009,Sea Freight,7061,8,2012-04-30 16:38:55
+CP004,Component CP004,component,SS011,5,43,206565,Supplier_008,21,1,61,Distributor_005,Air Freight,9607,9,2020-01-26 10:30:02
+SC015,Subcomponent SC015,subcomponent,CP004,5,11,34253,Supplier_003,52,3,27,Distributor_011,Rail,5078,7,2016-10-12 17:18:08
+RM005,Raw_material RM005,raw_material,CP004,1,7,4443,Supplier_003,74,1,10,Distributor_001,Air Freight,5385,15,2016-08-18 10:57:01
+SS013,Subsystem SS013,subsystem,SY018,3,60,1378135,Supplier_025,9,2,33,Distributor_006,Sea Freight,9843,28,2017-02-08 01:47:13
+SC010,Subcomponent SC010,subcomponent,CP006,2,17,24147,Supplier_026,33,1,34,Distributor_008,Rail,7735,19,2018-12-18 12:54:06
+SC008,Subcomponent SC008,subcomponent,CP019,3,20,28261,Supplier_013,42,1,65,Distributor_010,Truck,9325,3,2010-10-14 20:35:24
+SC001,Subcomponent SC001,subcomponent,CP010,2,20,36362,Supplier_031,17,1,62,Distributor_010,Sea Freight,1123,8,2019-10-04 05:12:31
+CP012,Component CP012,component,SS011,1,22,224911,Supplier_038,19,1,31,Distributor_010,Air Freight,687,24,2011-11-27 18:17:57
+SC010,Subcomponent SC010,subcomponent,CP013,2,6,22275,Supplier_012,47,1,69,Distributor_011,Sea Freight,6710,13,2011-11-08 12:38:06
+SC002,Subcomponent SC002,subcomponent,CP009,1,11,30234,Supplier_014,41,4,11,Distributor_011,Rail,7632,29,2016-12-12 00:51:26
+SC016,Subcomponent SC016,subcomponent,CP007,2,15,9805,Supplier_006,56,2,22,Distributor_009,Air Freight,4819,10,2021-07-30 22:22:53
+SC020,Subcomponent SC020,subcomponent,CP016,2,13,17243,Supplier_043,38,5,5,Distributor_001,Sea Freight,837,20,2013-04-28 15:45:07
+SC012,Subcomponent SC012,subcomponent,CP012,5,20,47103,Supplier_027,26,4,4,Distributor_010,Rail,5988,28,2011-09-22 17:48:09
+CP020,Component CP020,component,SS001,5,16,87766,Supplier_002,11,1,17,Distributor_002,Air Freight,885,14,2015-05-26 06:22:33
+SC015,Subcomponent SC015,subcomponent,CP018,1,10,29774,Supplier_003,41,2,71,Distributor_014,Rail,9463,13,2015-09-16 12:00:13
+SC009,Subcomponent SC009,subcomponent,CP005,4,15,19451,Supplier_010,23,5,15,Distributor_006,Truck,4627,6,2013-06-12 22:51:48
+SC008,Subcomponent SC008,subcomponent,CP020,1,9,19919,Supplier_019,44,4,24,Distributor_003,Rail,1924,3,2020-02-09 15:37:06
+CP016,Component CP016,component,SS011,3,40,247823,Supplier_026,18,3,15,Distributor_001,Rail,5876,15,2010-01-11 01:23:01
+SC015,Subcomponent SC015,subcomponent,CP007,2,4,19591,Supplier_030,30,1,39,Distributor_007,Air Freight,9867,18,2021-12-16 23:55:44
+SC014,Subcomponent SC014,subcomponent,CP002,3,18,39408,Supplier_016,51,2,23,Distributor_014,Rail,7781,30,2011-06-29 02:52:24
+SC017,Subcomponent SC017,subcomponent,CP016,2,16,32174,Supplier_028,48,2,39,Distributor_014,Air Freight,9321,7,2014-06-02 06:24:23
+CP009,Component CP009,component,SS013,5,18,99737,Supplier_022,24,3,15,Distributor_004,Truck,434,23,2010-09-11 13:26:30
+SC002,Subcomponent SC002,subcomponent,CP009,1,9,42070,Supplier_032,54,1,12,Distributor_002,Air Freight,5905,23,2017-05-13 03:03:01
+SS012,Subsystem SS012,subsystem,SY016,3,34,1322485,Supplier_040,12,1,72,Distributor_008,Rail,5004,19,2010-04-12 01:30:47
+CP004,Component CP004,component,SS016,1,39,421475,Supplier_024,16,4,67,Distributor_011,Rail,961,1,2010-04-25 20:44:04
+SC014,Subcomponent SC014,subcomponent,CP001,4,17,56950,Supplier_020,55,1,41,Distributor_011,Rail,1298,29,2017-11-28 09:41:44
+SC011,Subcomponent SC011,subcomponent,CP020,2,9,13324,Supplier_004,25,1,72,Distributor_003,Air Freight,8047,12,2021-04-01 22:05:02
+RM006,Raw_material RM006,raw_material,CP020,4,7,2970,Supplier_011,96,1,49,Distributor_010,Sea Freight,6211,11,2020-12-03 06:00:50
+SC002,Subcomponent SC002,subcomponent,CP006,1,7,27652,Supplier_001,36,3,71,Distributor_004,Rail,8728,11,2013-08-20 06:11:45
+RM005,Raw_material RM005,raw_material,CP006,4,9,2920,Supplier_021,97,3,35,Distributor_005,Sea Freight,4765,3,2010-02-21 23:16:12
+SC003,Subcomponent SC003,subcomponent,CP004,3,13,28399,Supplier_033,30,5,51,Distributor_006,Rail,1509,29,2015-09-19 13:14:31
+RM010,Raw_material RM010,raw_material,CP004,3,1,3746,Supplier_012,56,2,24,Distributor_009,Rail,8286,3,2016-04-07 23:27:03
+CP003,Component CP003,component,SS004,5,34,474628,Supplier_002,34,5,20,Distributor_009,Rail,570,13,2018-08-23 16:44:16
+SC001,Subcomponent SC001,subcomponent,CP017,5,13,8359,Supplier_037,20,1,50,Distributor_006,Sea Freight,2498,27,2016-07-17 05:39:45
+RM012,Raw_material RM012,raw_material,CP017,2,8,2156,Supplier_007,81,1,55,Distributor_001,Air Freight,6140,25,2019-09-09 16:49:37
+SC003,Subcomponent SC003,subcomponent,CP012,4,11,32275,Supplier_026,25,4,24,Distributor_007,Sea Freight,6621,15,2013-01-31 21:53:02
+SC006,Subcomponent SC006,subcomponent,CP005,5,9,17467,Supplier_037,32,5,15,Distributor_013,Rail,1002,14,2017-02-26 15:04:26
+RM002,Raw_material RM002,raw_material,CP005,2,10,583,Supplier_025,46,2,33,Distributor_009,Air Freight,8398,17,2017-12-27 06:23:52
+SC008,Subcomponent SC008,subcomponent,CP003,1,16,27574,Supplier_032,27,4,33,Distributor_013,Rail,1043,4,2019-01-19 01:59:55
+RM020,Raw_material RM020,raw_material,CP003,5,1,2730,Supplier_041,76,4,23,Distributor_014,Rail,3113,2,2015-09-14 05:32:32
+CP020,Component CP020,component,SS019,4,16,231555,Supplier_023,25,5,68,Distributor_005,Air Freight,2189,22,2020-11-26 00:02:34
+SC012,Subcomponent SC012,subcomponent,CP001,2,6,33080,Supplier_039,27,2,16,Distributor_010,Rail,6746,16,2013-02-26 11:40:46
+RM014,Raw_material RM014,raw_material,CP001,5,6,4032,Supplier_002,103,3,1,Distributor_014,Rail,4573,2,2014-04-02 04:25:03
+SC003,Subcomponent SC003,subcomponent,CP017,1,10,16087,Supplier_042,23,4,9,Distributor_008,Air Freight,6164,22,2017-08-14 13:46:49
+SC003,Subcomponent SC003,subcomponent,CP020,4,11,17105,Supplier_018,34,1,44,Distributor_001,Sea Freight,3272,25,2014-10-09 04:32:51
+RM007,Raw_material RM007,raw_material,CP020,5,2,1637,Supplier_039,98,1,36,Distributor_011,Sea Freight,215,21,2013-03-11 21:08:24
+CP007,Component CP007,component,SS008,1,40,76510,Supplier_031,22,2,20,Distributor_013,Rail,744,18,2012-11-14 04:44:23
+SC007,Subcomponent SC007,subcomponent,CP004,4,8,6378,Supplier_042,53,2,44,Distributor_001,Truck,5732,2,2017-01-17 21:37:02
+RM012,Raw_material RM012,raw_material,CP004,4,8,3997,Supplier_038,81,3,26,Distributor_006,Air Freight,179,3,2013-11-10 18:40:12
+SC009,Subcomponent SC009,subcomponent,CP007,3,9,48421,Supplier_029,15,4,63,Distributor_005,Truck,1291,1,2017-08-10 00:45:37
+CP005,Component CP005,component,SS012,1,26,487746,Supplier_035,20,4,11,Distributor_005,Truck,4618,7,2015-01-06 14:07:06
+SC002,Subcomponent SC002,subcomponent,CP005,1,18,24768,Supplier_043,51,4,41,Distributor_005,Sea Freight,5208,22,2012-06-10 16:03:27
+CP004,Component CP004,component,SS011,5,30,153997,Supplier_033,10,2,67,Distributor_004,Air Freight,3309,6,2018-11-06 07:47:49
+SC008,Subcomponent SC008,subcomponent,CP020,4,16,47782,Supplier_027,38,1,46,Distributor_011,Air Freight,863,4,2021-05-08 02:28:47
+SC016,Subcomponent SC016,subcomponent,CP003,4,11,43406,Supplier_014,18,1,60,Distributor_005,Sea Freight,444,22,2010-12-28 07:07:36
+RM015,Raw_material RM015,raw_material,CP003,2,7,1809,Supplier_034,53,1,72,Distributor_014,Sea Freight,2458,25,2018-07-29 08:27:45
+SC014,Subcomponent SC014,subcomponent,CP004,3,17,6496,Supplier_032,24,1,66,Distributor_014,Truck,2800,3,2012-11-30 05:42:40
+RM007,Raw_material RM007,raw_material,CP004,2,10,2879,Supplier_025,52,1,55,Distributor_010,Rail,7629,17,2011-06-24 02:57:05
+CP009,Component CP009,component,SS015,2,35,573734,Supplier_036,19,4,60,Distributor_005,Air Freight,6969,24,2016-04-02 18:58:49
+SC019,Subcomponent SC019,subcomponent,CP014,2,7,33496,Supplier_020,36,2,55,Distributor_010,Sea Freight,3082,13,2011-06-24 03:28:06
+SC008,Subcomponent SC008,subcomponent,CP011,1,20,46354,Supplier_030,33,1,29,Distributor_012,Sea Freight,6509,2,2018-03-09 01:55:18
+RM015,Raw_material RM015,raw_material,CP011,5,7,2345,Supplier_027,57,4,12,Distributor_012,Rail,417,24,2010-08-13 01:14:05
+SC011,Subcomponent SC011,subcomponent,CP009,1,5,33208,Supplier_001,45,2,26,Distributor_013,Truck,2958,25,2013-06-06 06:11:56
+CP007,Component CP007,component,SS006,5,44,220195,Supplier_003,16,4,14,Distributor_008,Sea Freight,7217,10,2014-10-29 21:50:55
+SC002,Subcomponent SC002,subcomponent,CP008,3,8,31839,Supplier_044,29,3,10,Distributor_014,Sea Freight,1644,20,2010-06-02 22:05:36
+SC019,Subcomponent SC019,subcomponent,CP007,2,6,19708,Supplier_031,53,4,61,Distributor_012,Truck,4662,23,2020-05-31 23:02:27
+RM019,Raw_material RM019,raw_material,CP007,2,9,2991,Supplier_009,111,3,67,Distributor_004,Rail,1058,29,2012-11-15 09:12:48
+SS004,Subsystem SS004,subsystem,SY019,1,95,1911212,Supplier_021,17,1,57,Distributor_006,Sea Freight,8575,27,2017-11-06 14:10:01
+CP001,Component CP001,component,SS002,3,18,179924,Supplier_022,10,3,61,Distributor_007,Rail,5159,25,2020-05-11 11:11:35
+SC005,Subcomponent SC005,subcomponent,CP001,4,5,10479,Supplier_034,45,5,60,Distributor_007,Sea Freight,149,7,2014-10-23 02:15:12
+RM020,Raw_material RM020,raw_material,CP001,1,8,1630,Supplier_027,47,2,14,Distributor_012,Sea Freight,573,10,2010-10-21 09:29:55
+SC019,Subcomponent SC019,subcomponent,CP005,2,17,52305,Supplier_019,58,2,70,Distributor_006,Rail,9390,5,2012-10-26 13:27:33
+SC009,Subcomponent SC009,subcomponent,CP001,2,19,23113,Supplier_019,53,3,32,Distributor_011,Rail,2798,17,2013-07-19 18:12:54
+RM011,Raw_material RM011,raw_material,CP001,4,3,5488,Supplier_042,102,1,62,Distributor_001,Sea Freight,8234,21,2013-05-08 12:35:36
+CP005,Component CP005,component,SS008,4,16,134981,Supplier_031,17,2,6,Distributor_008,Sea Freight,9094,23,2014-09-24 05:54:48
+SC018,Subcomponent SC018,subcomponent,CP013,5,6,11309,Supplier_029,28,3,62,Distributor_014,Air Freight,9877,12,2017-02-19 22:52:59
+SC004,Subcomponent SC004,subcomponent,CP005,3,13,7703,Supplier_012,47,4,66,Distributor_001,Truck,5853,17,2014-08-27 15:20:36
+RM014,Raw_material RM014,raw_material,CP005,4,1,4177,Supplier_005,101,2,35,Distributor_004,Sea Freight,9717,1,2019-11-28 19:20:01
+CP018,Component CP018,component,SS004,1,22,71168,Supplier_030,21,3,10,Distributor_013,Air Freight,9157,5,2016-02-16 01:57:16
+SC006,Subcomponent SC006,subcomponent,CP018,4,8,43734,Supplier_005,31,1,11,Distributor_003,Air Freight,2839,11,2021-04-02 05:36:12
+CP005,Component CP005,component,SS002,2,25,329163,Supplier_042,14,5,62,Distributor_001,Sea Freight,769,28,2018-04-29 23:07:21
+RM012,Raw_material RM012,raw_material,CP014,4,7,2711,Supplier_031,55,2,40,Distributor_001,Sea Freight,2958,6,2014-09-08 05:26:50
+SC017,Subcomponent SC017,subcomponent,CP010,3,18,19806,Supplier_013,30,2,7,Distributor_006,Rail,447,30,2014-04-30 22:35:11
+RM003,Raw_material RM003,raw_material,CP010,2,6,898,Supplier_028,99,2,42,Distributor_008,Air Freight,4057,28,2017-11-19 16:25:00
+SC004,Subcomponent SC004,subcomponent,CP007,3,6,29136,Supplier_023,38,1,51,Distributor_007,Rail,9544,13,2019-03-17 13:27:57
+SC020,Subcomponent SC020,subcomponent,CP005,3,5,39510,Supplier_041,45,2,56,Distributor_012,Rail,8033,26,2014-05-23 11:12:16
+CP008,Component CP008,component,SS007,1,25,434632,Supplier_001,15,4,56,Distributor_001,Sea Freight,7367,19,2021-03-31 16:59:47
+SC011,Subcomponent SC011,subcomponent,CP009,5,18,35885,Supplier_038,59,3,15,Distributor_011,Rail,3964,17,2020-12-24 03:11:16
+RM012,Raw_material RM012,raw_material,CP009,2,9,754,Supplier_006,81,4,1,Distributor_006,Air Freight,1517,28,2015-12-09 05:14:46
+RM012,Raw_material RM012,raw_material,CP018,2,6,3654,Supplier_005,63,1,3,Distributor_002,Truck,3225,19,2016-06-04 14:48:36
+SC020,Subcomponent SC020,subcomponent,CP013,5,18,36228,Supplier_030,34,1,24,Distributor_002,Air Freight,8089,26,2017-06-04 16:57:43
+RM013,Raw_material RM013,raw_material,CP013,5,6,483,Supplier_007,64,4,35,Distributor_014,Rail,6259,11,2010-11-14 00:51:48
+SC016,Subcomponent SC016,subcomponent,CP003,3,9,36591,Supplier_015,20,1,33,Distributor_002,Sea Freight,2616,22,2016-10-05 21:14:51
+SC001,Subcomponent SC001,subcomponent,CP008,5,12,20086,Supplier_037,28,2,18,Distributor_014,Rail,7327,26,2017-01-31 13:29:46
+CP007,Component CP007,component,SS018,2,37,446611,Supplier_024,10,2,63,Distributor_004,Rail,408,16,2015-08-24 08:59:23
+RM012,Raw_material RM012,raw_material,CP012,4,3,708,Supplier_025,111,2,22,Distributor_011,Truck,6700,24,2015-09-19 09:51:03
+SC005,Subcomponent SC005,subcomponent,CP002,5,7,52464,Supplier_010,33,5,55,Distributor_001,Rail,6352,5,2011-09-08 16:45:48
+SC002,Subcomponent SC002,subcomponent,CP005,2,21,13849,Supplier_009,51,4,54,Distributor_012,Sea Freight,7190,7,2021-10-24 02:14:37
+RM003,Raw_material RM003,raw_material,CP005,3,5,2862,Supplier_009,64,1,24,Distributor_003,Truck,2113,8,2018-09-09 08:55:33
+SC008,Subcomponent SC008,subcomponent,CP007,3,10,46234,Supplier_031,32,5,54,Distributor_014,Truck,2277,15,2015-04-02 11:10:16
+CP010,Component CP010,component,SS012,3,23,436323,Supplier_040,20,2,67,Distributor_012,Air Freight,586,1,2012-08-07 22:54:46
+SC012,Subcomponent SC012,subcomponent,CP018,2,6,18690,Supplier_027,36,3,70,Distributor_014,Truck,6191,8,2012-11-27 05:31:06
+SC017,Subcomponent SC017,subcomponent,CP019,4,16,9497,Supplier_026,23,1,39,Distributor_005,Truck,5971,3,2021-11-10 15:04:50
+SC001,Subcomponent SC001,subcomponent,CP010,1,18,18379,Supplier_033,53,4,27,Distributor_013,Air Freight,8872,30,2011-07-28 13:10:47
+CP017,Component CP017,component,SS013,2,23,93185,Supplier_032,17,1,68,Distributor_001,Truck,1310,12,2010-06-12 17:37:57
+SC016,Subcomponent SC016,subcomponent,CP013,2,10,25672,Supplier_009,53,1,37,Distributor_003,Truck,1356,27,2013-12-14 17:42:23
+SC014,Subcomponent SC014,subcomponent,CP017,1,19,41492,Supplier_019,39,5,56,Distributor_008,Rail,4717,17,2012-05-06 09:24:49
+SC010,Subcomponent SC010,subcomponent,CP017,2,9,20188,Supplier_019,52,3,49,Distributor_010,Air Freight,9133,20,2013-06-08 04:10:44
+RM010,Raw_material RM010,raw_material,CP017,4,9,1055,Supplier_038,59,2,21,Distributor_004,Sea Freight,3790,17,2018-07-05 12:10:22
+RM016,Raw_material RM016,raw_material,CP003,5,8,853,Supplier_022,73,4,39,Distributor_011,Air Freight,556,30,2013-09-12 11:09:32
+SC006,Subcomponent SC006,subcomponent,CP012,4,9,17215,Supplier_019,32,3,44,Distributor_014,Sea Freight,1888,23,2011-12-31 07:36:09
+RM002,Raw_material RM002,raw_material,CP012,1,2,2162,Supplier_003,78,5,64,Distributor_007,Sea Freight,3940,25,2018-02-14 02:04:37
+SC005,Subcomponent SC005,subcomponent,CP013,4,21,22823,Supplier_027,41,4,62,Distributor_006,Sea Freight,6434,2,2015-06-09 00:58:16
+RM017,Raw_material RM017,raw_material,CP013,3,9,4445,Supplier_017,65,1,14,Distributor_002,Rail,6912,20,2020-12-22 21:44:46
+SC014,Subcomponent SC014,subcomponent,CP004,2,16,32832,Supplier_041,30,5,6,Distributor_010,Sea Freight,7454,5,2018-12-21 23:08:51
+CP002,Component CP002,component,SS004,3,23,70348,Supplier_019,23,2,52,Distributor_009,Sea Freight,7099,23,2016-10-17 01:07:40
+SC005,Subcomponent SC005,subcomponent,CP015,4,19,16593,Supplier_043,50,2,41,Distributor_013,Sea Freight,9183,18,2021-04-10 02:22:35
+RM009,Raw_material RM009,raw_material,CP015,2,3,887,Supplier_004,71,3,69,Distributor_010,Rail,2316,19,2019-04-18 02:30:06
+SC012,Subcomponent SC012,subcomponent,CP018,3,7,51314,Supplier_013,35,1,31,Distributor_004,Air Freight,221,6,2011-01-29 02:04:00
+SC003,Subcomponent SC003,subcomponent,CP002,5,13,35590,Supplier_001,35,2,68,Distributor_007,Air Freight,4611,30,2015-04-17 08:05:09
+RM012,Raw_material RM012,raw_material,CP002,1,3,2063,Supplier_009,73,5,56,Distributor_005,Air Freight,1448,21,2020-12-20 17:02:40
+CP019,Component CP019,component,SS005,2,34,325117,Supplier_002,26,3,21,Distributor_003,Rail,3795,18,2018-09-03 03:02:26
+SC015,Subcomponent SC015,subcomponent,CP017,5,13,8084,Supplier_030,45,5,26,Distributor_005,Sea Freight,5052,30,2016-02-14 08:23:18
+RM020,Raw_material RM020,raw_material,CP017,2,2,4068,Supplier_010,99,3,32,Distributor_008,Sea Freight,6374,5,2011-09-17 10:47:42
+SC011,Subcomponent SC011,subcomponent,CP002,3,12,12955,Supplier_013,52,1,27,Distributor_013,Air Freight,3199,8,2013-12-15 05:24:18
+SC013,Subcomponent SC013,subcomponent,CP019,1,13,14456,Supplier_007,18,4,67,Distributor_006,Air Freight,4820,22,2011-06-06 12:42:27
+CP014,Component CP014,component,SS007,2,28,343723,Supplier_044,22,2,14,Distributor_003,Sea Freight,4603,28,2015-01-05 07:16:39
+SC004,Subcomponent SC004,subcomponent,CP003,2,15,28382,Supplier_040,30,3,20,Distributor_014,Rail,4267,3,2012-03-17 14:28:09
+RM015,Raw_material RM015,raw_material,CP003,5,5,3982,Supplier_044,39,2,42,Distributor_005,Air Freight,3584,26,2018-12-09 10:08:27
+SC017,Subcomponent SC017,subcomponent,CP014,4,9,34145,Supplier_033,24,5,42,Distributor_013,Truck,4055,1,2016-08-01 16:50:57
+SS010,Subsystem SS010,subsystem,SY016,2,96,1288508,Supplier_027,8,2,52,Distributor_011,Air Freight,1728,12,2020-05-27 17:31:52
+CP006,Component CP006,component,SS006,4,28,156422,Supplier_010,15,3,3,Distributor_009,Rail,8151,3,2019-08-29 13:16:47
+SC006,Subcomponent SC006,subcomponent,CP004,4,14,40928,Supplier_010,42,3,7,Distributor_003,Truck,1471,18,2010-01-23 18:31:32
+SC010,Subcomponent SC010,subcomponent,CP010,5,5,44499,Supplier_028,23,1,72,Distributor_001,Rail,465,28,2013-12-15 17:26:40
+SC001,Subcomponent SC001,subcomponent,CP010,1,14,7537,Supplier_027,21,4,67,Distributor_011,Truck,9348,21,2017-11-23 09:22:58
+SC002,Subcomponent SC002,subcomponent,CP006,2,15,32624,Supplier_003,50,3,7,Distributor_004,Truck,5206,20,2012-04-26 12:45:57
+CP008,Component CP008,component,SS018,3,29,324029,Supplier_033,34,5,28,Distributor_008,Truck,3262,11,2019-05-27 16:50:51
+SC001,Subcomponent SC001,subcomponent,CP018,4,11,51214,Supplier_016,32,2,66,Distributor_001,Truck,9936,29,2019-02-03 05:01:32
+SC019,Subcomponent SC019,subcomponent,CP019,3,11,25977,Supplier_012,39,5,27,Distributor_004,Rail,4561,3,2017-10-09 01:13:25
+SC005,Subcomponent SC005,subcomponent,CP008,4,10,32325,Supplier_024,34,4,53,Distributor_006,Air Freight,2725,26,2017-12-20 07:14:57
+SC013,Subcomponent SC013,subcomponent,CP008,3,13,25006,Supplier_012,26,5,17,Distributor_014,Truck,1408,16,2011-04-24 07:36:56
+RM005,Raw_material RM005,raw_material,CP008,5,7,3132,Supplier_007,96,3,48,Distributor_012,Truck,2838,10,2013-04-09 19:04:46
+CP017,Component CP017,component,SS013,2,40,270850,Supplier_030,11,4,2,Distributor_013,Rail,5622,30,2021-07-03 13:13:25
+SC011,Subcomponent SC011,subcomponent,CP020,4,17,24779,Supplier_018,30,2,12,Distributor_006,Sea Freight,3308,3,2014-11-21 00:49:45
+SC014,Subcomponent SC014,subcomponent,CP017,3,15,42107,Supplier_026,43,4,41,Distributor_007,Air Freight,6330,4,2015-05-24 03:47:50
+CP008,Component CP008,component,SS004,4,16,261437,Supplier_028,12,2,62,Distributor_009,Air Freight,1962,28,2013-11-08 21:49:20
+SC009,Subcomponent SC009,subcomponent,CP016,2,11,34290,Supplier_006,44,1,16,Distributor_006,Sea Freight,5014,6,2018-05-28 20:27:30
+SC016,Subcomponent SC016,subcomponent,CP008,3,10,28977,Supplier_042,32,5,35,Distributor_005,Truck,9299,3,2017-10-25 15:45:13
+CP009,Component CP009,component,SS010,1,22,382256,Supplier_011,16,1,1,Distributor_003,Sea Freight,8416,9,2013-07-27 06:44:42
+SC013,Subcomponent SC013,subcomponent,CP009,1,18,27373,Supplier_011,49,3,24,Distributor_006,Truck,8152,27,2020-05-27 19:17:09
+SS020,Subsystem SS020,subsystem,SY015,3,43,2180899,Supplier_016,14,5,9,Distributor_014,Truck,3782,25,2020-08-03 15:36:33
+CP014,Component CP014,component,SS014,2,28,480905,Supplier_007,26,1,11,Distributor_014,Sea Freight,9231,13,2018-03-15 12:31:04
+SC004,Subcomponent SC004,subcomponent,CP001,1,5,46953,Supplier_006,42,1,36,Distributor_011,Truck,5891,24,2021-04-06 22:40:31
+SC003,Subcomponent SC003,subcomponent,CP014,2,15,23988,Supplier_038,38,5,64,Distributor_002,Sea Freight,9349,17,2017-03-08 02:36:46
+CP010,Component CP010,component,SS014,1,26,307844,Supplier_013,16,1,17,Distributor_003,Truck,9985,25,2012-12-15 07:40:47
+SC015,Subcomponent SC015,subcomponent,CP005,5,18,13894,Supplier_016,24,3,3,Distributor_013,Truck,549,28,2017-03-05 23:21:01
+SC006,Subcomponent SC006,subcomponent,CP010,1,13,23545,Supplier_014,29,3,32,Distributor_011,Sea Freight,6787,18,2018-06-18 00:01:52
+CP003,Component CP003,component,SS018,1,37,325261,Supplier_014,30,5,51,Distributor_003,Air Freight,7060,20,2018-09-27 12:54:41
+SC011,Subcomponent SC011,subcomponent,CP010,1,16,32350,Supplier_006,57,3,72,Distributor_009,Air Freight,5596,7,2021-08-28 20:10:58
+SC004,Subcomponent SC004,subcomponent,CP003,1,14,27994,Supplier_026,37,5,39,Distributor_009,Air Freight,2686,24,2011-08-27 20:59:36
+RM004,Raw_material RM004,raw_material,CP003,5,6,2379,Supplier_017,64,2,2,Distributor_014,Sea Freight,9020,15,2011-07-20 14:45:34
+CP018,Component CP018,component,SS020,1,20,266779,Supplier_007,37,3,13,Distributor_010,Truck,713,19,2010-05-22 02:15:44
+SC008,Subcomponent SC008,subcomponent,CP018,5,7,32389,Supplier_020,52,5,38,Distributor_001,Rail,8332,9,2018-03-13 08:29:23
+RM009,Raw_material RM009,raw_material,CP018,4,10,4507,Supplier_009,106,2,19,Distributor_005,Sea Freight,7520,14,2010-04-21 19:28:17
+SS011,Subsystem SS011,subsystem,SY009,5,75,1268768,Supplier_024,10,4,41,Distributor_012,Truck,2353,30,2018-11-03 11:22:04
+CP015,Component CP015,component,SS008,1,20,253681,Supplier_034,19,4,17,Distributor_009,Truck,3826,5,2014-04-24 15:33:27
+SC003,Subcomponent SC003,subcomponent,CP016,4,16,56766,Supplier_023,38,5,56,Distributor_006,Rail,7370,8,2016-03-04 11:55:28
+SC006,Subcomponent SC006,subcomponent,CP015,5,9,33189,Supplier_041,42,3,46,Distributor_009,Truck,1064,6,2019-10-31 21:47:01
+RM009,Raw_material RM009,raw_material,CP015,4,1,4239,Supplier_027,61,5,34,Distributor_006,Air Freight,5058,10,2010-10-17 16:06:06
+CP014,Component CP014,component,SS011,1,36,242083,Supplier_029,14,2,56,Distributor_001,Truck,5289,13,2011-02-25 22:01:56
+SC010,Subcomponent SC010,subcomponent,CP014,4,10,42799,Supplier_026,45,3,66,Distributor_001,Sea Freight,7795,6,2013-06-12 21:00:24
+SC017,Subcomponent SC017,subcomponent,CP002,5,21,26818,Supplier_004,58,3,23,Distributor_011,Sea Freight,5613,23,2021-05-29 17:30:07
+RM018,Raw_material RM018,raw_material,CP002,4,9,2240,Supplier_020,78,5,1,Distributor_005,Rail,3327,10,2015-07-25 22:49:14
+SC017,Subcomponent SC017,subcomponent,CP005,3,7,32566,Supplier_032,29,5,37,Distributor_006,Rail,2361,3,2018-03-29 16:25:11
+SC013,Subcomponent SC013,subcomponent,CP020,1,14,7388,Supplier_021,23,4,20,Distributor_002,Sea Freight,871,15,2012-01-05 19:11:22
+CP020,Component CP020,component,SS014,3,36,73268,Supplier_011,20,3,5,Distributor_012,Truck,6597,5,2015-08-31 11:41:47
+SC014,Subcomponent SC014,subcomponent,CP005,3,11,47065,Supplier_023,24,3,48,Distributor_013,Air Freight,4062,2,2016-11-26 23:18:29
+RM006,Raw_material RM006,raw_material,CP005,5,1,1492,Supplier_025,64,4,52,Distributor_007,Sea Freight,9869,5,2013-11-29 05:15:25
+SC011,Subcomponent SC011,subcomponent,CP012,1,4,22615,Supplier_034,25,4,32,Distributor_008,Rail,7460,1,2011-08-25 18:32:27
+SC014,Subcomponent SC014,subcomponent,CP014,4,15,21240,Supplier_035,33,5,46,Distributor_010,Truck,3301,16,2011-08-24 09:49:25
+RM008,Raw_material RM008,raw_material,CP014,3,4,3923,Supplier_022,75,3,61,Distributor_001,Truck,8862,12,2018-10-14 08:42:17
+SC004,Subcomponent SC004,subcomponent,CP005,2,8,14564,Supplier_009,39,5,27,Distributor_009,Sea Freight,2558,28,2014-02-09 21:30:00
+RM005,Raw_material RM005,raw_material,CP005,3,9,4063,Supplier_001,44,2,16,Distributor_004,Rail,8175,19,2016-01-06 03:56:52
+SC009,Subcomponent SC009,subcomponent,CP020,4,18,41048,Supplier_014,30,3,11,Distributor_003,Air Freight,5361,1,2020-04-19 23:42:10
+CP009,Component CP009,component,SS020,2,21,387571,Supplier_019,16,4,70,Distributor_010,Rail,514,6,2015-02-27 08:31:01
+SC003,Subcomponent SC003,subcomponent,CP013,2,7,32750,Supplier_005,27,1,66,Distributor_010,Sea Freight,7505,19,2010-12-31 07:26:04
+SC014,Subcomponent SC014,subcomponent,CP007,4,13,39471,Supplier_019,26,4,67,Distributor_001,Rail,4018,7,2015-01-23 18:56:22
+SC004,Subcomponent SC004,subcomponent,CP016,4,8,22838,Supplier_022,51,5,33,Distributor_003,Rail,4331,2,2021-12-03 15:48:06
+RM019,Raw_material RM019,raw_material,CP016,1,2,3961,Supplier_001,49,2,12,Distributor_012,Sea Freight,8000,26,2016-10-25 03:57:55
+SC003,Subcomponent SC003,subcomponent,CP009,4,11,31718,Supplier_038,34,4,50,Distributor_009,Rail,3446,9,2013-12-14 21:59:13
+CP008,Component CP008,component,SS018,4,21,256861,Supplier_013,36,3,40,Distributor_013,Sea Freight,6523,25,2016-01-31 07:44:58
+SC016,Subcomponent SC016,subcomponent,CP018,2,19,34858,Supplier_010,51,3,67,Distributor_005,Truck,3930,9,2021-06-06 16:15:33
+SC010,Subcomponent SC010,subcomponent,CP008,5,10,14275,Supplier_004,54,2,2,Distributor_008,Air Freight,4784,12,2020-09-28 13:34:37
+CP001,Component CP001,component,SS019,2,19,314282,Supplier_003,19,2,18,Distributor_006,Sea Freight,6133,20,2011-12-21 16:52:49
+SC002,Subcomponent SC002,subcomponent,CP002,1,10,35102,Supplier_024,47,3,27,Distributor_010,Rail,9751,19,2010-11-23 12:59:15
+SC015,Subcomponent SC015,subcomponent,CP001,5,10,40845,Supplier_036,19,5,57,Distributor_007,Air Freight,7077,4,2016-03-30 07:49:44
+CP009,Component CP009,component,SS020,5,21,325438,Supplier_041,17,3,44,Distributor_002,Truck,7283,21,2015-04-12 22:53:53
+SC001,Subcomponent SC001,subcomponent,CP003,3,7,14849,Supplier_043,23,3,40,Distributor_005,Sea Freight,8327,8,2013-11-21 21:31:10
+SC018,Subcomponent SC018,subcomponent,CP019,4,12,22275,Supplier_019,22,2,1,Distributor_004,Truck,1268,28,2011-09-14 15:08:06
+RM010,Raw_material RM010,raw_material,CP019,5,8,966,Supplier_019,82,2,48,Distributor_007,Sea Freight,2710,2,2013-07-02 20:32:15
+SC005,Subcomponent SC005,subcomponent,CP005,2,4,20297,Supplier_006,35,2,20,Distributor_009,Air Freight,4127,11,2010-08-18 08:05:19
+RM016,Raw_material RM016,raw_material,CP005,3,4,2916,Supplier_012,41,2,0,Distributor_003,Sea Freight,880,16,2012-09-01 04:28:11
+SC006,Subcomponent SC006,subcomponent,CP009,2,17,28878,Supplier_011,25,5,5,Distributor_004,Sea Freight,7217,3,2011-08-30 07:46:40
+CP012,Component CP012,component,SS014,4,35,222503,Supplier_037,16,5,67,Distributor_005,Rail,4207,12,2017-11-06 10:18:58
+SC006,Subcomponent SC006,subcomponent,CP013,5,18,14510,Supplier_025,39,3,71,Distributor_007,Rail,8807,16,2013-07-04 15:05:28
+SC012,Subcomponent SC012,subcomponent,CP006,3,5,28672,Supplier_001,55,3,72,Distributor_004,Air Freight,8591,29,2010-07-25 16:22:28
+RM003,Raw_material RM003,raw_material,CP006,3,3,1285,Supplier_028,83,2,9,Distributor_014,Rail,8491,11,2016-08-03 03:20:50
+SC019,Subcomponent SC019,subcomponent,CP011,2,13,13289,Supplier_005,27,1,38,Distributor_010,Truck,6333,17,2016-01-18 10:22:57
+RM006,Raw_material RM006,raw_material,CP011,3,9,2017,Supplier_016,76,4,54,Distributor_007,Truck,6534,19,2016-04-02 09:17:58
+SC012,Subcomponent SC012,subcomponent,CP013,4,20,37372,Supplier_032,37,3,11,Distributor_012,Truck,2527,3,2012-06-17 13:14:53
+SC019,Subcomponent SC019,subcomponent,CP012,5,6,41554,Supplier_033,33,2,44,Distributor_008,Rail,4728,25,2021-02-04 05:09:00
+RM008,Raw_material RM008,raw_material,CP012,4,5,1317,Supplier_008,67,2,29,Distributor_010,Truck,7596,12,2012-02-05 21:39:07
+CP018,Component CP018,component,SS008,4,15,191522,Supplier_033,11,2,11,Distributor_012,Truck,8171,5,2020-02-13 16:01:26
+SC002,Subcomponent SC002,subcomponent,CP005,2,11,39892,Supplier_037,40,1,20,Distributor_013,Air Freight,3454,4,2018-02-04 11:37:29
+RM006,Raw_material RM006,raw_material,CP016,3,7,2646,Supplier_026,74,5,19,Distributor_007,Sea Freight,1178,9,2016-08-18 00:43:19
+SC005,Subcomponent SC005,subcomponent,CP014,3,9,19082,Supplier_025,33,5,56,Distributor_003,Truck,3525,21,2015-03-19 16:46:59
+RM008,Raw_material RM008,raw_material,CP014,3,8,2545,Supplier_013,46,1,18,Distributor_002,Air Freight,2802,22,2018-04-13 20:45:27
+SC004,Subcomponent SC004,subcomponent,CP018,5,13,50253,Supplier_038,30,1,29,Distributor_010,Sea Freight,9495,24,2017-09-08 16:11:34
+RM016,Raw_material RM016,raw_material,CP018,5,3,2907,Supplier_002,104,5,3,Distributor_005,Air Freight,7157,1,2010-04-10 08:50:41
+CP011,Component CP011,component,SS010,3,18,271693,Supplier_006,12,4,38,Distributor_013,Rail,2883,6,2014-02-27 16:06:05
+SC015,Subcomponent SC015,subcomponent,CP013,3,18,23537,Supplier_008,46,3,30,Distributor_005,Air Freight,2803,3,2021-04-11 05:00:41
+SC004,Subcomponent SC004,subcomponent,CP008,3,7,28582,Supplier_014,34,4,46,Distributor_007,Sea Freight,1409,21,2012-06-11 17:07:43
+SC017,Subcomponent SC017,subcomponent,CP011,4,13,14666,Supplier_025,17,3,10,Distributor_014,Truck,1364,3,2015-09-02 10:38:39
+RM009,Raw_material RM009,raw_material,CP011,5,9,521,Supplier_003,111,4,57,Distributor_004,Sea Freight,8230,5,2013-03-21 17:55:15
+SS015,Subsystem SS015,subsystem,SY012,4,67,1484244,Supplier_023,16,2,64,Distributor_014,Truck,3965,19,2021-06-10 01:38:44
+CP014,Component CP014,component,SS005,2,16,267702,Supplier_019,23,5,34,Distributor_003,Truck,6703,14,2011-08-15 16:47:48
+SC019,Subcomponent SC019,subcomponent,CP006,1,11,58825,Supplier_038,54,2,39,Distributor_003,Air Freight,4048,29,2011-06-26 22:57:50
+RM012,Raw_material RM012,raw_material,CP006,5,1,746,Supplier_005,75,5,71,Distributor_009,Air Freight,3417,16,2012-06-30 12:19:09
+SC014,Subcomponent SC014,subcomponent,CP013,3,7,26579,Supplier_036,40,3,26,Distributor_008,Rail,897,16,2011-03-30 01:59:29
+SC002,Subcomponent SC002,subcomponent,CP004,5,19,24901,Supplier_016,26,1,48,Distributor_007,Sea Freight,2119,11,2012-03-17 16:06:01
+SC019,Subcomponent SC019,subcomponent,CP014,4,9,57270,Supplier_002,32,3,28,Distributor_003,Sea Freight,7171,15,2017-07-14 09:26:56
+CP012,Component CP012,component,SS013,4,40,209506,Supplier_009,20,5,0,Distributor_014,Sea Freight,3273,27,2014-01-31 09:49:55
+SC019,Subcomponent SC019,subcomponent,CP003,4,13,7237,Supplier_013,32,3,13,Distributor_010,Air Freight,3300,23,2010-12-07 18:55:40
+RM004,Raw_material RM004,raw_material,CP003,4,6,5240,Supplier_001,99,1,43,Distributor_001,Rail,8083,3,2015-04-17 07:03:52
+SC015,Subcomponent SC015,subcomponent,CP004,1,6,7744,Supplier_025,48,1,72,Distributor_014,Rail,1764,27,2020-07-12 04:40:42
+RM012,Raw_material RM012,raw_material,CP004,1,4,953,Supplier_003,65,5,45,Distributor_003,Sea Freight,4024,25,2017-04-10 19:56:50
+SC001,Subcomponent SC001,subcomponent,CP014,3,17,33223,Supplier_033,49,4,55,Distributor_011,Rail,1063,27,2014-11-28 05:57:53
+SC006,Subcomponent SC006,subcomponent,CP012,2,18,6510,Supplier_019,58,2,43,Distributor_012,Truck,4867,27,2021-11-28 07:29:39
+RM001,Raw_material RM001,raw_material,CP012,3,6,2193,Supplier_043,80,3,58,Distributor_014,Rail,9066,11,2016-04-09 05:10:23
+CP013,Component CP013,component,SS001,3,33,212210,Supplier_030,31,4,16,Distributor_014,Truck,4303,27,2019-12-20 10:33:28
+SC005,Subcomponent SC005,subcomponent,CP006,5,5,19535,Supplier_042,32,3,22,Distributor_003,Sea Freight,130,9,2010-08-11 08:16:21
+SC011,Subcomponent SC011,subcomponent,CP010,5,18,33825,Supplier_035,48,1,45,Distributor_010,Rail,5291,19,2011-05-16 01:10:11
+SC016,Subcomponent SC016,subcomponent,CP013,1,18,22153,Supplier_008,20,3,27,Distributor_012,Rail,9217,26,2019-11-29 01:31:46
+CP009,Component CP009,component,SS015,4,32,83311,Supplier_033,18,4,0,Distributor_004,Rail,8913,3,2011-10-27 00:11:40
+SC013,Subcomponent SC013,subcomponent,CP009,2,18,36646,Supplier_027,33,1,69,Distributor_013,Sea Freight,7449,10,2020-03-04 02:53:26
+RM013,Raw_material RM013,raw_material,CP009,2,6,3842,Supplier_027,47,2,54,Distributor_008,Rail,7021,2,2017-10-11 05:15:04
+SS009,Subsystem SS009,subsystem,SY006,4,68,1587138,Supplier_034,13,4,53,Distributor_012,Rail,5376,20,2020-10-20 06:45:58
+CP007,Component CP007,component,SS010,4,42,199825,Supplier_009,21,3,65,Distributor_008,Rail,7539,11,2016-08-10 18:02:45
+SC008,Subcomponent SC008,subcomponent,CP004,1,12,37994,Supplier_041,33,1,24,Distributor_003,Air Freight,9127,27,2018-12-30 22:25:05
+RM014,Raw_material RM014,raw_material,CP019,1,9,3838,Supplier_041,64,4,11,Distributor_002,Sea Freight,568,19,2011-04-20 01:56:59
+SC010,Subcomponent SC010,subcomponent,CP007,2,9,30569,Supplier_043,17,3,30,Distributor_003,Sea Freight,6371,2,2013-03-11 19:03:30
+RM016,Raw_material RM016,raw_material,CP007,1,9,4974,Supplier_029,103,3,61,Distributor_006,Rail,9204,2,2019-05-20 02:48:52
+SC018,Subcomponent SC018,subcomponent,CP007,4,19,7498,Supplier_020,38,5,62,Distributor_007,Sea Freight,910,13,2012-10-30 15:23:24
+RM003,Raw_material RM003,raw_material,CP007,5,4,1626,Supplier_040,48,5,49,Distributor_008,Air Freight,957,16,2020-12-10 00:02:41
+CP011,Component CP011,component,SS017,5,37,120276,Supplier_018,14,3,28,Distributor_006,Rail,1441,24,2010-11-06 09:05:29
+SC006,Subcomponent SC006,subcomponent,CP007,1,13,23457,Supplier_012,46,5,29,Distributor_004,Air Freight,3364,9,2015-11-05 08:00:32
+SC019,Subcomponent SC019,subcomponent,CP011,3,12,7678,Supplier_013,20,3,36,Distributor_004,Rail,8667,14,2012-02-22 00:32:25
+RM004,Raw_material RM004,raw_material,CP011,2,1,2245,Supplier_038,60,2,54,Distributor_011,Air Freight,7408,17,2019-07-28 21:51:13
+CP001,Component CP001,component,SS020,2,44,57365,Supplier_001,20,1,48,Distributor_009,Truck,240,13,2018-03-17 06:01:43
+SC017,Subcomponent SC017,subcomponent,CP004,3,17,7105,Supplier_033,39,3,13,Distributor_004,Rail,9128,20,2017-11-26 10:59:47
+SC003,Subcomponent SC003,subcomponent,CP001,3,14,29619,Supplier_029,17,1,42,Distributor_001,Truck,2060,27,2020-04-11 17:11:53
+RM015,Raw_material RM015,raw_material,CP001,1,9,2581,Supplier_037,46,4,9,Distributor_011,Rail,1618,16,2010-11-30 19:10:17
+CP012,Component CP012,component,SS009,5,26,342566,Supplier_041,17,1,54,Distributor_008,Rail,583,11,2019-11-20 22:51:01
+SC002,Subcomponent SC002,subcomponent,CP012,2,7,41444,Supplier_002,44,1,67,Distributor_005,Sea Freight,8429,13,2016-06-11 14:10:52
+SS008,Subsystem SS008,subsystem,SY016,1,69,745160,Supplier_018,6,1,70,Distributor_008,Truck,9465,25,2014-07-05 20:28:04
+CP001,Component CP001,component,SS015,4,22,173062,Supplier_039,11,1,51,Distributor_001,Truck,5278,25,2014-10-01 03:57:43
+SC017,Subcomponent SC017,subcomponent,CP016,2,17,40496,Supplier_015,28,4,70,Distributor_007,Truck,260,7,2016-09-06 05:37:54
+SC017,Subcomponent SC017,subcomponent,CP001,3,11,15547,Supplier_035,45,3,57,Distributor_007,Air Freight,1118,2,2013-07-01 05:06:56
+CP018,Component CP018,component,SS008,1,41,89306,Supplier_008,29,3,62,Distributor_004,Truck,3647,22,2012-08-12 13:55:49
+SC016,Subcomponent SC016,subcomponent,CP018,1,15,12620,Supplier_030,51,2,37,Distributor_004,Truck,7950,6,2021-03-21 06:09:28
+SS003,Subsystem SS003,subsystem,SY002,3,85,1892146,Supplier_015,5,3,64,Distributor_004,Sea Freight,7075,7,2018-05-19 11:35:56
+SC018,Subcomponent SC018,subcomponent,CP019,2,8,32850,Supplier_009,45,5,28,Distributor_010,Sea Freight,9042,29,2011-09-30 07:44:17
+SC017,Subcomponent SC017,subcomponent,CP006,4,12,21876,Supplier_031,34,5,33,Distributor_009,Truck,1452,20,2012-07-15 21:09:48
+RM002,Raw_material RM002,raw_material,CP006,4,7,2987,Supplier_033,68,5,9,Distributor_010,Sea Freight,4480,13,2014-01-20 23:16:40
+CP015,Component CP015,component,SS009,3,15,64821,Supplier_001,10,4,39,Distributor_014,Truck,3035,3,2016-02-01 09:14:18
+SC020,Subcomponent SC020,subcomponent,CP018,4,6,12262,Supplier_036,27,1,40,Distributor_002,Rail,1459,22,2021-09-30 03:37:36
+SC016,Subcomponent SC016,subcomponent,CP012,4,9,38805,Supplier_033,28,4,28,Distributor_004,Rail,625,15,2016-07-18 16:52:31
+SC018,Subcomponent SC018,subcomponent,CP005,1,19,22751,Supplier_003,41,3,61,Distributor_006,Air Freight,6375,18,2013-02-06 12:45:53
+SC020,Subcomponent SC020,subcomponent,CP014,2,19,18405,Supplier_037,24,5,53,Distributor_008,Truck,6097,21,2018-09-05 20:40:44
+RM013,Raw_material RM013,raw_material,CP014,5,5,3540,Supplier_011,71,5,16,Distributor_014,Sea Freight,7767,29,2017-08-22 14:35:13
+SC006,Subcomponent SC006,subcomponent,CP015,5,13,7687,Supplier_044,39,3,3,Distributor_012,Truck,1675,24,2010-02-15 10:33:48
+CP008,Component CP008,component,SS016,3,18,102755,Supplier_043,15,1,61,Distributor_012,Truck,4231,29,2019-09-09 05:25:47
+SC001,Subcomponent SC001,subcomponent,CP009,2,7,21739,Supplier_016,31,1,44,Distributor_010,Rail,4576,20,2020-02-05 10:51:32
+SC014,Subcomponent SC014,subcomponent,CP003,4,7,25100,Supplier_017,33,2,27,Distributor_012,Air Freight,8128,1,2021-01-01 20:35:41
+SC018,Subcomponent SC018,subcomponent,CP013,3,13,10774,Supplier_042,29,2,19,Distributor_010,Rail,4018,11,2020-12-24 09:13:28
+RM010,Raw_material RM010,raw_material,CP013,2,1,3121,Supplier_005,86,1,10,Distributor_008,Truck,4984,10,2014-06-10 03:24:05
+SC016,Subcomponent SC016,subcomponent,CP020,1,6,22755,Supplier_010,23,4,4,Distributor_012,Truck,9507,14,2011-05-07 06:20:30
+RM002,Raw_material RM002,raw_material,CP020,3,7,2219,Supplier_028,107,3,31,Distributor_011,Sea Freight,918,6,2016-02-27 06:33:16
+SC001,Subcomponent SC001,subcomponent,CP008,3,8,23571,Supplier_034,51,2,70,Distributor_008,Air Freight,1881,9,2017-08-18 10:17:31
+CP008,Component CP008,component,SS001,2,34,187543,Supplier_041,15,1,40,Distributor_012,Air Freight,2966,3,2017-07-14 04:32:15
+SC009,Subcomponent SC009,subcomponent,CP002,1,19,44902,Supplier_035,29,4,23,Distributor_008,Truck,6059,28,2010-11-29 12:11:50
+SC020,Subcomponent SC020,subcomponent,CP001,5,5,26152,Supplier_004,16,4,55,Distributor_013,Sea Freight,9896,17,2012-09-20 15:07:32
+RM013,Raw_material RM013,raw_material,CP001,4,9,4353,Supplier_035,57,5,60,Distributor_001,Sea Freight,1295,14,2016-01-27 12:59:48
+SC013,Subcomponent SC013,subcomponent,CP008,1,18,37594,Supplier_008,21,1,2,Distributor_001,Air Freight,4538,12,2015-08-03 11:43:39
+CP009,Component CP009,component,SS011,5,43,88459,Supplier_040,8,2,43,Distributor_001,Rail,2827,2,2020-04-14 10:10:55
+SC019,Subcomponent SC019,subcomponent,CP012,2,6,18207,Supplier_002,14,4,46,Distributor_009,Truck,9634,24,2020-03-30 18:06:02
+SC002,Subcomponent SC002,subcomponent,CP004,5,18,9767,Supplier_039,27,1,9,Distributor_007,Rail,8134,26,2014-11-15 02:07:19
+SC001,Subcomponent SC001,subcomponent,CP009,4,14,9332,Supplier_013,46,1,0,Distributor_005,Air Freight,7306,21,2014-12-18 23:49:00
+CP017,Component CP017,component,SS003,4,31,356383,Supplier_038,19,4,70,Distributor_002,Truck,7850,10,2019-09-23 11:53:58
+SC012,Subcomponent SC012,subcomponent,CP017,5,5,29147,Supplier_012,36,1,6,Distributor_014,Air Freight,9342,16,2015-03-23 02:04:31
+CP003,Component CP003,component,SS013,3,23,342875,Supplier_006,25,3,47,Distributor_006,Air Freight,4396,21,2021-03-20 05:58:06
+SC014,Subcomponent SC014,subcomponent,CP016,4,14,19119,Supplier_004,40,3,31,Distributor_002,Air Freight,9443,16,2019-05-03 09:45:15
+SC004,Subcomponent SC004,subcomponent,CP011,2,16,20816,Supplier_038,38,2,27,Distributor_005,Truck,3609,11,2016-11-16 19:41:47
+SC008,Subcomponent SC008,subcomponent,CP003,1,18,19550,Supplier_036,55,5,9,Distributor_008,Sea Freight,8369,25,2014-11-14 11:26:36
+CP011,Component CP011,component,SS008,2,23,448270,Supplier_009,16,3,70,Distributor_012,Truck,307,1,2020-04-06 18:12:30
+SC016,Subcomponent SC016,subcomponent,CP007,4,18,35869,Supplier_018,33,5,39,Distributor_010,Rail,1591,10,2012-09-22 04:09:28
+SC014,Subcomponent SC014,subcomponent,CP001,3,20,13879,Supplier_004,22,3,22,Distributor_003,Air Freight,5231,18,2012-08-06 17:52:02
+SC005,Subcomponent SC005,subcomponent,CP011,2,21,54083,Supplier_022,43,2,69,Distributor_003,Truck,9440,1,2021-04-19 17:29:32
+CP011,Component CP011,component,SS004,4,28,297394,Supplier_010,25,3,72,Distributor_004,Truck,434,10,2018-10-21 21:39:05
+RM015,Raw_material RM015,raw_material,CP010,3,3,4120,Supplier_026,64,2,39,Distributor_001,Rail,7497,15,2013-12-20 22:04:13
+SC019,Subcomponent SC019,subcomponent,CP001,5,11,50284,Supplier_022,37,3,46,Distributor_008,Rail,5629,27,2012-10-28 15:59:03
+SC005,Subcomponent SC005,subcomponent,CP011,3,9,33305,Supplier_035,45,4,40,Distributor_001,Sea Freight,6239,1,2013-11-09 11:28:53
+SC010,Subcomponent SC010,subcomponent,CP011,1,10,41685,Supplier_016,50,4,35,Distributor_008,Truck,5471,13,2019-04-17 05:17:13
+RM001,Raw_material RM001,raw_material,CP011,4,10,2878,Supplier_037,82,4,10,Distributor_014,Truck,5623,8,2019-11-06 03:20:35
+CP016,Component CP016,component,SS011,4,16,120499,Supplier_008,19,5,0,Distributor_007,Sea Freight,4679,29,2020-02-03 08:42:34
+SC007,Subcomponent SC007,subcomponent,CP002,1,18,9306,Supplier_010,31,2,59,Distributor_003,Sea Freight,4068,27,2011-05-10 16:21:57
+SC001,Subcomponent SC001,subcomponent,CP006,1,14,34740,Supplier_030,28,4,63,Distributor_004,Rail,1775,7,2015-04-28 04:00:15
+RM019,Raw_material RM019,raw_material,CP006,4,4,1321,Supplier_032,69,1,12,Distributor_008,Sea Freight,4123,9,2014-05-24 16:34:06
+SC010,Subcomponent SC010,subcomponent,CP016,1,15,25589,Supplier_040,16,5,23,Distributor_013,Sea Freight,8711,8,2014-09-08 05:59:48
+CP016,Component CP016,component,SS013,3,36,60873,Supplier_012,15,4,64,Distributor_003,Rail,8134,20,2018-02-12 05:32:20
+SC020,Subcomponent SC020,subcomponent,CP008,3,15,22967,Supplier_032,37,1,34,Distributor_010,Truck,5437,18,2015-01-31 09:19:05
+SC013,Subcomponent SC013,subcomponent,CP016,2,18,39186,Supplier_014,25,3,9,Distributor_007,Sea Freight,7075,1,2020-05-07 05:07:52
+SS004,Subsystem SS004,subsystem,SY016,5,70,2037539,Supplier_041,5,2,12,Distributor_011,Rail,5891,22,2012-03-24 19:16:09
+CP009,Component CP009,component,SS009,5,39,203575,Supplier_043,18,3,58,Distributor_008,Air Freight,3419,20,2014-08-14 11:48:00
+SC011,Subcomponent SC011,subcomponent,CP019,5,17,41513,Supplier_030,35,2,0,Distributor_010,Sea Freight,6151,21,2012-07-30 23:51:03
+SC003,Subcomponent SC003,subcomponent,CP002,3,14,28418,Supplier_012,63,2,59,Distributor_001,Sea Freight,4641,26,2010-01-09 19:46:48
+RM013,Raw_material RM013,raw_material,CP002,3,1,2254,Supplier_029,86,3,52,Distributor_001,Truck,684,21,2015-04-24 12:30:21
+SC004,Subcomponent SC004,subcomponent,CP003,3,13,23531,Supplier_015,30,1,3,Distributor_003,Rail,4877,20,2019-04-05 15:25:32
+RM013,Raw_material RM013,raw_material,CP003,5,4,5018,Supplier_020,76,3,39,Distributor_007,Rail,2934,27,2018-12-10 03:39:54
+SC015,Subcomponent SC015,subcomponent,CP003,4,20,36439,Supplier_021,35,2,14,Distributor_009,Air Freight,9161,5,2019-06-19 11:12:08
+SC012,Subcomponent SC012,subcomponent,CP009,5,20,40504,Supplier_018,26,5,49,Distributor_006,Sea Freight,4506,9,2013-07-18 18:31:12
+RM016,Raw_material RM016,raw_material,CP009,4,7,1428,Supplier_021,47,3,4,Distributor_014,Rail,4198,15,2019-07-05 07:01:06
+CP018,Component CP018,component,SS015,3,45,219733,Supplier_008,11,2,62,Distributor_004,Sea Freight,697,18,2010-02-12 16:16:17
+SC020,Subcomponent SC020,subcomponent,CP013,5,4,17108,Supplier_038,52,5,19,Distributor_005,Truck,2420,11,2011-09-21 15:38:48
+SC012,Subcomponent SC012,subcomponent,CP002,5,8,47274,Supplier_034,30,3,25,Distributor_011,Air Freight,2205,29,2011-02-09 02:46:39
+SC012,Subcomponent SC012,subcomponent,CP009,5,15,39919,Supplier_041,24,1,50,Distributor_003,Air Freight,2320,13,2012-08-23 04:37:04
+RM004,Raw_material RM004,raw_material,CP009,5,8,1168,Supplier_004,62,4,54,Distributor_013,Sea Freight,8199,12,2011-02-21 21:21:35
+SC002,Subcomponent SC002,subcomponent,CP018,3,6,38792,Supplier_016,27,4,20,Distributor_001,Truck,5967,4,2018-01-30 20:14:38
+CP011,Component CP011,component,SS005,4,23,374612,Supplier_033,8,5,11,Distributor_008,Rail,4746,14,2019-06-27 05:27:34
+SC008,Subcomponent SC008,subcomponent,CP005,5,15,14576,Supplier_042,64,2,27,Distributor_007,Air Freight,9921,4,2014-04-18 16:06:17
+SC004,Subcomponent SC004,subcomponent,CP012,1,5,38711,Supplier_021,26,5,58,Distributor_012,Sea Freight,8425,12,2010-11-05 16:45:28
+SC003,Subcomponent SC003,subcomponent,CP011,5,18,22105,Supplier_006,50,5,14,Distributor_008,Truck,4707,24,2010-02-25 06:15:31
+RM015,Raw_material RM015,raw_material,CP011,2,3,1047,Supplier_016,105,3,15,Distributor_010,Rail,4805,15,2020-11-30 12:20:27
+CP018,Component CP018,component,SS011,4,24,392137,Supplier_022,18,5,18,Distributor_003,Truck,3447,18,2014-07-19 09:32:17
+SC018,Subcomponent SC018,subcomponent,CP004,1,4,24122,Supplier_002,35,1,42,Distributor_009,Sea Freight,8509,7,2011-10-21 00:30:59
+SC014,Subcomponent SC014,subcomponent,CP018,1,15,34530,Supplier_032,31,5,47,Distributor_005,Air Freight,7728,6,2011-01-19 13:14:31
+CP012,Component CP012,component,SS004,5,29,452576,Supplier_001,21,4,42,Distributor_005,Air Freight,8327,16,2020-10-09 23:46:54
+SC002,Subcomponent SC002,subcomponent,CP012,2,16,16112,Supplier_024,42,2,0,Distributor_012,Sea Freight,6261,9,2016-04-10 11:49:31
+RM011,Raw_material RM011,raw_material,CP012,5,2,3587,Supplier_007,92,2,0,Distributor_006,Truck,7705,29,2011-11-25 17:16:03
+CP004,Component CP004,component,SS005,5,20,59964,Supplier_038,11,2,60,Distributor_011,Sea Freight,1605,19,2012-07-14 11:42:41
+SC004,Subcomponent SC004,subcomponent,CP019,2,8,41009,Supplier_006,42,3,53,Distributor_009,Sea Freight,9463,9,2011-05-28 15:42:27
+RM004,Raw_material RM004,raw_material,CP019,2,5,3590,Supplier_038,77,2,14,Distributor_012,Air Freight,7129,5,2019-12-23 17:11:32
+SC020,Subcomponent SC020,subcomponent,CP005,1,20,25000,Supplier_017,32,2,46,Distributor_001,Air Freight,392,16,2020-09-22 00:24:39
+SC002,Subcomponent SC002,subcomponent,CP010,3,8,37017,Supplier_016,39,2,47,Distributor_009,Rail,9534,26,2019-07-20 01:46:57
+SC001,Subcomponent SC001,subcomponent,CP004,3,15,30758,Supplier_025,34,3,63,Distributor_005,Truck,8951,8,2012-04-08 18:14:03
+CP010,Component CP010,component,SS011,2,18,324638,Supplier_030,26,2,59,Distributor_006,Sea Freight,4284,24,2011-11-29 17:56:18
+SC005,Subcomponent SC005,subcomponent,CP007,2,11,6725,Supplier_018,46,5,11,Distributor_008,Rail,9867,10,2014-04-18 15:54:55
+SC019,Subcomponent SC019,subcomponent,CP016,2,12,42104,Supplier_022,40,2,43,Distributor_002,Air Freight,3671,4,2012-04-02 18:46:43
+SC003,Subcomponent SC003,subcomponent,CP012,4,12,20805,Supplier_008,46,4,20,Distributor_004,Rail,4489,26,2012-09-29 22:07:01
+SC013,Subcomponent SC013,subcomponent,CP010,3,17,39989,Supplier_003,21,1,24,Distributor_001,Truck,6409,2,2020-02-11 13:17:45
+CP018,Component CP018,component,SS001,2,20,375632,Supplier_020,26,5,25,Distributor_012,Truck,3205,17,2016-10-23 17:08:16
+SC017,Subcomponent SC017,subcomponent,CP014,5,20,11201,Supplier_023,32,5,52,Distributor_001,Sea Freight,2028,28,2015-02-24 03:12:35
+SC005,Subcomponent SC005,subcomponent,CP005,1,15,19567,Supplier_023,19,4,72,Distributor_009,Air Freight,3816,22,2012-04-20 08:51:43
+SC015,Subcomponent SC015,subcomponent,CP020,3,6,33980,Supplier_007,43,3,35,Distributor_013,Truck,9319,5,2019-12-03 12:45:29
+SC001,Subcomponent SC001,subcomponent,CP018,4,14,26579,Supplier_029,43,1,19,Distributor_004,Sea Freight,2964,14,2021-07-25 14:06:17
+CP017,Component CP017,component,SS011,4,36,506023,Supplier_005,22,1,70,Distributor_002,Rail,7902,7,2020-05-01 01:20:11
+SC008,Subcomponent SC008,subcomponent,CP007,1,5,34989,Supplier_035,58,3,49,Distributor_005,Sea Freight,1467,10,2018-04-17 10:14:24
+SC018,Subcomponent SC018,subcomponent,CP002,4,19,9894,Supplier_041,23,4,36,Distributor_004,Sea Freight,2407,28,2016-01-23 19:28:54
+SC014,Subcomponent SC014,subcomponent,CP016,5,18,52215,Supplier_001,56,5,61,Distributor_011,Air Freight,2951,27,2015-11-03 01:40:18
+SC002,Subcomponent SC002,subcomponent,CP017,4,15,23589,Supplier_044,47,3,59,Distributor_006,Air Freight,3310,17,2017-05-05 09:56:19
+RM010,Raw_material RM010,raw_material,CP017,2,1,2814,Supplier_038,62,2,38,Distributor_012,Rail,8426,26,2010-11-07 05:42:50
+CP010,Component CP010,component,SS013,5,35,135512,Supplier_025,14,2,8,Distributor_003,Air Freight,4688,8,2011-06-27 04:43:37
+SC008,Subcomponent SC008,subcomponent,CP009,3,14,28278,Supplier_037,35,5,69,Distributor_004,Truck,1023,25,2013-09-11 18:01:30
+RM005,Raw_material RM005,raw_material,CP009,5,9,3628,Supplier_028,42,4,60,Distributor_012,Rail,6452,8,2016-07-05 17:16:21
+SC015,Subcomponent SC015,subcomponent,CP010,5,15,23591,Supplier_006,37,4,60,Distributor_014,Truck,4016,3,2013-09-18 04:24:04
+CP004,Component CP004,component,SS016,1,38,353875,Supplier_014,12,2,65,Distributor_013,Truck,1222,10,2015-02-20 17:12:09
+SC010,Subcomponent SC010,subcomponent,CP001,1,20,26385,Supplier_025,37,2,5,Distributor_010,Air Freight,7849,24,2018-09-13 13:29:39
+RM014,Raw_material RM014,raw_material,CP001,2,5,691,Supplier_019,96,5,9,Distributor_003,Rail,8397,8,2019-10-24 20:12:23
+SC007,Subcomponent SC007,subcomponent,CP008,3,11,48522,Supplier_006,21,3,9,Distributor_014,Truck,6939,16,2010-10-10 01:20:22
+SC020,Subcomponent SC020,subcomponent,CP020,5,9,29070,Supplier_026,36,5,5,Distributor_007,Sea Freight,6404,5,2020-02-07 18:39:10
+RM014,Raw_material RM014,raw_material,CP020,3,8,4318,Supplier_001,67,1,6,Distributor_007,Air Freight,7857,24,2017-03-24 19:10:26
+RM009,Raw_material RM009,raw_material,CP006,2,9,1792,Supplier_010,94,3,20,Distributor_009,Rail,3763,11,2016-01-26 09:33:45
+SC004,Subcomponent SC004,subcomponent,CP004,4,13,24850,Supplier_040,51,5,60,Distributor_001,Rail,1319,13,2018-03-30 16:24:43
+RM003,Raw_material RM003,raw_material,CP004,3,5,2722,Supplier_026,68,4,23,Distributor_006,Truck,616,9,2016-01-30 09:44:23
+SC010,Subcomponent SC010,subcomponent,CP004,3,6,17477,Supplier_001,52,5,62,Distributor_005,Rail,4817,22,2010-05-22 01:38:22
+CP010,Component CP010,component,SS004,4,31,69160,Supplier_032,12,3,33,Distributor_004,Sea Freight,5693,10,2010-11-19 08:55:55
+SC001,Subcomponent SC001,subcomponent,CP012,4,12,25175,Supplier_039,42,5,47,Distributor_001,Rail,9654,2,2018-08-07 09:38:42
+SC020,Subcomponent SC020,subcomponent,CP005,3,11,22171,Supplier_002,16,4,26,Distributor_010,Sea Freight,2677,16,2015-11-28 20:11:48
+SC009,Subcomponent SC009,subcomponent,CP003,4,8,6594,Supplier_022,50,4,5,Distributor_007,Rail,7056,11,2011-11-30 18:43:43
+SC002,Subcomponent SC002,subcomponent,CP010,1,16,32556,Supplier_004,42,4,46,Distributor_002,Truck,6870,15,2012-02-12 05:42:15
+CP003,Component CP003,component,SS019,4,37,205247,Supplier_029,19,4,42,Distributor_010,Sea Freight,3469,1,2012-01-14 06:37:20
+SC016,Subcomponent SC016,subcomponent,CP017,2,13,34220,Supplier_009,40,1,9,Distributor_001,Sea Freight,6110,21,2013-03-08 00:51:42
+SC011,Subcomponent SC011,subcomponent,CP020,2,13,30979,Supplier_018,41,3,23,Distributor_012,Truck,4374,18,2014-06-22 08:12:48
+SC017,Subcomponent SC017,subcomponent,CP003,1,19,24385,Supplier_001,38,4,60,Distributor_002,Air Freight,3814,5,2014-03-04 13:56:12
+RM012,Raw_material RM012,raw_material,CP003,4,8,4756,Supplier_042,66,1,46,Distributor_012,Truck,9508,27,2014-03-15 09:15:00
+CP015,Component CP015,component,SS008,5,26,162117,Supplier_014,28,4,6,Distributor_007,Sea Freight,7034,19,2012-05-15 02:16:38
+SC019,Subcomponent SC019,subcomponent,CP004,4,4,22103,Supplier_032,46,5,50,Distributor_014,Air Freight,6864,2,2021-05-03 01:27:13
+SC005,Subcomponent SC005,subcomponent,CP007,3,17,16605,Supplier_040,45,4,19,Distributor_002,Rail,1393,8,2014-12-03 01:17:41
+SC002,Subcomponent SC002,subcomponent,CP015,4,9,43262,Supplier_040,39,2,64,Distributor_002,Truck,9126,23,2016-06-19 06:05:45
+CP015,Component CP015,component,SS012,3,24,295222,Supplier_015,27,4,11,Distributor_012,Rail,9066,4,2015-08-13 07:57:49
+SC016,Subcomponent SC016,subcomponent,CP005,1,19,53487,Supplier_038,28,1,23,Distributor_010,Sea Freight,1975,20,2019-03-17 11:20:35
+SC008,Subcomponent SC008,subcomponent,CP015,1,10,29383,Supplier_031,24,1,55,Distributor_002,Rail,9055,20,2020-12-30 12:29:11
+RM013,Raw_material RM013,raw_material,CP015,3,8,4495,Supplier_015,95,5,21,Distributor_003,Rail,2511,2,2018-08-05 15:04:47
+CP005,Component CP005,component,SS011,2,37,207205,Supplier_017,17,1,40,Distributor_003,Truck,8199,29,2013-06-14 19:10:08
+SC009,Subcomponent SC009,subcomponent,CP020,1,12,13012,Supplier_020,32,4,50,Distributor_002,Air Freight,266,4,2012-11-30 02:04:34
+SC014,Subcomponent SC014,subcomponent,CP003,2,16,14028,Supplier_017,38,3,64,Distributor_004,Rail,609,29,2021-01-27 20:08:33
+SC017,Subcomponent SC017,subcomponent,CP004,4,11,47684,Supplier_041,43,1,35,Distributor_011,Air Freight,9425,10,2010-08-08 14:00:03
+SC003,Subcomponent SC003,subcomponent,CP005,4,18,5731,Supplier_018,38,5,68,Distributor_005,Sea Freight,7932,6,2016-08-04 03:16:32
+CP018,Component CP018,component,SS015,1,41,382965,Supplier_007,32,2,12,Distributor_014,Sea Freight,1662,13,2014-12-16 05:15:13
+SC018,Subcomponent SC018,subcomponent,CP011,2,4,52710,Supplier_028,31,4,41,Distributor_010,Air Freight,6682,7,2010-10-19 00:56:14
+SC007,Subcomponent SC007,subcomponent,CP009,2,10,12712,Supplier_020,19,3,42,Distributor_007,Truck,1896,22,2017-12-13 06:24:32
+SC019,Subcomponent SC019,subcomponent,CP018,2,4,44014,Supplier_042,34,3,70,Distributor_010,Sea Freight,7822,15,2010-05-25 16:08:16
+CP017,Component CP017,component,SS006,2,25,478206,Supplier_028,16,2,2,Distributor_006,Sea Freight,802,19,2020-09-23 18:46:40
+SC017,Subcomponent SC017,subcomponent,CP008,3,10,6495,Supplier_024,28,5,50,Distributor_014,Rail,364,21,2015-11-18 11:32:51
+SC018,Subcomponent SC018,subcomponent,CP007,2,5,5311,Supplier_037,26,1,11,Distributor_012,Rail,2038,28,2013-12-24 04:44:35
+SC009,Subcomponent SC009,subcomponent,CP017,4,8,40906,Supplier_016,24,5,5,Distributor_004,Truck,8636,30,2013-05-11 01:45:31
+RM005,Raw_material RM005,raw_material,CP017,5,1,3549,Supplier_034,50,4,60,Distributor_014,Air Freight,541,27,2016-07-01 11:47:30
+SS017,Subsystem SS017,subsystem,SY019,2,63,1442086,Supplier_036,8,4,20,Distributor_003,Air Freight,5459,9,2016-05-15 19:09:27
+CP016,Component CP016,component,SS002,4,44,260327,Supplier_005,29,5,0,Distributor_005,Rail,8493,5,2021-06-25 01:33:23
+SC020,Subcomponent SC020,subcomponent,CP005,5,5,52189,Supplier_029,38,4,58,Distributor_014,Rail,5338,12,2017-05-09 16:10:34
+SC014,Subcomponent SC014,subcomponent,CP001,1,14,47693,Supplier_017,33,1,31,Distributor_006,Air Freight,4181,4,2010-06-13 14:36:46
+SC010,Subcomponent SC010,subcomponent,CP016,3,12,21110,Supplier_007,21,4,58,Distributor_009,Sea Freight,8960,15,2013-12-24 21:41:44
+RM015,Raw_material RM015,raw_material,CP016,2,1,3917,Supplier_004,47,4,49,Distributor_004,Air Freight,4296,20,2012-01-03 10:30:06
+CP009,Component CP009,component,SS008,2,40,470088,Supplier_028,28,3,5,Distributor_014,Truck,7181,10,2020-12-24 00:18:29
+SC016,Subcomponent SC016,subcomponent,CP013,3,11,9696,Supplier_039,28,5,55,Distributor_001,Truck,7164,24,2021-02-08 04:55:24
+SC016,Subcomponent SC016,subcomponent,CP005,5,11,9430,Supplier_012,54,3,61,Distributor_010,Sea Freight,9792,15,2010-09-17 04:52:54
+SC013,Subcomponent SC013,subcomponent,CP009,1,20,15922,Supplier_001,34,3,2,Distributor_006,Sea Freight,1222,16,2014-10-11 03:26:23
+CP008,Component CP008,component,SS004,4,24,213005,Supplier_031,26,1,46,Distributor_014,Truck,8682,1,2011-10-29 13:11:52
+SC010,Subcomponent SC010,subcomponent,CP018,3,16,7752,Supplier_010,25,2,4,Distributor_010,Sea Freight,9369,29,2010-05-18 05:51:17
+SC010,Subcomponent SC010,subcomponent,CP008,2,19,9830,Supplier_017,32,2,12,Distributor_012,Air Freight,6826,1,2016-01-16 22:03:29
+CP010,Component CP010,component,SS017,2,40,341512,Supplier_035,11,4,66,Distributor_006,Rail,314,27,2010-03-21 03:26:34
+SC007,Subcomponent SC007,subcomponent,CP010,5,12,38967,Supplier_010,29,4,15,Distributor_012,Air Freight,2019,11,2020-07-18 20:38:43

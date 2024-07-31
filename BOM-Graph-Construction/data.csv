@@ -1,0 +1,1001 @@
+timestamp,item_id,item_name,item_type,parent_id,quantity,lead_time,cost,supplier,inventory,min_stock,assembly_time
+2024-04-12 09:15:00,LM000,Advanced Lithography Machine,final_product,,1,197,15381007,OurCompany,5,1,0
+2023-09-12 14:30:00,OS001,Optical System,subsystem,LM000,1,83,5164874,OpticsCorp,3,1,43
+2023-12-07 11:45:00,WS002,Wafer Stage,subsystem,LM000,1,65,2056530,MotionTech,2,1,37
+2024-06-20 08:00:00,CS003,Control System,subsystem,LM000,1,49,959492,ControlSolutions,5,1,25
+2024-02-20 16:20:00,FR004,Frame,component,LM000,1,28,521700,StructureCo,7,3,13
+2023-10-13 10:00:00,LN005,Lens Assembly,component,OS001,1,41,972828,PrecisionOptics,1,1,22
+2024-04-28 13:15:00,LS006,Light Source,component,OS001,1,32,520303,LaserTech,4,1,7
+2024-02-04 09:30:00,MR007,Mirror Set,component,OS001,1,21,196568,ReflectCo,8,3,16
+2023-08-10 07:45:00,MT008,High-Precision Motor,component,WS002,3,16,48499,MotorWorks,19,8,12
+2023-12-16 15:00:00,SN009,Position Sensor,component,WS002,1,10,19401,SensorTech,27,12,5
+2024-05-05 14:30:00,CP010,Industrial Computer,component,CS003,1,21,100265,CompTech,7,2,4
+2023-12-15 10:00:00,SW011,Control Software Package,component,CS003,1,4,502118,SoftwareSolutions,9,5,2
+2023-11-26 09:15:00,LM012,Advanced Lithography Machine,final_product,,1,177,15744695,OurCompany,3,2,0
+2023-10-09 14:30:00,OS013,Optical System,subsystem,LM000,1,91,5210243,OpticsCorp,2,1,44
+2024-04-20 11:45:00,WS014,Wafer Stage,subsystem,LM000,1,59,1987872,MotionTech,3,2,38
+2023-12-30 08:00:00,CS015,Control System,subsystem,LM000,1,43,983693,ControlSolutions,3,1,26
+2024-02-02 16:20:00,FR016,Frame,component,LM000,1,27,492641,StructureCo,7,2,12
+2024-04-16 10:00:00,LN017,Lens Assembly,component,OS001,1,42,1036598,PrecisionOptics,1,1,22
+2024-06-17 13:15:00,LS018,Light Source,component,OS001,1,29,491609,LaserTech,5,2,7
+2023-11-12 09:30:00,MR019,Mirror Set,component,OS001,1,20,201037,ReflectCo,7,4,14
+2023-09-24 07:45:00,MT020,High-Precision Motor,component,WS002,4,14,49843,MotorWorks,16,8,11
+2023-10-26 15:00:00,SN021,Position Sensor,component,WS002,2,10,20656,SensorTech,35,10,5
+2023-10-13 14:30:00,CP022,Industrial Computer,component,CS003,1,18,103303,CompTech,10,2,4
+2023-12-19 10:00:00,SW023,Control Software Package,component,CS003,1,4,505231,SoftwareSolutions,9,5,2
+2024-04-11 09:15:00,LM024,Advanced Lithography Machine,final_product,,1,170,15215346,OurCompany,6,1,0
+2023-08-05 14:30:00,OS025,Optical System,subsystem,LM000,1,91,5072390,OpticsCorp,3,1,47
+2024-02-14 11:45:00,WS026,Wafer Stage,subsystem,LM000,1,54,1942984,MotionTech,4,1,35
+2024-02-28 08:00:00,CS027,Control System,subsystem,LM000,1,48,1049153,ControlSolutions,4,2,22
+2024-07-09 16:20:00,FR028,Frame,component,LM000,1,27,524862,StructureCo,7,2,11
+2024-06-15 10:00:00,LN029,Lens Assembly,component,OS001,1,43,1031096,PrecisionOptics,2,1,25
+2024-03-05 13:15:00,LS030,Light Source,component,OS001,1,30,490502,LaserTech,4,2,8
+2023-09-11 09:30:00,MR031,Mirror Set,component,OS001,2,18,206627,ReflectCo,9,4,16
+2023-11-18 07:45:00,MT032,High-Precision Motor,component,WS002,4,14,51933,MotorWorks,16,7,11
+2024-01-10 15:00:00,SN033,Position Sensor,component,WS002,2,9,19661,SensorTech,38,12,6
+2024-03-23 14:30:00,CP034,Industrial Computer,component,CS003,1,20,101464,CompTech,8,3,3
+2024-03-03 10:00:00,SW035,Control Software Package,component,CS003,1,4,483439,SoftwareSolutions,12,5,2
+2024-04-22 09:15:00,LM036,Advanced Lithography Machine,final_product,,1,194,14898802,OurCompany,5,1,0
+2024-04-09 14:30:00,OS037,Optical System,subsystem,LM000,1,91,4873499,OpticsCorp,2,1,47
+2023-10-13 11:45:00,WS038,Wafer Stage,subsystem,LM000,1,56,2019161,MotionTech,5,1,32
+2023-07-28 08:00:00,CS039,Control System,subsystem,LM000,1,45,951792,ControlSolutions,4,1,24
+2024-03-29 16:20:00,FR040,Frame,component,LM000,1,31,489186,StructureCo,8,3,10
+2024-03-29 10:00:00,LN041,Lens Assembly,component,OS001,1,49,1017996,PrecisionOptics,1,1,22
+2024-07-16 13:15:00,LS042,Light Source,component,OS001,1,32,514317,LaserTech,5,1,7
+2024-02-27 09:30:00,MR043,Mirror Set,component,OS001,1,18,193397,ReflectCo,8,3,17
+2024-02-25 07:45:00,MT044,High-Precision Motor,component,WS002,3,15,49914,MotorWorks,14,8,11
+2024-05-09 15:00:00,SN045,Position Sensor,component,WS002,1,10,20601,SensorTech,30,11,6
+2023-11-03 14:30:00,CP046,Industrial Computer,component,CS003,1,21,98002,CompTech,8,2,3
+2024-06-23 10:00:00,SW047,Control Software Package,component,CS003,1,4,513922,SoftwareSolutions,7,4,1
+2024-07-07 09:15:00,LM048,Advanced Lithography Machine,final_product,,1,165,15169114,OurCompany,5,1,0
+2023-11-22 14:30:00,OS049,Optical System,subsystem,LM000,1,91,4779091,OpticsCorp,2,1,45
+2024-07-09 11:45:00,WS050,Wafer Stage,subsystem,LM000,1,65,1959370,MotionTech,4,1,39
+2024-04-29 08:00:00,CS051,Control System,subsystem,LM000,1,45,950221,ControlSolutions,3,1,26
+2024-05-26 16:20:00,FR052,Frame,component,LM000,1,28,493368,StructureCo,9,2,12
+2024-06-06 10:00:00,LN053,Lens Assembly,component,OS001,1,49,1036605,PrecisionOptics,2,1,22
+2024-05-28 13:15:00,LS054,Light Source,component,OS001,1,30,476912,LaserTech,5,1,7
+2024-03-31 09:30:00,MR055,Mirror Set,component,OS001,2,20,193232,ReflectCo,11,4,17
+2024-06-28 07:45:00,MT056,High-Precision Motor,component,WS002,3,15,51290,MotorWorks,16,7,12
+2023-09-24 15:00:00,SN057,Position Sensor,component,WS002,2,9,20703,SensorTech,22,11,6
+2024-04-15 14:30:00,CP058,Industrial Computer,component,CS003,1,18,101479,CompTech,6,3,3
+2024-03-03 10:00:00,SW059,Control Software Package,component,CS003,1,4,483365,SoftwareSolutions,7,5,1
+2023-09-12 09:15:00,LM060,Advanced Lithography Machine,final_product,,1,177,15134953,OurCompany,4,1,0
+2024-03-31 14:30:00,OS061,Optical System,subsystem,LM000,1,94,5069135,OpticsCorp,2,1,45
+2023-10-01 11:45:00,WS062,Wafer Stage,subsystem,LM000,1,59,2061471,MotionTech,3,2,33
+2024-06-12 08:00:00,CS063,Control System,subsystem,LM000,1,42,1011579,ControlSolutions,4,2,22
+2023-08-25 16:20:00,FR064,Frame,component,LM000,1,30,483740,StructureCo,8,3,12
+2023-08-25 10:00:00,LN065,Lens Assembly,component,OS001,1,48,1034290,PrecisionOptics,2,1,24
+2024-04-07 13:15:00,LS066,Light Source,component,OS001,1,31,518043,LaserTech,6,2,8
+2023-10-01 09:30:00,MR067,Mirror Set,component,OS001,1,18,208035,ReflectCo,11,4,14
+2023-09-21 07:45:00,MT068,High-Precision Motor,component,WS002,3,15,51189,MotorWorks,14,7,10
+2024-04-28 15:00:00,SN069,Position Sensor,component,WS002,2,9,19379,SensorTech,38,12,6
+2023-08-20 14:30:00,CP070,Industrial Computer,component,CS003,1,20,99180,CompTech,9,3,3
+2023-11-24 10:00:00,SW071,Control Software Package,component,CS003,1,4,479797,SoftwareSolutions,11,5,1
+2023-10-17 09:15:00,LM072,Advanced Lithography Machine,final_product,,1,180,14421667,OurCompany,4,1,0
+2024-07-06 14:30:00,OS073,Optical System,subsystem,LM000,1,97,5240334,OpticsCorp,3,1,49
+2024-05-02 11:45:00,WS074,Wafer Stage,subsystem,LM000,1,61,2001211,MotionTech,3,2,37
+2024-03-07 08:00:00,CS075,Control System,subsystem,LM000,1,43,1008457,ControlSolutions,5,1,22
+2024-04-18 16:20:00,FR076,Frame,component,LM000,1,32,499580,StructureCo,9,3,12
+2024-06-09 10:00:00,LN077,Lens Assembly,component,OS001,1,44,959663,PrecisionOptics,2,1,26
+2024-05-02 13:15:00,LS078,Light Source,component,OS001,1,30,516006,LaserTech,4,1,8
+2024-02-15 09:30:00,MR079,Mirror Set,component,OS001,1,20,194767,ReflectCo,11,4,16
+2024-07-12 07:45:00,MT080,High-Precision Motor,component,WS002,4,15,48211,MotorWorks,20,7,11
+2024-07-15 15:00:00,SN081,Position Sensor,component,WS002,1,10,19521,SensorTech,34,12,6
+2024-01-02 14:30:00,CP082,Industrial Computer,component,CS003,1,19,100335,CompTech,9,2,4
+2024-02-11 10:00:00,SW083,Control Software Package,component,CS003,1,4,497979,SoftwareSolutions,11,4,2
+2024-06-11 09:15:00,LM084,Advanced Lithography Machine,final_product,,1,180,14682039,OurCompany,3,2,0
+2024-05-02 14:30:00,OS085,Optical System,subsystem,LM000,1,88,5016091,OpticsCorp,2,1,47
+2023-10-05 11:45:00,WS086,Wafer Stage,subsystem,LM000,1,61,1999556,MotionTech,4,2,39
+2024-05-24 08:00:00,CS087,Control System,subsystem,LM000,1,45,1023751,ControlSolutions,6,1,22
+2024-06-07 16:20:00,FR088,Frame,component,LM000,1,31,477605,StructureCo,9,3,11
+2024-06-17 10:00:00,LN089,Lens Assembly,component,OS001,1,48,1010003,PrecisionOptics,2,1,22
+2023-10-23 13:15:00,LS090,Light Source,component,OS001,1,30,511737,LaserTech,5,2,8
+2024-04-17 09:30:00,MR091,Mirror Set,component,OS001,2,18,192860,ReflectCo,7,3,16
+2023-08-17 07:45:00,MT092,High-Precision Motor,component,WS002,3,15,48100,MotorWorks,19,8,12
+2024-01-20 15:00:00,SN093,Position Sensor,component,WS002,2,9,19334,SensorTech,37,12,6
+2024-03-31 14:30:00,CP094,Industrial Computer,component,CS003,1,19,104097,CompTech,10,3,4
+2024-07-23 10:00:00,SW095,Control Software Package,component,CS003,1,4,521475,SoftwareSolutions,12,5,2
+2023-10-18 09:15:00,LM096,Advanced Lithography Machine,final_product,,1,162,15146231,OurCompany,5,2,0
+2024-06-16 14:30:00,OS097,Optical System,subsystem,LM000,1,90,4876297,OpticsCorp,2,1,52
+2024-06-01 11:45:00,WS098,Wafer Stage,subsystem,LM000,1,57,2060362,MotionTech,2,1,35
+2024-01-26 08:00:00,CS099,Control System,subsystem,LM000,1,44,955169,ControlSolutions,5,2,25
+2024-04-29 16:20:00,FR100,Frame,component,LM000,1,32,490072,StructureCo,8,3,11
+2024-02-03 10:00:00,LN101,Lens Assembly,component,OS001,1,42,982331,PrecisionOptics,1,1,25
+2023-10-08 13:15:00,LS102,Light Source,component,OS001,1,32,484454,LaserTech,4,2,7
+2024-04-08 09:30:00,MR103,Mirror Set,component,OS001,1,21,197052,ReflectCo,7,3,15
+2024-07-24 07:45:00,MT104,High-Precision Motor,component,WS002,3,15,49073,MotorWorks,18,7,12
+2024-01-18 15:00:00,SN105,Position Sensor,component,WS002,1,9,19565,SensorTech,38,13,6
+2024-03-04 14:30:00,CP106,Industrial Computer,component,CS003,1,21,96650,CompTech,9,2,3
+2023-08-02 10:00:00,SW107,Control Software Package,component,CS003,1,4,522048,SoftwareSolutions,7,4,2
+2024-07-13 09:15:00,LM108,Advanced Lithography Machine,final_product,,1,188,15632599,OurCompany,5,1,0
+2023-08-21 14:30:00,OS109,Optical System,subsystem,LM000,1,97,4833505,OpticsCorp,3,1,48
+2023-10-31 11:45:00,WS110,Wafer Stage,subsystem,LM000,1,61,2082709,MotionTech,4,1,33
+2023-12-11 08:00:00,CS111,Control System,subsystem,LM000,1,44,1004430,ControlSolutions,4,1,23
+2024-02-17 16:20:00,FR112,Frame,component,LM000,1,30,522068,StructureCo,8,2,11
+2023-08-26 10:00:00,LN113,Lens Assembly,component,OS001,1,48,1030282,PrecisionOptics,2,1,23
+2024-07-24 13:15:00,LS114,Light Source,component,OS001,1,32,498515,LaserTech,3,2,7
+2024-05-10 09:30:00,MR115,Mirror Set,component,OS001,2,20,206326,ReflectCo,9,3,15
+2023-12-31 07:45:00,MT116,High-Precision Motor,component,WS002,3,13,49242,MotorWorks,24,7,12
+2023-11-14 15:00:00,SN117,Position Sensor,component,WS002,1,10,20791,SensorTech,33,12,5
+2024-02-16 14:30:00,CP118,Industrial Computer,component,CS003,1,20,102119,CompTech,8,2,3
+2024-01-19 10:00:00,SW119,Control Software Package,component,CS003,1,4,502640,SoftwareSolutions,7,4,2
+2024-04-27 09:15:00,LM120,Advanced Lithography Machine,final_product,,1,173,14329586,OurCompany,5,1,0
+2024-06-18 14:30:00,OS121,Optical System,subsystem,LM000,1,96,5235258,OpticsCorp,3,1,45
+2023-12-18 11:45:00,WS122,Wafer Stage,subsystem,LM000,1,60,1909690,MotionTech,2,1,37
+2023-12-10 08:00:00,CS123,Control System,subsystem,LM000,1,46,952959,ControlSolutions,3,2,22
+2024-03-16 16:20:00,FR124,Frame,component,LM000,1,29,485600,StructureCo,9,2,12
+2024-04-17 10:00:00,LN125,Lens Assembly,component,OS001,1,46,1037522,PrecisionOptics,1,1,22
+2023-12-22 13:15:00,LS126,Light Source,component,OS001,1,28,515543,LaserTech,4,1,7
+2023-10-06 09:30:00,MR127,Mirror Set,component,OS001,2,18,208246,ReflectCo,12,4,15
+2023-12-21 07:45:00,MT128,High-Precision Motor,component,WS002,4,14,47640,MotorWorks,21,7,11
+2024-05-20 15:00:00,SN129,Position Sensor,component,WS002,2,9,20526,SensorTech,27,10,6
+2024-04-01 14:30:00,CP130,Industrial Computer,component,CS003,1,18,96116,CompTech,7,3,3
+2023-12-28 10:00:00,SW131,Control Software Package,component,CS003,1,5,512885,SoftwareSolutions,7,5,2
+2024-07-02 09:15:00,LM132,Advanced Lithography Machine,final_product,,1,183,14878771,OurCompany,5,1,0
+2023-08-31 14:30:00,OS133,Optical System,subsystem,LM000,1,95,4936644,OpticsCorp,3,1,46
+2024-05-05 11:45:00,WS134,Wafer Stage,subsystem,LM000,1,58,2067088,MotionTech,5,2,33
+2023-12-18 08:00:00,CS135,Control System,subsystem,LM000,1,40,953545,ControlSolutions,4,1,24
+2024-02-26 16:20:00,FR136,Frame,component,LM000,1,27,509009,StructureCo,5,3,12
+2023-12-24 10:00:00,LN137,Lens Assembly,component,OS001,1,44,969157,PrecisionOptics,1,1,25
+2023-08-05 13:15:00,LS138,Light Source,component,OS001,1,30,504028,LaserTech,4,2,8
+2023-08-13 09:30:00,MR139,Mirror Set,component,OS001,2,19,209329,ReflectCo,12,4,16
+2024-04-01 07:45:00,MT140,High-Precision Motor,component,WS002,4,14,50575,MotorWorks,20,8,11
+2024-06-17 15:00:00,SN141,Position Sensor,component,WS002,1,9,20447,SensorTech,35,12,6
+2023-09-11 14:30:00,CP142,Industrial Computer,component,CS003,1,19,101373,CompTech,8,3,4
+2023-08-08 10:00:00,SW143,Control Software Package,component,CS003,1,5,493024,SoftwareSolutions,10,5,2
+2024-02-23 09:15:00,LM144,Advanced Lithography Machine,final_product,,1,162,14343308,OurCompany,5,2,0
+2024-04-23 14:30:00,OS145,Optical System,subsystem,LM000,1,86,4752059,OpticsCorp,3,1,46
+2023-11-25 11:45:00,WS146,Wafer Stage,subsystem,LM000,1,61,1936254,MotionTech,3,2,37
+2023-10-20 08:00:00,CS147,Control System,subsystem,LM000,1,45,1048319,ControlSolutions,5,1,25
+2023-09-07 16:20:00,FR148,Frame,component,LM000,1,27,476269,StructureCo,9,3,13
+2023-07-29 10:00:00,LN149,Lens Assembly,component,OS001,1,44,1003054,PrecisionOptics,2,1,23
+2024-03-25 13:15:00,LS150,Light Source,component,OS001,1,30,481252,LaserTech,4,2,7
+2024-02-10 09:30:00,MR151,Mirror Set,component,OS001,1,21,208301,ReflectCo,7,4,17
+2024-06-29 07:45:00,MT152,High-Precision Motor,component,WS002,4,16,48284,MotorWorks,14,7,10
+2024-05-29 15:00:00,SN153,Position Sensor,component,WS002,1,9,20871,SensorTech,35,11,6
+2024-02-15 14:30:00,CP154,Industrial Computer,component,CS003,1,19,101031,CompTech,6,2,4
+2024-04-06 10:00:00,SW155,Control Software Package,component,CS003,1,5,510072,SoftwareSolutions,9,4,1
+2024-05-30 09:15:00,LM156,Advanced Lithography Machine,final_product,,1,182,15118504,OurCompany,4,2,0
+2023-11-13 14:30:00,OS157,Optical System,subsystem,LM000,1,95,5148713,OpticsCorp,3,1,47
+2024-07-23 11:45:00,WS158,Wafer Stage,subsystem,LM000,1,61,1958416,MotionTech,3,1,36
+2024-05-27 08:00:00,CS159,Control System,subsystem,LM000,1,45,964895,ControlSolutions,4,1,22
+2023-09-30 16:20:00,FR160,Frame,component,LM000,1,31,507913,StructureCo,6,3,12
+2023-12-17 10:00:00,LN161,Lens Assembly,component,OS001,1,47,992566,PrecisionOptics,1,1,24
+2023-11-06 13:15:00,LS162,Light Source,component,OS001,1,32,492491,LaserTech,5,2,8
+2023-11-23 09:30:00,MR163,Mirror Set,component,OS001,1,18,205019,ReflectCo,12,3,17
+2023-09-03 07:45:00,MT164,High-Precision Motor,component,WS002,4,15,47837,MotorWorks,22,7,11
+2023-08-29 15:00:00,SN165,Position Sensor,component,WS002,2,10,19178,SensorTech,21,11,6
+2024-07-16 14:30:00,CP166,Industrial Computer,component,CS003,1,18,100579,CompTech,10,2,3
+2024-02-18 10:00:00,SW167,Control Software Package,component,CS003,1,5,520933,SoftwareSolutions,11,4,1
+2023-08-12 09:15:00,LM168,Advanced Lithography Machine,final_product,,1,175,14917686,OurCompany,4,2,0
+2024-01-10 14:30:00,OS169,Optical System,subsystem,LM000,1,98,4988635,OpticsCorp,2,1,43
+2023-11-26 11:45:00,WS170,Wafer Stage,subsystem,LM000,1,58,1923756,MotionTech,4,2,38
+2024-02-16 08:00:00,CS171,Control System,subsystem,LM000,1,47,956894,ControlSolutions,4,2,23
+2024-06-24 16:20:00,FR172,Frame,component,LM000,1,32,483002,StructureCo,7,2,12
+2023-11-30 10:00:00,LN173,Lens Assembly,component,OS001,1,49,975578,PrecisionOptics,2,1,23
+2024-05-02 13:15:00,LS174,Light Source,component,OS001,1,30,490376,LaserTech,4,1,8
+2023-10-15 09:30:00,MR175,Mirror Set,component,OS001,2,20,192622,ReflectCo,10,4,14
+2023-10-09 07:45:00,MT176,High-Precision Motor,component,WS002,4,16,47700,MotorWorks,22,8,11
+2023-12-03 15:00:00,SN177,Position Sensor,component,WS002,1,9,19494,SensorTech,32,10,5
+2023-10-30 14:30:00,CP178,Industrial Computer,component,CS003,1,19,100448,CompTech,8,2,3
+2024-05-27 10:00:00,SW179,Control Software Package,component,CS003,1,4,486358,SoftwareSolutions,10,4,2
+2024-07-26 09:15:00,LM180,Advanced Lithography Machine,final_product,,1,186,14746665,OurCompany,4,2,0
+2024-01-30 14:30:00,OS181,Optical System,subsystem,LM000,1,87,4840394,OpticsCorp,3,1,52
+2023-09-28 11:45:00,WS182,Wafer Stage,subsystem,LM000,1,59,1980961,MotionTech,4,2,39
+2023-12-02 08:00:00,CS183,Control System,subsystem,LM000,1,42,1032092,ControlSolutions,4,1,25
+2024-01-21 16:20:00,FR184,Frame,component,LM000,1,28,485599,StructureCo,9,2,12
+2024-05-01 10:00:00,LN185,Lens Assembly,component,OS001,1,47,953871,PrecisionOptics,1,1,24
+2023-08-30 13:15:00,LS186,Light Source,component,OS001,1,30,510939,LaserTech,4,1,8
+2023-08-20 09:30:00,MR187,Mirror Set,component,OS001,1,19,194554,ReflectCo,9,4,15
+2024-01-04 07:45:00,MT188,High-Precision Motor,component,WS002,3,15,51707,MotorWorks,17,7,12
+2024-07-19 15:00:00,SN189,Position Sensor,component,WS002,2,9,20509,SensorTech,25,11,5
+2023-11-29 14:30:00,CP190,Industrial Computer,component,CS003,1,20,104692,CompTech,9,3,3
+2023-10-28 10:00:00,SW191,Control Software Package,component,CS003,1,4,506464,SoftwareSolutions,8,5,2
+2024-04-28 09:15:00,LM192,Advanced Lithography Machine,final_product,,1,194,15109727,OurCompany,4,1,0
+2024-04-25 14:30:00,OS193,Optical System,subsystem,LM000,1,97,4884314,OpticsCorp,3,1,47
+2023-10-28 11:45:00,WS194,Wafer Stage,subsystem,LM000,1,59,2045063,MotionTech,3,2,33
+2024-07-15 08:00:00,CS195,Control System,subsystem,LM000,1,44,1004684,ControlSolutions,5,1,25
+2024-07-22 16:20:00,FR196,Frame,component,LM000,1,31,515144,StructureCo,7,3,11
+2024-01-14 10:00:00,LN197,Lens Assembly,component,OS001,1,42,1035973,PrecisionOptics,1,1,25
+2023-09-29 13:15:00,LS198,Light Source,component,OS001,1,29,517710,LaserTech,5,2,8
+2023-08-28 09:30:00,MR199,Mirror Set,component,OS001,1,18,205988,ReflectCo,12,4,15
+2024-02-13 07:45:00,MT200,High-Precision Motor,component,WS002,3,13,49908,MotorWorks,18,7,11
+2023-08-28 15:00:00,SN201,Position Sensor,component,WS002,1,10,20554,SensorTech,32,12,6
+2023-11-22 14:30:00,CP202,Industrial Computer,component,CS003,1,20,99101,CompTech,9,2,3
+2024-04-23 10:00:00,SW203,Control Software Package,component,CS003,1,5,475249,SoftwareSolutions,11,5,1
+2024-01-24 09:15:00,LM204,Advanced Lithography Machine,final_product,,1,170,15381139,OurCompany,5,2,0
+2024-07-02 14:30:00,OS205,Optical System,subsystem,LM000,1,85,4998673,OpticsCorp,2,1,52
+2024-01-15 11:45:00,WS206,Wafer Stage,subsystem,LM000,1,57,1973898,MotionTech,4,2,32
+2024-05-15 08:00:00,CS207,Control System,subsystem,LM000,1,45,991756,ControlSolutions,4,2,22
+2024-05-03 16:20:00,FR208,Frame,component,LM000,1,27,478242,StructureCo,6,2,12
+2023-08-20 10:00:00,LN209,Lens Assembly,component,OS001,1,46,1045098,PrecisionOptics,2,1,26
+2023-08-16 13:15:00,LS210,Light Source,component,OS001,1,31,486467,LaserTech,6,1,7
+2024-06-28 09:30:00,MR211,Mirror Set,component,OS001,2,20,194667,ReflectCo,12,3,16
+2024-06-09 07:45:00,MT212,High-Precision Motor,component,WS002,4,13,49967,MotorWorks,19,7,12
+2024-03-10 15:00:00,SN213,Position Sensor,component,WS002,2,10,19536,SensorTech,29,11,6
+2024-01-22 14:30:00,CP214,Industrial Computer,component,CS003,1,18,104951,CompTech,7,2,4
+2023-12-05 10:00:00,SW215,Control Software Package,component,CS003,1,5,490026,SoftwareSolutions,11,5,2
+2023-10-23 09:15:00,LM216,Advanced Lithography Machine,final_product,,1,183,15172457,OurCompany,4,2,0
+2023-12-15 14:30:00,OS217,Optical System,subsystem,LM000,1,87,4864115,OpticsCorp,2,1,48
+2024-04-26 11:45:00,WS218,Wafer Stage,subsystem,LM000,1,64,1952075,MotionTech,3,2,33
+2023-10-14 08:00:00,CS219,Control System,subsystem,LM000,1,43,993490,ControlSolutions,6,1,22
+2023-10-27 16:20:00,FR220,Frame,component,LM000,1,31,495733,StructureCo,9,3,11
+2023-11-24 10:00:00,LN221,Lens Assembly,component,OS001,1,47,974507,PrecisionOptics,2,1,22
+2024-07-11 13:15:00,LS222,Light Source,component,OS001,1,29,482781,LaserTech,4,2,7
+2023-11-11 09:30:00,MR223,Mirror Set,component,OS001,2,19,192055,ReflectCo,11,3,14
+2024-04-29 07:45:00,MT224,High-Precision Motor,component,WS002,3,16,48250,MotorWorks,18,8,11
+2024-02-17 15:00:00,SN225,Position Sensor,component,WS002,1,9,19105,SensorTech,34,12,6
+2023-12-07 14:30:00,CP226,Industrial Computer,component,CS003,1,19,97884,CompTech,9,3,3
+2024-05-30 10:00:00,SW227,Control Software Package,component,CS003,1,4,524716,SoftwareSolutions,8,4,1
+2024-01-07 09:15:00,LM228,Advanced Lithography Machine,final_product,,1,166,15191160,OurCompany,6,2,0
+2023-11-20 14:30:00,OS229,Optical System,subsystem,LM000,1,97,5118985,OpticsCorp,3,1,46
+2024-07-07 11:45:00,WS230,Wafer Stage,subsystem,LM000,1,61,1936329,MotionTech,4,1,38
+2024-04-15 08:00:00,CS231,Control System,subsystem,LM000,1,46,1002004,ControlSolutions,5,2,23
+2023-09-05 16:20:00,FR232,Frame,component,LM000,1,29,495390,StructureCo,6,2,12
+2023-10-18 10:00:00,LN233,Lens Assembly,component,OS001,1,45,999677,PrecisionOptics,1,1,22
+2023-10-30 13:15:00,LS234,Light Source,component,OS001,1,32,516790,LaserTech,5,1,8
+2024-01-23 09:30:00,MR235,Mirror Set,component,OS001,2,20,192446,ReflectCo,9,3,15
+2024-03-29 07:45:00,MT236,High-Precision Motor,component,WS002,4,14,51350,MotorWorks,21,8,10
+2023-08-10 15:00:00,SN237,Position Sensor,component,WS002,2,9,19331,SensorTech,21,11,6
+2023-12-09 14:30:00,CP238,Industrial Computer,component,CS003,1,21,99469,CompTech,8,2,3
+2023-12-31 10:00:00,SW239,Control Software Package,component,CS003,1,5,516510,SoftwareSolutions,10,5,2
+2023-09-26 09:15:00,LM240,Advanced Lithography Machine,final_product,,1,191,14352606,OurCompany,6,2,0
+2024-06-11 14:30:00,OS241,Optical System,subsystem,LM000,1,86,4918003,OpticsCorp,2,1,46
+2024-05-02 11:45:00,WS242,Wafer Stage,subsystem,LM000,1,64,2028581,MotionTech,4,2,39
+2024-03-09 08:00:00,CS243,Control System,subsystem,LM000,1,42,987345,ControlSolutions,4,1,26
+2023-09-19 16:20:00,FR244,Frame,component,LM000,1,29,505018,StructureCo,5,3,13
+2023-08-30 10:00:00,LN245,Lens Assembly,component,OS001,1,46,1010063,PrecisionOptics,1,1,24
+2024-07-03 13:15:00,LS246,Light Source,component,OS001,1,31,477365,LaserTech,5,2,7
+2023-12-31 09:30:00,MR247,Mirror Set,component,OS001,1,20,199872,ReflectCo,8,3,17
+2023-09-18 07:45:00,MT248,High-Precision Motor,component,WS002,3,15,49306,MotorWorks,18,7,13
+2023-11-22 15:00:00,SN249,Position Sensor,component,WS002,1,10,19453,SensorTech,31,11,6
+2024-06-26 14:30:00,CP250,Industrial Computer,component,CS003,1,19,96640,CompTech,6,3,3
+2024-07-12 10:00:00,SW251,Control Software Package,component,CS003,1,4,514264,SoftwareSolutions,8,4,2
+2023-10-26 09:15:00,LM252,Advanced Lithography Machine,final_product,,1,197,14290344,OurCompany,6,1,0
+2023-12-06 14:30:00,OS253,Optical System,subsystem,LM000,1,97,4941315,OpticsCorp,3,1,47
+2024-04-20 11:45:00,WS254,Wafer Stage,subsystem,LM000,1,54,2060043,MotionTech,4,2,32
+2024-01-11 08:00:00,CS255,Control System,subsystem,LM000,1,45,1026062,ControlSolutions,3,1,22
+2023-12-11 16:20:00,FR256,Frame,component,LM000,1,30,499854,StructureCo,6,3,12
+2024-04-15 10:00:00,LN257,Lens Assembly,component,OS001,1,43,1044370,PrecisionOptics,2,1,23
+2024-06-15 13:15:00,LS258,Light Source,component,OS001,1,32,494920,LaserTech,3,2,8
+2024-01-30 09:30:00,MR259,Mirror Set,component,OS001,2,20,202530,ReflectCo,12,4,14
+2024-06-21 07:45:00,MT260,High-Precision Motor,component,WS002,4,13,49180,MotorWorks,21,8,11
+2024-05-03 15:00:00,SN261,Position Sensor,component,WS002,2,10,19318,SensorTech,30,12,6
+2024-06-12 14:30:00,CP262,Industrial Computer,component,CS003,1,19,95417,CompTech,6,2,4
+2024-01-15 10:00:00,SW263,Control Software Package,component,CS003,1,5,492260,SoftwareSolutions,12,5,2
+2024-06-01 09:15:00,LM264,Advanced Lithography Machine,final_product,,1,166,14349287,OurCompany,4,2,0
+2024-06-09 14:30:00,OS265,Optical System,subsystem,LM000,1,97,5117864,OpticsCorp,3,1,45
+2024-04-25 11:45:00,WS266,Wafer Stage,subsystem,LM000,1,64,2007703,MotionTech,3,1,34
+2024-01-21 08:00:00,CS267,Control System,subsystem,LM000,1,48,969316,ControlSolutions,4,2,23
+2024-07-08 16:20:00,FR268,Frame,component,LM000,1,30,520506,StructureCo,9,2,11
+2024-04-22 10:00:00,LN269,Lens Assembly,component,OS001,1,44,973660,PrecisionOptics,2,1,25
+2023-12-05 13:15:00,LS270,Light Source,component,OS001,1,30,488182,LaserTech,6,1,8
+2023-09-26 09:30:00,MR271,Mirror Set,component,OS001,1,18,190834,ReflectCo,9,3,14
+2024-03-11 07:45:00,MT272,High-Precision Motor,component,WS002,4,13,51002,MotorWorks,17,8,11
+2024-03-20 15:00:00,SN273,Position Sensor,component,WS002,2,9,19626,SensorTech,31,12,6
+2023-08-21 14:30:00,CP274,Industrial Computer,component,CS003,1,18,102380,CompTech,6,2,3
+2024-03-23 10:00:00,SW275,Control Software Package,component,CS003,1,5,484704,SoftwareSolutions,11,5,1
+2024-04-27 09:15:00,LM276,Advanced Lithography Machine,final_product,,1,166,15332756,OurCompany,4,2,0
+2023-12-14 14:30:00,OS277,Optical System,subsystem,LM000,1,84,4927647,OpticsCorp,3,1,51
+2023-10-24 11:45:00,WS278,Wafer Stage,subsystem,LM000,1,55,2072265,MotionTech,3,2,39
+2024-03-25 08:00:00,CS279,Control System,subsystem,LM000,1,49,996205,ControlSolutions,4,1,22
+2024-06-06 16:20:00,FR280,Frame,component,LM000,1,29,518919,StructureCo,8,2,11
+2023-10-19 10:00:00,LN281,Lens Assembly,component,OS001,1,41,954322,PrecisionOptics,1,1,24
+2023-11-17 13:15:00,LS282,Light Source,component,OS001,1,29,489829,LaserTech,5,1,7
+2023-09-24 09:30:00,MR283,Mirror Set,component,OS001,1,19,192310,ReflectCo,10,3,15
+2023-12-01 07:45:00,MT284,High-Precision Motor,component,WS002,3,15,50264,MotorWorks,17,7,12
+2024-06-18 15:00:00,SN285,Position Sensor,component,WS002,1,9,19745,SensorTech,25,11,5
+2024-06-04 14:30:00,CP286,Industrial Computer,component,CS003,1,20,102950,CompTech,10,3,4
+2023-08-07 10:00:00,SW287,Control Software Package,component,CS003,1,5,479743,SoftwareSolutions,9,5,2
+2023-08-15 09:15:00,LM288,Advanced Lithography Machine,final_product,,1,165,14497291,OurCompany,6,2,0
+2023-09-29 14:30:00,OS289,Optical System,subsystem,LM000,1,84,4978033,OpticsCorp,2,1,46
+2024-05-23 11:45:00,WS290,Wafer Stage,subsystem,LM000,1,60,1966147,MotionTech,4,1,33
+2024-05-22 08:00:00,CS291,Control System,subsystem,LM000,1,46,956059,ControlSolutions,5,1,24
+2024-05-15 16:20:00,FR292,Frame,component,LM000,1,31,511259,StructureCo,8,3,12
+2023-12-18 10:00:00,LN293,Lens Assembly,component,OS001,1,40,961355,PrecisionOptics,2,1,25
+2024-01-23 13:15:00,LS294,Light Source,component,OS001,1,28,506914,LaserTech,5,2,7
+2023-10-14 09:30:00,MR295,Mirror Set,component,OS001,1,20,201888,ReflectCo,7,3,16
+2023-07-30 07:45:00,MT296,High-Precision Motor,component,WS002,3,16,49380,MotorWorks,21,7,12
+2023-08-12 15:00:00,SN297,Position Sensor,component,WS002,1,9,19965,SensorTech,35,11,6
+2023-09-18 14:30:00,CP298,Industrial Computer,component,CS003,1,21,103651,CompTech,7,3,4
+2023-08-08 10:00:00,SW299,Control Software Package,component,CS003,1,4,498065,SoftwareSolutions,8,5,2
+2024-02-12 09:15:00,LM300,Advanced Lithography Machine,final_product,,1,191,14624277,OurCompany,5,2,0
+2024-02-20 14:30:00,OS301,Optical System,subsystem,LM000,1,83,5071649,OpticsCorp,2,1,49
+2024-06-14 11:45:00,WS302,Wafer Stage,subsystem,LM000,1,61,2086125,MotionTech,2,2,36
+2023-12-05 08:00:00,CS303,Control System,subsystem,LM000,1,44,997855,ControlSolutions,3,1,24
+2024-04-07 16:20:00,FR304,Frame,component,LM000,1,29,508534,StructureCo,10,2,12
+2024-02-01 10:00:00,LN305,Lens Assembly,component,OS001,1,45,995550,PrecisionOptics,2,1,22
+2024-05-18 13:15:00,LS306,Light Source,component,OS001,1,31,482268,LaserTech,3,2,8
+2024-04-18 09:30:00,MR307,Mirror Set,component,OS001,2,20,195641,ReflectCo,7,3,14
+2023-08-05 07:45:00,MT308,High-Precision Motor,component,WS002,3,16,49355,MotorWorks,24,7,10
+2023-07-30 15:00:00,SN309,Position Sensor,component,WS002,1,10,19940,SensorTech,31,12,6
+2024-03-29 14:30:00,CP310,Industrial Computer,component,CS003,1,18,104638,CompTech,9,2,3
+2024-07-13 10:00:00,SW311,Control Software Package,component,CS003,1,5,509072,SoftwareSolutions,10,4,2
+2023-09-02 09:15:00,LM312,Advanced Lithography Machine,final_product,,1,190,14673123,OurCompany,5,2,0
+2024-03-29 14:30:00,OS313,Optical System,subsystem,LM000,1,83,5031125,OpticsCorp,3,1,49
+2023-08-06 11:45:00,WS314,Wafer Stage,subsystem,LM000,1,59,2085184,MotionTech,2,2,37
+2024-03-06 08:00:00,CS315,Control System,subsystem,LM000,1,49,996703,ControlSolutions,4,1,23
+2023-09-09 16:20:00,FR316,Frame,component,LM000,1,29,522506,StructureCo,10,2,12
+2023-10-11 10:00:00,LN317,Lens Assembly,component,OS001,1,45,1037467,PrecisionOptics,2,1,23
+2024-03-30 13:15:00,LS318,Light Source,component,OS001,1,29,508923,LaserTech,4,1,7
+2024-02-04 09:30:00,MR319,Mirror Set,component,OS001,1,21,191267,ReflectCo,7,4,16
+2024-03-20 07:45:00,MT320,High-Precision Motor,component,WS002,4,13,50923,MotorWorks,25,8,12
+2024-05-18 15:00:00,SN321,Position Sensor,component,WS002,2,9,20364,SensorTech,36,11,5
+2023-10-05 14:30:00,CP322,Industrial Computer,component,CS003,1,20,97989,CompTech,7,2,4
+2023-10-28 10:00:00,SW323,Control Software Package,component,CS003,1,4,480424,SoftwareSolutions,9,5,1
+2024-06-22 09:15:00,LM324,Advanced Lithography Machine,final_product,,1,196,14990257,OurCompany,4,1,0
+2023-10-31 14:30:00,OS325,Optical System,subsystem,LM000,1,85,5085178,OpticsCorp,2,1,45
+2023-09-05 11:45:00,WS326,Wafer Stage,subsystem,LM000,1,54,2043305,MotionTech,2,1,37
+2023-10-02 08:00:00,CS327,Control System,subsystem,LM000,1,47,975979,ControlSolutions,6,2,25
+2024-02-04 16:20:00,FR328,Frame,component,LM000,1,31,517348,StructureCo,6,3,11
+2024-06-18 10:00:00,LN329,Lens Assembly,component,OS001,1,43,956151,PrecisionOptics,2,1,24
+2023-10-03 13:15:00,LS330,Light Source,component,OS001,1,31,505681,LaserTech,5,1,7
+2023-10-10 09:30:00,MR331,Mirror Set,component,OS001,1,18,199921,ReflectCo,12,3,16
+2023-10-27 07:45:00,MT332,High-Precision Motor,component,WS002,3,13,51141,MotorWorks,19,7,12
+2023-08-23 15:00:00,SN333,Position Sensor,component,WS002,2,10,19309,SensorTech,36,11,6
+2024-06-15 14:30:00,CP334,Industrial Computer,component,CS003,1,21,100838,CompTech,7,2,3
+2023-10-07 10:00:00,SW335,Control Software Package,component,CS003,1,5,519404,SoftwareSolutions,8,5,2
+2024-02-26 09:15:00,LM336,Advanced Lithography Machine,final_product,,1,185,14662168,OurCompany,3,1,0
+2024-05-15 14:30:00,OS337,Optical System,subsystem,LM000,1,89,4902487,OpticsCorp,2,1,52
+2023-09-15 11:45:00,WS338,Wafer Stage,subsystem,LM000,1,60,2050413,MotionTech,5,2,39
+2023-09-30 08:00:00,CS339,Control System,subsystem,LM000,1,40,970580,ControlSolutions,4,1,21
+2023-09-22 16:20:00,FR340,Frame,component,LM000,1,27,511538,StructureCo,6,3,11
+2023-08-13 10:00:00,LN341,Lens Assembly,component,OS001,1,48,993735,PrecisionOptics,2,1,24
+2024-02-12 13:15:00,LS342,Light Source,component,OS001,1,32,502982,LaserTech,5,1,7
+2024-03-13 09:30:00,MR343,Mirror Set,component,OS001,1,21,192785,ReflectCo,8,3,17
+2024-02-02 07:45:00,MT344,High-Precision Motor,component,WS002,3,15,48014,MotorWorks,15,8,12
+2024-01-19 15:00:00,SN345,Position Sensor,component,WS002,2,9,20128,SensorTech,31,11,6
+2024-05-13 14:30:00,CP346,Industrial Computer,component,CS003,1,21,95564,CompTech,8,2,4
+2024-07-24 10:00:00,SW347,Control Software Package,component,CS003,1,5,486863,SoftwareSolutions,8,5,2
+2024-06-12 09:15:00,LM348,Advanced Lithography Machine,final_product,,1,183,15154446,OurCompany,4,1,0
+2023-07-29 14:30:00,OS349,Optical System,subsystem,LM000,1,82,4905049,OpticsCorp,2,1,45
+2024-06-27 11:45:00,WS350,Wafer Stage,subsystem,LM000,1,61,2032035,MotionTech,3,1,38
+2023-11-22 08:00:00,CS351,Control System,subsystem,LM000,1,44,1048297,ControlSolutions,3,2,23
+2023-12-16 16:20:00,FR352,Frame,component,LM000,1,32,495916,StructureCo,9,3,11
+2023-12-21 10:00:00,LN353,Lens Assembly,component,OS001,1,46,972016,PrecisionOptics,1,1,26
+2023-11-05 13:15:00,LS354,Light Source,component,OS001,1,32,506731,LaserTech,5,2,8
+2024-06-13 09:30:00,MR355,Mirror Set,component,OS001,1,21,208723,ReflectCo,7,3,17
+2023-11-01 07:45:00,MT356,High-Precision Motor,component,WS002,4,14,49563,MotorWorks,18,7,12
+2023-10-21 15:00:00,SN357,Position Sensor,component,WS002,1,10,19345,SensorTech,35,12,6
+2024-06-03 14:30:00,CP358,Industrial Computer,component,CS003,1,19,98725,CompTech,7,3,3
+2024-03-14 10:00:00,SW359,Control Software Package,component,CS003,1,4,500636,SoftwareSolutions,10,5,2
+2024-01-31 09:15:00,LM360,Advanced Lithography Machine,final_product,,1,186,15611739,OurCompany,6,2,0
+2023-11-30 14:30:00,OS361,Optical System,subsystem,LM000,1,96,4994524,OpticsCorp,3,1,48
+2024-01-09 11:45:00,WS362,Wafer Stage,subsystem,LM000,1,60,1973460,MotionTech,2,1,34
+2024-01-30 08:00:00,CS363,Control System,subsystem,LM000,1,47,968588,ControlSolutions,4,2,23
+2023-10-20 16:20:00,FR364,Frame,component,LM000,1,29,477805,StructureCo,8,2,12
+2023-08-10 10:00:00,LN365,Lens Assembly,component,OS001,1,48,1037336,PrecisionOptics,2,1,22
+2024-01-02 13:15:00,LS366,Light Source,component,OS001,1,29,506324,LaserTech,5,2,7
+2023-10-17 09:30:00,MR367,Mirror Set,component,OS001,1,21,192759,ReflectCo,10,4,17
+2024-07-19 07:45:00,MT368,High-Precision Motor,component,WS002,3,15,50783,MotorWorks,21,8,12
+2024-04-04 15:00:00,SN369,Position Sensor,component,WS002,2,9,20204,SensorTech,21,12,5
+2023-12-17 14:30:00,CP370,Industrial Computer,component,CS003,1,18,97668,CompTech,9,3,4
+2023-09-13 10:00:00,SW371,Control Software Package,component,CS003,1,4,476710,SoftwareSolutions,7,4,1
+2024-07-20 09:15:00,LM372,Advanced Lithography Machine,final_product,,1,184,15455619,OurCompany,5,1,0
+2024-06-25 14:30:00,OS373,Optical System,subsystem,LM000,1,85,5086950,OpticsCorp,2,1,48
+2024-04-30 11:45:00,WS374,Wafer Stage,subsystem,LM000,1,57,1900348,MotionTech,3,2,37
+2023-10-28 08:00:00,CS375,Control System,subsystem,LM000,1,49,1041469,ControlSolutions,6,2,22
+2024-06-25 16:20:00,FR376,Frame,component,LM000,1,28,483406,StructureCo,8,2,11
+2023-08-14 10:00:00,LN377,Lens Assembly,component,OS001,1,44,955906,PrecisionOptics,2,1,25
+2023-12-24 13:15:00,LS378,Light Source,component,OS001,1,30,479399,LaserTech,5,2,8
+2023-12-22 09:30:00,MR379,Mirror Set,component,OS001,1,19,204554,ReflectCo,9,3,16
+2024-02-27 07:45:00,MT380,High-Precision Motor,component,WS002,3,15,51454,MotorWorks,24,7,11
+2024-04-05 15:00:00,SN381,Position Sensor,component,WS002,2,10,20940,SensorTech,30,11,6
+2024-04-15 14:30:00,CP382,Industrial Computer,component,CS003,1,18,101642,CompTech,7,3,4
+2024-01-07 10:00:00,SW383,Control Software Package,component,CS003,1,5,477636,SoftwareSolutions,11,4,1
+2023-10-05 09:15:00,LM384,Advanced Lithography Machine,final_product,,1,197,15412984,OurCompany,4,1,0
+2024-04-26 14:30:00,OS385,Optical System,subsystem,LM000,1,89,5170854,OpticsCorp,2,1,51
+2023-12-11 11:45:00,WS386,Wafer Stage,subsystem,LM000,1,54,1960429,MotionTech,3,1,39
+2023-11-01 08:00:00,CS387,Control System,subsystem,LM000,1,46,1009017,ControlSolutions,5,1,22
+2024-07-17 16:20:00,FR388,Frame,component,LM000,1,30,479961,StructureCo,7,2,13
+2023-12-28 10:00:00,LN389,Lens Assembly,component,OS001,1,48,950482,PrecisionOptics,2,1,24
+2023-11-14 13:15:00,LS390,Light Source,component,OS001,1,29,514304,LaserTech,6,1,8
+2024-04-01 09:30:00,MR391,Mirror Set,component,OS001,1,18,209335,ReflectCo,7,3,15
+2023-10-29 07:45:00,MT392,High-Precision Motor,component,WS002,4,15,49368,MotorWorks,18,8,12
+2024-06-15 15:00:00,SN393,Position Sensor,component,WS002,2,10,19809,SensorTech,26,12,6
+2023-11-27 14:30:00,CP394,Industrial Computer,component,CS003,1,18,96035,CompTech,7,2,3
+2023-10-18 10:00:00,SW395,Control Software Package,component,CS003,1,5,522485,SoftwareSolutions,7,4,1
+2023-08-07 09:15:00,LM396,Advanced Lithography Machine,final_product,,1,179,14851171,OurCompany,3,2,0
+2023-09-06 14:30:00,OS397,Optical System,subsystem,LM000,1,97,5052114,OpticsCorp,3,1,50
+2023-10-04 11:45:00,WS398,Wafer Stage,subsystem,LM000,1,55,1970607,MotionTech,4,1,37
+2024-04-29 08:00:00,CS399,Control System,subsystem,LM000,1,47,1042596,ControlSolutions,3,1,24
+2024-01-05 16:20:00,FR400,Frame,component,LM000,1,29,521222,StructureCo,7,2,12
+2023-08-24 10:00:00,LN401,Lens Assembly,component,OS001,1,47,952046,PrecisionOptics,2,1,23
+2023-11-01 13:15:00,LS402,Light Source,component,OS001,1,27,481021,LaserTech,5,1,8
+2024-01-12 09:30:00,MR403,Mirror Set,component,OS001,1,20,195436,ReflectCo,8,4,17
+2024-07-15 07:45:00,MT404,High-Precision Motor,component,WS002,3,16,51504,MotorWorks,15,7,12
+2024-04-29 15:00:00,SN405,Position Sensor,component,WS002,1,9,19408,SensorTech,26,11,5
+2023-09-05 14:30:00,CP406,Industrial Computer,component,CS003,1,21,98126,CompTech,7,3,4
+2023-09-30 10:00:00,SW407,Control Software Package,component,CS003,1,4,477107,SoftwareSolutions,12,5,2
+2024-05-26 09:15:00,LM408,Advanced Lithography Machine,final_product,,1,167,14856986,OurCompany,6,2,0
+2024-03-22 14:30:00,OS409,Optical System,subsystem,LM000,1,92,5073400,OpticsCorp,3,1,48
+2024-01-03 11:45:00,WS410,Wafer Stage,subsystem,LM000,1,62,1916512,MotionTech,4,1,35
+2023-09-28 08:00:00,CS411,Control System,subsystem,LM000,1,45,1015924,ControlSolutions,5,1,22
+2024-05-24 16:20:00,FR412,Frame,component,LM000,1,27,502794,StructureCo,7,3,11
+2024-06-24 10:00:00,LN413,Lens Assembly,component,OS001,1,42,1046205,PrecisionOptics,2,1,21
+2024-04-06 13:15:00,LS414,Light Source,component,OS001,1,30,480033,LaserTech,6,2,8
+2023-08-14 09:30:00,MR415,Mirror Set,component,OS001,1,18,204069,ReflectCo,10,4,15
+2023-09-06 07:45:00,MT416,High-Precision Motor,component,WS002,4,13,51494,MotorWorks,23,7,11
+2024-05-08 15:00:00,SN417,Position Sensor,component,WS002,1,9,19923,SensorTech,24,12,6
+2023-10-28 14:30:00,CP418,Industrial Computer,component,CS003,1,21,95599,CompTech,8,2,4
+2024-02-05 10:00:00,SW419,Control Software Package,component,CS003,1,5,522654,SoftwareSolutions,9,5,2
+2024-02-11 09:15:00,LM420,Advanced Lithography Machine,final_product,,1,186,14698365,OurCompany,6,2,0
+2023-09-26 14:30:00,OS421,Optical System,subsystem,LM000,1,88,4951092,OpticsCorp,3,1,46
+2024-01-14 11:45:00,WS422,Wafer Stage,subsystem,LM000,1,57,1964090,MotionTech,3,1,35
+2023-10-15 08:00:00,CS423,Control System,subsystem,LM000,1,43,995853,ControlSolutions,5,1,24
+2024-05-18 16:20:00,FR424,Frame,component,LM000,1,30,488172,StructureCo,9,2,13
+2023-09-10 10:00:00,LN425,Lens Assembly,component,OS001,1,48,1032913,PrecisionOptics,2,1,25
+2024-03-17 13:15:00,LS426,Light Source,component,OS001,1,31,510823,LaserTech,6,2,7
+2024-01-03 09:30:00,MR427,Mirror Set,component,OS001,2,20,201556,ReflectCo,9,3,16
+2023-09-16 07:45:00,MT428,High-Precision Motor,component,WS002,3,15,47958,MotorWorks,20,8,12
+2024-01-07 15:00:00,SN429,Position Sensor,component,WS002,2,10,19327,SensorTech,28,12,6
+2024-04-23 14:30:00,CP430,Industrial Computer,component,CS003,1,20,97906,CompTech,7,2,3
+2024-05-18 10:00:00,SW431,Control Software Package,component,CS003,1,4,503238,SoftwareSolutions,10,5,2
+2023-08-17 09:15:00,LM432,Advanced Lithography Machine,final_product,,1,189,15504125,OurCompany,4,2,0
+2024-02-07 14:30:00,OS433,Optical System,subsystem,LM000,1,92,5073806,OpticsCorp,3,1,51
+2024-05-10 11:45:00,WS434,Wafer Stage,subsystem,LM000,1,57,1973708,MotionTech,4,2,35
+2023-09-25 08:00:00,CS435,Control System,subsystem,LM000,1,44,1018696,ControlSolutions,6,2,24
+2024-06-02 16:20:00,FR436,Frame,component,LM000,1,28,502869,StructureCo,9,3,11
+2024-01-15 10:00:00,LN437,Lens Assembly,component,OS001,1,42,1004327,PrecisionOptics,2,1,23
+2023-10-16 13:15:00,LS438,Light Source,component,OS001,1,29,486266,LaserTech,4,1,8
+2024-02-20 09:30:00,MR439,Mirror Set,component,OS001,1,19,199395,ReflectCo,9,3,14
+2024-07-19 07:45:00,MT440,High-Precision Motor,component,WS002,3,16,48943,MotorWorks,19,7,12
+2024-01-30 15:00:00,SN441,Position Sensor,component,WS002,2,9,19905,SensorTech,31,11,6
+2024-02-16 14:30:00,CP442,Industrial Computer,component,CS003,1,21,102514,CompTech,7,2,4
+2024-01-24 10:00:00,SW443,Control Software Package,component,CS003,1,5,509989,SoftwareSolutions,11,5,1
+2024-05-21 09:15:00,LM444,Advanced Lithography Machine,final_product,,1,162,14715625,OurCompany,3,1,0
+2024-03-05 14:30:00,OS445,Optical System,subsystem,LM000,1,95,5211685,OpticsCorp,2,1,49
+2023-12-22 11:45:00,WS446,Wafer Stage,subsystem,LM000,1,62,2001043,MotionTech,4,1,35
+2024-02-16 08:00:00,CS447,Control System,subsystem,LM000,1,42,981574,ControlSolutions,3,2,25
+2024-05-25 16:20:00,FR448,Frame,component,LM000,1,28,483998,StructureCo,6,3,13
+2023-12-24 10:00:00,LN449,Lens Assembly,component,OS001,1,42,1004430,PrecisionOptics,1,1,25
+2024-02-13 13:15:00,LS450,Light Source,component,OS001,1,27,524464,LaserTech,3,2,8
+2024-05-14 09:30:00,MR451,Mirror Set,component,OS001,1,18,207756,ReflectCo,9,3,16
+2024-03-10 07:45:00,MT452,High-Precision Motor,component,WS002,3,15,51339,MotorWorks,20,8,11
+2023-09-18 15:00:00,SN453,Position Sensor,component,WS002,2,10,19073,SensorTech,32,12,6
+2023-11-30 14:30:00,CP454,Industrial Computer,component,CS003,1,18,96339,CompTech,7,3,4
+2024-04-25 10:00:00,SW455,Control Software Package,component,CS003,1,4,487705,SoftwareSolutions,8,5,2
+2023-08-22 09:15:00,LM456,Advanced Lithography Machine,final_product,,1,169,14448184,OurCompany,5,1,0
+2024-04-27 14:30:00,OS457,Optical System,subsystem,LM000,1,86,4842296,OpticsCorp,3,1,49
+2023-09-06 11:45:00,WS458,Wafer Stage,subsystem,LM000,1,56,2093743,MotionTech,3,2,32
+2024-02-13 08:00:00,CS459,Control System,subsystem,LM000,1,44,1048251,ControlSolutions,3,1,22
+2023-07-25 16:20:00,FR460,Frame,component,LM000,1,31,492072,StructureCo,6,2,12
+2023-08-04 10:00:00,LN461,Lens Assembly,component,OS001,1,45,1039651,PrecisionOptics,2,1,24
+2023-12-01 13:15:00,LS462,Light Source,component,OS001,1,30,518815,LaserTech,3,1,8
+2024-04-01 09:30:00,MR463,Mirror Set,component,OS001,2,18,194859,ReflectCo,9,3,17
+2023-12-13 07:45:00,MT464,High-Precision Motor,component,WS002,4,15,51569,MotorWorks,21,7,11
+2024-06-14 15:00:00,SN465,Position Sensor,component,WS002,2,10,19618,SensorTech,26,12,5
+2024-03-09 14:30:00,CP466,Industrial Computer,component,CS003,1,20,103761,CompTech,7,3,4
+2023-10-12 10:00:00,SW467,Control Software Package,component,CS003,1,4,489390,SoftwareSolutions,12,5,2
+2024-07-27 09:15:00,LM468,Advanced Lithography Machine,final_product,,1,177,14266541,OurCompany,5,2,0
+2024-05-20 14:30:00,OS469,Optical System,subsystem,LM000,1,94,4770117,OpticsCorp,2,1,44
+2023-09-27 11:45:00,WS470,Wafer Stage,subsystem,LM000,1,58,1934364,MotionTech,4,2,34
+2024-01-13 08:00:00,CS471,Control System,subsystem,LM000,1,46,1004252,ControlSolutions,4,2,22
+2024-04-25 16:20:00,FR472,Frame,component,LM000,1,28,502982,StructureCo,6,3,11
+2024-07-05 10:00:00,LN473,Lens Assembly,component,OS001,1,42,1018030,PrecisionOptics,1,1,22
+2024-04-21 13:15:00,LS474,Light Source,component,OS001,1,31,485804,LaserTech,4,1,8
+2024-05-25 09:30:00,MR475,Mirror Set,component,OS001,2,21,192744,ReflectCo,8,4,15
+2023-12-24 07:45:00,MT476,High-Precision Motor,component,WS002,4,13,50077,MotorWorks,17,8,12
+2023-09-11 15:00:00,SN477,Position Sensor,component,WS002,1,10,19622,SensorTech,31,11,5
+2024-06-08 14:30:00,CP478,Industrial Computer,component,CS003,1,19,99077,CompTech,6,2,3
+2024-01-03 10:00:00,SW479,Control Software Package,component,CS003,1,4,477879,SoftwareSolutions,12,5,2
+2023-08-05 09:15:00,LM480,Advanced Lithography Machine,final_product,,1,192,14510398,OurCompany,4,1,0
+2023-09-01 14:30:00,OS481,Optical System,subsystem,LM000,1,98,4785193,OpticsCorp,3,1,43
+2024-04-24 11:45:00,WS482,Wafer Stage,subsystem,LM000,1,55,1937902,MotionTech,3,2,33
+2024-03-27 08:00:00,CS483,Control System,subsystem,LM000,1,47,1027804,ControlSolutions,5,2,22
+2024-02-15 16:20:00,FR484,Frame,component,LM000,1,29,513781,StructureCo,8,3,12
+2024-01-10 10:00:00,LN485,Lens Assembly,component,OS001,1,43,1044778,PrecisionOptics,2,1,22
+2023-09-05 13:15:00,LS486,Light Source,component,OS001,1,32,475781,LaserTech,5,1,7
+2024-05-06 09:30:00,MR487,Mirror Set,component,OS001,1,21,201650,ReflectCo,9,3,17
+2024-02-21 07:45:00,MT488,High-Precision Motor,component,WS002,3,16,51420,MotorWorks,25,8,11
+2023-12-08 15:00:00,SN489,Position Sensor,component,WS002,2,9,20407,SensorTech,26,12,5
+2023-10-15 14:30:00,CP490,Industrial Computer,component,CS003,1,18,104904,CompTech,9,2,3
+2023-12-15 10:00:00,SW491,Control Software Package,component,CS003,1,5,491341,SoftwareSolutions,7,5,2
+2023-12-10 09:15:00,LM492,Advanced Lithography Machine,final_product,,1,162,14463113,OurCompany,4,1,0
+2023-11-20 14:30:00,OS493,Optical System,subsystem,LM000,1,89,5155784,OpticsCorp,2,1,44
+2023-08-23 11:45:00,WS494,Wafer Stage,subsystem,LM000,1,59,2096437,MotionTech,3,1,33
+2024-01-05 08:00:00,CS495,Control System,subsystem,LM000,1,42,952714,ControlSolutions,3,1,22
+2024-05-08 16:20:00,FR496,Frame,component,LM000,1,32,508623,StructureCo,5,2,11
+2024-02-21 10:00:00,LN497,Lens Assembly,component,OS001,1,41,999257,PrecisionOptics,2,1,25
+2023-11-14 13:15:00,LS498,Light Source,component,OS001,1,29,502032,LaserTech,5,1,8
+2023-12-06 09:30:00,MR499,Mirror Set,component,OS001,1,19,196465,ReflectCo,9,4,16
+2024-04-11 07:45:00,MT500,High-Precision Motor,component,WS002,4,15,48595,MotorWorks,25,7,12
+2024-06-02 15:00:00,SN501,Position Sensor,component,WS002,1,9,19642,SensorTech,33,11,6
+2023-08-31 14:30:00,CP502,Industrial Computer,component,CS003,1,19,97186,CompTech,5,2,3
+2023-11-11 10:00:00,SW503,Control Software Package,component,CS003,1,4,518305,SoftwareSolutions,11,5,1
+2024-03-23 09:15:00,LM504,Advanced Lithography Machine,final_product,,1,182,15727863,OurCompany,4,1,0
+2024-01-29 14:30:00,OS505,Optical System,subsystem,LM000,1,94,4850546,OpticsCorp,2,1,43
+2024-02-04 11:45:00,WS506,Wafer Stage,subsystem,LM000,1,64,1946162,MotionTech,3,2,33
+2024-02-28 08:00:00,CS507,Control System,subsystem,LM000,1,47,998573,ControlSolutions,4,1,24
+2023-12-16 16:20:00,FR508,Frame,component,LM000,1,27,486844,StructureCo,9,3,13
+2024-05-07 10:00:00,LN509,Lens Assembly,component,OS001,1,41,1008404,PrecisionOptics,1,1,24
+2024-02-21 13:15:00,LS510,Light Source,component,OS001,1,30,493296,LaserTech,4,2,7
+2023-12-12 09:30:00,MR511,Mirror Set,component,OS001,1,20,198483,ReflectCo,11,3,15
+2024-02-25 07:45:00,MT512,High-Precision Motor,component,WS002,4,15,48293,MotorWorks,14,8,12
+2024-05-10 15:00:00,SN513,Position Sensor,component,WS002,2,10,20434,SensorTech,34,12,6
+2024-02-19 14:30:00,CP514,Industrial Computer,component,CS003,1,21,96884,CompTech,8,3,4
+2023-08-07 10:00:00,SW515,Control Software Package,component,CS003,1,5,476687,SoftwareSolutions,7,4,2
+2023-10-09 09:15:00,LM516,Advanced Lithography Machine,final_product,,1,190,14984564,OurCompany,5,1,0
+2024-04-14 14:30:00,OS517,Optical System,subsystem,LM000,1,95,4893392,OpticsCorp,2,1,45
+2024-06-24 11:45:00,WS518,Wafer Stage,subsystem,LM000,1,57,2092324,MotionTech,3,1,34
+2023-09-20 08:00:00,CS519,Control System,subsystem,LM000,1,48,989664,ControlSolutions,4,1,26
+2024-02-09 16:20:00,FR520,Frame,component,LM000,1,30,513924,StructureCo,7,2,11
+2024-06-08 10:00:00,LN521,Lens Assembly,component,OS001,1,42,1017619,PrecisionOptics,1,1,25
+2023-12-13 13:15:00,LS522,Light Source,component,OS001,1,30,511402,LaserTech,3,1,7
+2024-01-04 09:30:00,MR523,Mirror Set,component,OS001,1,19,196194,ReflectCo,7,4,17
+2024-04-13 07:45:00,MT524,High-Precision Motor,component,WS002,3,16,50067,MotorWorks,21,8,12
+2024-07-17 15:00:00,SN525,Position Sensor,component,WS002,2,10,19604,SensorTech,34,12,6
+2024-02-10 14:30:00,CP526,Industrial Computer,component,CS003,1,19,100033,CompTech,6,3,3
+2024-05-04 10:00:00,SW527,Control Software Package,component,CS003,1,4,482267,SoftwareSolutions,10,4,2
+2024-06-05 09:15:00,LM528,Advanced Lithography Machine,final_product,,1,195,15145927,OurCompany,3,1,0
+2023-10-19 14:30:00,OS529,Optical System,subsystem,LM000,1,86,5134810,OpticsCorp,2,1,51
+2023-09-13 11:45:00,WS530,Wafer Stage,subsystem,LM000,1,62,2022732,MotionTech,5,2,36
+2024-01-23 08:00:00,CS531,Control System,subsystem,LM000,1,41,1038488,ControlSolutions,4,2,23
+2023-09-09 16:20:00,FR532,Frame,component,LM000,1,31,520549,StructureCo,6,3,11
+2023-11-19 10:00:00,LN533,Lens Assembly,component,OS001,1,49,968341,PrecisionOptics,2,1,22
+2023-09-22 13:15:00,LS534,Light Source,component,OS001,1,31,492533,LaserTech,4,1,7
+2024-06-04 09:30:00,MR535,Mirror Set,component,OS001,2,19,202323,ReflectCo,11,3,17
+2024-02-29 07:45:00,MT536,High-Precision Motor,component,WS002,3,15,48702,MotorWorks,23,8,12
+2023-08-18 15:00:00,SN537,Position Sensor,component,WS002,1,10,20059,SensorTech,21,11,5
+2023-12-01 14:30:00,CP538,Industrial Computer,component,CS003,1,21,96952,CompTech,6,2,3
+2023-10-04 10:00:00,SW539,Control Software Package,component,CS003,1,4,480556,SoftwareSolutions,7,4,1
+2024-06-25 09:15:00,LM540,Advanced Lithography Machine,final_product,,1,185,15543541,OurCompany,4,1,0
+2023-10-19 14:30:00,OS541,Optical System,subsystem,LM000,1,94,4910625,OpticsCorp,3,1,49
+2023-08-30 11:45:00,WS542,Wafer Stage,subsystem,LM000,1,54,1991756,MotionTech,3,2,33
+2023-11-15 08:00:00,CS543,Control System,subsystem,LM000,1,44,953734,ControlSolutions,4,1,26
+2023-10-29 16:20:00,FR544,Frame,component,LM000,1,32,512060,StructureCo,10,3,12
+2024-06-28 10:00:00,LN545,Lens Assembly,component,OS001,1,43,1006029,PrecisionOptics,1,1,23
+2023-09-30 13:15:00,LS546,Light Source,component,OS001,1,31,488362,LaserTech,5,1,8
+2024-01-30 09:30:00,MR547,Mirror Set,component,OS001,1,18,200440,ReflectCo,8,4,15
+2024-07-18 07:45:00,MT548,High-Precision Motor,component,WS002,3,15,50257,MotorWorks,22,8,10
+2024-06-03 15:00:00,SN549,Position Sensor,component,WS002,2,9,20004,SensorTech,22,12,6
+2024-06-07 14:30:00,CP550,Industrial Computer,component,CS003,1,20,103299,CompTech,6,3,4
+2023-10-27 10:00:00,SW551,Control Software Package,component,CS003,1,4,492825,SoftwareSolutions,11,4,2
+2024-01-25 09:15:00,LM552,Advanced Lithography Machine,final_product,,1,191,15526681,OurCompany,4,2,0
+2024-01-16 14:30:00,OS553,Optical System,subsystem,LM000,1,92,4799339,OpticsCorp,2,1,50
+2023-11-28 11:45:00,WS554,Wafer Stage,subsystem,LM000,1,60,2040140,MotionTech,4,2,37
+2023-09-11 08:00:00,CS555,Control System,subsystem,LM000,1,41,1037938,ControlSolutions,6,2,24
+2024-01-29 16:20:00,FR556,Frame,component,LM000,1,28,483171,StructureCo,9,2,12
+2024-07-04 10:00:00,LN557,Lens Assembly,component,OS001,1,44,1031388,PrecisionOptics,2,1,24
+2024-03-19 13:15:00,LS558,Light Source,component,OS001,1,31,505795,LaserTech,4,2,7
+2023-08-23 09:30:00,MR559,Mirror Set,component,OS001,2,20,202766,ReflectCo,12,4,15
+2024-07-13 07:45:00,MT560,High-Precision Motor,component,WS002,3,14,50086,MotorWorks,23,8,12
+2023-09-11 15:00:00,SN561,Position Sensor,component,WS002,1,9,20737,SensorTech,33,11,6
+2024-03-08 14:30:00,CP562,Industrial Computer,component,CS003,1,19,97836,CompTech,6,3,4
+2023-08-07 10:00:00,SW563,Control Software Package,component,CS003,1,5,483319,SoftwareSolutions,9,5,1
+2023-08-09 09:15:00,LM564,Advanced Lithography Machine,final_product,,1,162,15598217,OurCompany,5,2,0
+2023-10-08 14:30:00,OS565,Optical System,subsystem,LM000,1,82,4784598,OpticsCorp,3,1,45
+2024-01-31 11:45:00,WS566,Wafer Stage,subsystem,LM000,1,55,1931828,MotionTech,4,1,37
+2024-01-19 08:00:00,CS567,Control System,subsystem,LM000,1,43,986847,ControlSolutions,4,1,26
+2024-03-30 16:20:00,FR568,Frame,component,LM000,1,31,513310,StructureCo,7,2,12
+2024-01-29 10:00:00,LN569,Lens Assembly,component,OS001,1,41,985955,PrecisionOptics,2,1,22
+2024-07-25 13:15:00,LS570,Light Source,component,OS001,1,28,500495,LaserTech,4,2,8
+2024-01-31 09:30:00,MR571,Mirror Set,component,OS001,2,20,200715,ReflectCo,12,4,15
+2023-11-16 07:45:00,MT572,High-Precision Motor,component,WS002,3,16,48103,MotorWorks,22,8,11
+2024-03-03 15:00:00,SN573,Position Sensor,component,WS002,2,9,20202,SensorTech,36,11,5
+2023-08-30 14:30:00,CP574,Industrial Computer,component,CS003,1,20,95632,CompTech,8,2,3
+2024-02-08 10:00:00,SW575,Control Software Package,component,CS003,1,4,509949,SoftwareSolutions,10,4,1
+2023-10-11 09:15:00,LM576,Advanced Lithography Machine,final_product,,1,184,15291720,OurCompany,4,1,0
+2023-10-22 14:30:00,OS577,Optical System,subsystem,LM000,1,95,4956659,OpticsCorp,2,1,49
+2024-03-20 11:45:00,WS578,Wafer Stage,subsystem,LM000,1,54,1910400,MotionTech,5,1,35
+2023-10-08 08:00:00,CS579,Control System,subsystem,LM000,1,46,966345,ControlSolutions,4,2,22
+2023-09-30 16:20:00,FR580,Frame,component,LM000,1,31,478892,StructureCo,6,3,11
+2024-01-02 10:00:00,LN581,Lens Assembly,component,OS001,1,41,1005230,PrecisionOptics,2,1,23
+2024-05-11 13:15:00,LS582,Light Source,component,OS001,1,29,487384,LaserTech,4,1,7
+2024-05-01 09:30:00,MR583,Mirror Set,component,OS001,2,21,199276,ReflectCo,9,4,15
+2024-01-27 07:45:00,MT584,High-Precision Motor,component,WS002,3,15,51507,MotorWorks,21,8,10
+2024-02-24 15:00:00,SN585,Position Sensor,component,WS002,1,10,19223,SensorTech,27,11,6
+2023-08-23 14:30:00,CP586,Industrial Computer,component,CS003,1,21,97550,CompTech,9,3,4
+2023-11-21 10:00:00,SW587,Control Software Package,component,CS003,1,4,495699,SoftwareSolutions,7,4,2
+2023-11-18 09:15:00,LM588,Advanced Lithography Machine,final_product,,1,173,14443043,OurCompany,4,2,0
+2024-01-27 14:30:00,OS589,Optical System,subsystem,LM000,1,88,5081784,OpticsCorp,2,1,47
+2023-12-09 11:45:00,WS590,Wafer Stage,subsystem,LM000,1,58,2023493,MotionTech,2,1,37
+2023-09-11 08:00:00,CS591,Control System,subsystem,LM000,1,46,985765,ControlSolutions,3,2,23
+2023-08-29 16:20:00,FR592,Frame,component,LM000,1,28,508330,StructureCo,8,2,12
+2024-03-31 10:00:00,LN593,Lens Assembly,component,OS001,1,44,1035324,PrecisionOptics,1,1,23
+2024-04-05 13:15:00,LS594,Light Source,component,OS001,1,28,521743,LaserTech,4,1,7
+2023-10-16 09:30:00,MR595,Mirror Set,component,OS001,1,18,209767,ReflectCo,11,3,16
+2024-05-22 07:45:00,MT596,High-Precision Motor,component,WS002,3,15,48611,MotorWorks,17,8,11
+2023-12-02 15:00:00,SN597,Position Sensor,component,WS002,1,10,19001,SensorTech,32,12,6
+2024-04-23 14:30:00,CP598,Industrial Computer,component,CS003,1,19,104440,CompTech,5,2,4
+2024-03-22 10:00:00,SW599,Control Software Package,component,CS003,1,5,502626,SoftwareSolutions,9,5,1
+2024-02-12 09:15:00,LM600,Advanced Lithography Machine,final_product,,1,168,15019676,OurCompany,3,2,0
+2024-05-28 14:30:00,OS601,Optical System,subsystem,LM000,1,98,4911135,OpticsCorp,3,1,45
+2023-08-10 11:45:00,WS602,Wafer Stage,subsystem,LM000,1,62,2028763,MotionTech,4,1,34
+2024-05-30 08:00:00,CS603,Control System,subsystem,LM000,1,41,986202,ControlSolutions,4,1,22
+2023-10-02 16:20:00,FR604,Frame,component,LM000,1,31,506954,StructureCo,9,3,12
+2023-08-19 10:00:00,LN605,Lens Assembly,component,OS001,1,41,1001485,PrecisionOptics,1,1,23
+2024-06-18 13:15:00,LS606,Light Source,component,OS001,1,31,524170,LaserTech,5,1,7
+2023-12-22 09:30:00,MR607,Mirror Set,component,OS001,1,18,203796,ReflectCo,9,3,16
+2024-01-06 07:45:00,MT608,High-Precision Motor,component,WS002,3,16,50878,MotorWorks,14,7,12
+2024-06-27 15:00:00,SN609,Position Sensor,component,WS002,1,9,19373,SensorTech,25,12,5
+2023-08-26 14:30:00,CP610,Industrial Computer,component,CS003,1,19,96032,CompTech,9,2,4
+2024-04-19 10:00:00,SW611,Control Software Package,component,CS003,1,4,521691,SoftwareSolutions,10,5,1
+2023-11-10 09:15:00,LM612,Advanced Lithography Machine,final_product,,1,172,15659816,OurCompany,6,1,0
+2023-07-29 14:30:00,OS613,Optical System,subsystem,LM000,1,89,4960721,OpticsCorp,3,1,46
+2023-09-23 11:45:00,WS614,Wafer Stage,subsystem,LM000,1,60,1929129,MotionTech,3,1,32
+2023-09-20 08:00:00,CS615,Control System,subsystem,LM000,1,43,959218,ControlSolutions,5,1,24
+2023-12-11 16:20:00,FR616,Frame,component,LM000,1,28,485173,StructureCo,5,2,11
+2024-07-05 10:00:00,LN617,Lens Assembly,component,OS001,1,47,975869,PrecisionOptics,1,1,24
+2023-08-19 13:15:00,LS618,Light Source,component,OS001,1,31,507655,LaserTech,6,1,8
+2024-04-19 09:30:00,MR619,Mirror Set,component,OS001,2,20,208597,ReflectCo,7,3,15
+2023-12-28 07:45:00,MT620,High-Precision Motor,component,WS002,4,15,51540,MotorWorks,14,8,11
+2023-09-22 15:00:00,SN621,Position Sensor,component,WS002,1,9,20551,SensorTech,30,11,5
+2024-04-07 14:30:00,CP622,Industrial Computer,component,CS003,1,19,97249,CompTech,9,2,4
+2024-07-08 10:00:00,SW623,Control Software Package,component,CS003,1,5,495470,SoftwareSolutions,12,5,2
+2023-11-16 09:15:00,LM624,Advanced Lithography Machine,final_product,,1,197,15091433,OurCompany,5,2,0
+2024-02-09 14:30:00,OS625,Optical System,subsystem,LM000,1,94,4827167,OpticsCorp,3,1,48
+2024-02-28 11:45:00,WS626,Wafer Stage,subsystem,LM000,1,65,1907170,MotionTech,3,2,34
+2023-12-29 08:00:00,CS627,Control System,subsystem,LM000,1,45,993094,ControlSolutions,4,1,25
+2023-08-17 16:20:00,FR628,Frame,component,LM000,1,32,511136,StructureCo,5,3,11
+2023-11-10 10:00:00,LN629,Lens Assembly,component,OS001,1,45,1035865,PrecisionOptics,1,1,23
+2023-12-19 13:15:00,LS630,Light Source,component,OS001,1,27,524528,LaserTech,5,2,7
+2024-06-11 09:30:00,MR631,Mirror Set,component,OS001,2,20,192497,ReflectCo,8,3,16
+2023-09-28 07:45:00,MT632,High-Precision Motor,component,WS002,4,15,48918,MotorWorks,15,7,12
+2024-06-03 15:00:00,SN633,Position Sensor,component,WS002,1,9,19329,SensorTech,26,11,5
+2024-02-02 14:30:00,CP634,Industrial Computer,component,CS003,1,21,101551,CompTech,9,3,4
+2024-07-12 10:00:00,SW635,Control Software Package,component,CS003,1,5,496766,SoftwareSolutions,7,5,1
+2024-06-25 09:15:00,LM636,Advanced Lithography Machine,final_product,,1,173,15199216,OurCompany,4,1,0
+2023-12-23 14:30:00,OS637,Optical System,subsystem,LM000,1,98,4855493,OpticsCorp,3,1,45
+2024-01-25 11:45:00,WS638,Wafer Stage,subsystem,LM000,1,61,1983712,MotionTech,4,1,33
+2023-09-16 08:00:00,CS639,Control System,subsystem,LM000,1,48,996726,ControlSolutions,3,1,21
+2024-04-11 16:20:00,FR640,Frame,component,LM000,1,30,496648,StructureCo,7,2,11
+2023-12-13 10:00:00,LN641,Lens Assembly,component,OS001,1,44,986634,PrecisionOptics,1,1,22
+2024-05-20 13:15:00,LS642,Light Source,component,OS001,1,30,482740,LaserTech,5,2,8
+2023-09-27 09:30:00,MR643,Mirror Set,component,OS001,2,19,201032,ReflectCo,8,3,17
+2024-02-18 07:45:00,MT644,High-Precision Motor,component,WS002,4,13,51632,MotorWorks,20,7,12
+2024-02-14 15:00:00,SN645,Position Sensor,component,WS002,1,10,19786,SensorTech,34,12,6
+2024-03-24 14:30:00,CP646,Industrial Computer,component,CS003,1,19,104652,CompTech,8,2,3
+2023-10-30 10:00:00,SW647,Control Software Package,component,CS003,1,5,523578,SoftwareSolutions,7,4,1
+2023-08-04 09:15:00,LM648,Advanced Lithography Machine,final_product,,1,167,15583406,OurCompany,4,2,0
+2024-04-10 14:30:00,OS649,Optical System,subsystem,LM000,1,87,5177704,OpticsCorp,2,1,51
+2024-02-21 11:45:00,WS650,Wafer Stage,subsystem,LM000,1,54,2011693,MotionTech,3,1,33
+2023-08-04 08:00:00,CS651,Control System,subsystem,LM000,1,42,976092,ControlSolutions,3,2,22
+2023-09-16 16:20:00,FR652,Frame,component,LM000,1,30,519736,StructureCo,8,3,11
+2024-05-24 10:00:00,LN653,Lens Assembly,component,OS001,1,40,980156,PrecisionOptics,2,1,25
+2023-11-21 13:15:00,LS654,Light Source,component,OS001,1,30,477911,LaserTech,4,2,8
+2024-04-20 09:30:00,MR655,Mirror Set,component,OS001,2,20,209572,ReflectCo,11,4,16
+2023-12-22 07:45:00,MT656,High-Precision Motor,component,WS002,4,14,49711,MotorWorks,18,7,12
+2024-06-19 15:00:00,SN657,Position Sensor,component,WS002,1,10,19649,SensorTech,24,12,5
+2024-01-21 14:30:00,CP658,Industrial Computer,component,CS003,1,19,104843,CompTech,8,2,4
+2023-08-16 10:00:00,SW659,Control Software Package,component,CS003,1,5,492129,SoftwareSolutions,10,5,1
+2024-04-21 09:15:00,LM660,Advanced Lithography Machine,final_product,,1,181,15519144,OurCompany,4,1,0
+2023-12-15 14:30:00,OS661,Optical System,subsystem,LM000,1,90,5226429,OpticsCorp,2,1,44
+2024-06-30 11:45:00,WS662,Wafer Stage,subsystem,LM000,1,61,2039578,MotionTech,4,1,36
+2023-07-30 08:00:00,CS663,Control System,subsystem,LM000,1,41,1033414,ControlSolutions,6,2,25
+2024-02-07 16:20:00,FR664,Frame,component,LM000,1,31,502384,StructureCo,8,2,11
+2023-08-02 10:00:00,LN665,Lens Assembly,component,OS001,1,49,962156,PrecisionOptics,1,1,22
+2023-08-24 13:15:00,LS666,Light Source,component,OS001,1,28,499726,LaserTech,3,1,7
+2024-06-12 09:30:00,MR667,Mirror Set,component,OS001,2,21,197304,ReflectCo,12,4,15
+2024-01-09 07:45:00,MT668,High-Precision Motor,component,WS002,4,15,48978,MotorWorks,14,8,11
+2024-03-28 15:00:00,SN669,Position Sensor,component,WS002,1,9,20896,SensorTech,37,11,6
+2024-05-18 14:30:00,CP670,Industrial Computer,component,CS003,1,19,101031,CompTech,8,2,3
+2024-07-23 10:00:00,SW671,Control Software Package,component,CS003,1,5,520545,SoftwareSolutions,9,5,1
+2024-04-25 09:15:00,LM672,Advanced Lithography Machine,final_product,,1,163,14316064,OurCompany,3,2,0
+2024-02-22 14:30:00,OS673,Optical System,subsystem,LM000,1,91,4929992,OpticsCorp,2,1,45
+2023-11-15 11:45:00,WS674,Wafer Stage,subsystem,LM000,1,64,1938101,MotionTech,3,1,33
+2023-12-27 08:00:00,CS675,Control System,subsystem,LM000,1,48,999112,ControlSolutions,3,1,25
+2024-05-20 16:20:00,FR676,Frame,component,LM000,1,31,504363,StructureCo,7,2,11
+2023-11-01 10:00:00,LN677,Lens Assembly,component,OS001,1,43,1007519,PrecisionOptics,2,1,23
+2023-12-14 13:15:00,LS678,Light Source,component,OS001,1,29,500163,LaserTech,5,1,7
+2024-03-22 09:30:00,MR679,Mirror Set,component,OS001,1,18,203906,ReflectCo,12,4,15
+2024-05-07 07:45:00,MT680,High-Precision Motor,component,WS002,4,13,49602,MotorWorks,25,8,11
+2023-09-09 15:00:00,SN681,Position Sensor,component,WS002,1,10,20430,SensorTech,30,11,5
+2023-12-06 14:30:00,CP682,Industrial Computer,component,CS003,1,21,99513,CompTech,5,3,3
+2024-01-05 10:00:00,SW683,Control Software Package,component,CS003,1,5,501213,SoftwareSolutions,12,5,2
+2024-02-23 09:15:00,LM684,Advanced Lithography Machine,final_product,,1,188,14657023,OurCompany,4,2,0
+2024-04-18 14:30:00,OS685,Optical System,subsystem,LM000,1,91,4864336,OpticsCorp,2,1,45
+2023-08-14 11:45:00,WS686,Wafer Stage,subsystem,LM000,1,65,2056382,MotionTech,3,1,32
+2023-12-07 08:00:00,CS687,Control System,subsystem,LM000,1,46,1037785,ControlSolutions,5,2,25
+2024-06-20 16:20:00,FR688,Frame,component,LM000,1,31,490829,StructureCo,6,3,11
+2023-09-06 10:00:00,LN689,Lens Assembly,component,OS001,1,45,966483,PrecisionOptics,1,1,23
+2023-08-22 13:15:00,LS690,Light Source,component,OS001,1,27,483906,LaserTech,3,2,7
+2023-08-19 09:30:00,MR691,Mirror Set,component,OS001,1,20,192895,ReflectCo,10,4,15
+2023-08-20 07:45:00,MT692,High-Precision Motor,component,WS002,3,13,48426,MotorWorks,17,7,13
+2023-12-19 15:00:00,SN693,Position Sensor,component,WS002,2,9,19140,SensorTech,26,12,5
+2023-08-02 14:30:00,CP694,Industrial Computer,component,CS003,1,21,97511,CompTech,6,3,4
+2023-08-25 10:00:00,SW695,Control Software Package,component,CS003,1,5,508368,SoftwareSolutions,7,4,2
+2024-06-20 09:15:00,LM696,Advanced Lithography Machine,final_product,,1,194,14814292,OurCompany,5,2,0
+2024-04-22 14:30:00,OS697,Optical System,subsystem,LM000,1,92,5002332,OpticsCorp,2,1,49
+2023-10-01 11:45:00,WS698,Wafer Stage,subsystem,LM000,1,62,2011470,MotionTech,5,1,37
+2023-10-23 08:00:00,CS699,Control System,subsystem,LM000,1,46,973807,ControlSolutions,4,2,23
+2023-12-24 16:20:00,FR700,Frame,component,LM000,1,32,478454,StructureCo,8,2,12
+2023-08-24 10:00:00,LN701,Lens Assembly,component,OS001,1,46,988087,PrecisionOptics,1,1,25
+2024-03-29 13:15:00,LS702,Light Source,component,OS001,1,29,504778,LaserTech,5,2,8
+2023-11-08 09:30:00,MR703,Mirror Set,component,OS001,1,19,202835,ReflectCo,12,3,15
+2024-05-29 07:45:00,MT704,High-Precision Motor,component,WS002,4,14,52131,MotorWorks,18,7,12
+2024-05-15 15:00:00,SN705,Position Sensor,component,WS002,2,9,19244,SensorTech,29,12,6
+2024-04-29 14:30:00,CP706,Industrial Computer,component,CS003,1,19,97873,CompTech,8,2,3
+2024-03-05 10:00:00,SW707,Control Software Package,component,CS003,1,4,521332,SoftwareSolutions,11,4,2
+2024-03-12 09:15:00,LM708,Advanced Lithography Machine,final_product,,1,166,15204848,OurCompany,4,2,0
+2023-07-28 14:30:00,OS709,Optical System,subsystem,LM000,1,87,5127407,OpticsCorp,2,1,52
+2023-10-17 11:45:00,WS710,Wafer Stage,subsystem,LM000,1,56,1946330,MotionTech,3,1,35
+2024-03-25 08:00:00,CS711,Control System,subsystem,LM000,1,42,1045914,ControlSolutions,6,2,25
+2024-02-12 16:20:00,FR712,Frame,component,LM000,1,29,500629,StructureCo,6,2,12
+2023-11-04 10:00:00,LN713,Lens Assembly,component,OS001,1,44,976370,PrecisionOptics,1,1,23
+2024-05-20 13:15:00,LS714,Light Source,component,OS001,1,28,485527,LaserTech,6,1,7
+2023-12-04 09:30:00,MR715,Mirror Set,component,OS001,1,21,192291,ReflectCo,12,3,17
+2023-09-17 07:45:00,MT716,High-Precision Motor,component,WS002,3,16,50302,MotorWorks,15,8,12
+2024-04-23 15:00:00,SN717,Position Sensor,component,WS002,1,9,20778,SensorTech,24,11,6
+2023-11-28 14:30:00,CP718,Industrial Computer,component,CS003,1,18,95130,CompTech,10,2,4
+2023-11-30 10:00:00,SW719,Control Software Package,component,CS003,1,4,521146,SoftwareSolutions,7,4,2
+2023-07-31 09:15:00,LM720,Advanced Lithography Machine,final_product,,1,195,14470642,OurCompany,4,1,0
+2024-02-16 14:30:00,OS721,Optical System,subsystem,LM000,1,89,4852244,OpticsCorp,2,1,43
+2023-09-12 11:45:00,WS722,Wafer Stage,subsystem,LM000,1,65,1959361,MotionTech,3,2,39
+2023-09-30 08:00:00,CS723,Control System,subsystem,LM000,1,46,969582,ControlSolutions,4,2,22
+2023-11-29 16:20:00,FR724,Frame,component,LM000,1,32,520595,StructureCo,9,3,11
+2023-09-22 10:00:00,LN725,Lens Assembly,component,OS001,1,47,950541,PrecisionOptics,2,1,24
+2024-03-22 13:15:00,LS726,Light Source,component,OS001,1,27,503308,LaserTech,5,1,7
+2023-08-27 09:30:00,MR727,Mirror Set,component,OS001,2,18,202750,ReflectCo,7,4,15
+2023-10-21 07:45:00,MT728,High-Precision Motor,component,WS002,3,13,50004,MotorWorks,14,8,10
+2023-11-13 15:00:00,SN729,Position Sensor,component,WS002,2,10,20487,SensorTech,38,11,6
+2024-03-18 14:30:00,CP730,Industrial Computer,component,CS003,1,19,96028,CompTech,6,2,4
+2024-02-29 10:00:00,SW731,Control Software Package,component,CS003,1,5,507240,SoftwareSolutions,7,5,1
+2024-04-22 09:15:00,LM732,Advanced Lithography Machine,final_product,,1,168,15537008,OurCompany,6,2,0
+2023-10-23 14:30:00,OS733,Optical System,subsystem,LM000,1,84,4924276,OpticsCorp,3,1,46
+2024-05-14 11:45:00,WS734,Wafer Stage,subsystem,LM000,1,61,2056700,MotionTech,3,1,37
+2023-08-14 08:00:00,CS735,Control System,subsystem,LM000,1,48,970586,ControlSolutions,6,2,24
+2024-06-13 16:20:00,FR736,Frame,component,LM000,1,31,506955,StructureCo,9,2,13
+2024-07-04 10:00:00,LN737,Lens Assembly,component,OS001,1,44,1015200,PrecisionOptics,1,1,26
+2023-09-12 13:15:00,LS738,Light Source,component,OS001,1,29,512737,LaserTech,3,2,7
+2023-10-08 09:30:00,MR739,Mirror Set,component,OS001,2,21,203333,ReflectCo,7,4,16
+2023-11-26 07:45:00,MT740,High-Precision Motor,component,WS002,4,14,49413,MotorWorks,18,7,11
+2024-01-01 15:00:00,SN741,Position Sensor,component,WS002,1,9,19052,SensorTech,23,12,6
+2024-04-14 14:30:00,CP742,Industrial Computer,component,CS003,1,20,97374,CompTech,8,2,3
+2023-07-30 10:00:00,SW743,Control Software Package,component,CS003,1,4,489934,SoftwareSolutions,10,4,2
+2023-08-30 09:15:00,LM744,Advanced Lithography Machine,final_product,,1,167,14853560,OurCompany,4,1,0
+2023-08-23 14:30:00,OS745,Optical System,subsystem,LM000,1,91,5163852,OpticsCorp,3,1,45
+2024-04-29 11:45:00,WS746,Wafer Stage,subsystem,LM000,1,58,1916113,MotionTech,3,1,38
+2023-09-16 08:00:00,CS747,Control System,subsystem,LM000,1,41,964082,ControlSolutions,6,2,25
+2023-09-22 16:20:00,FR748,Frame,component,LM000,1,28,518844,StructureCo,5,3,12
+2024-07-07 10:00:00,LN749,Lens Assembly,component,OS001,1,43,997541,PrecisionOptics,1,1,24
+2023-11-24 13:15:00,LS750,Light Source,component,OS001,1,31,503543,LaserTech,3,2,7
+2023-09-17 09:30:00,MR751,Mirror Set,component,OS001,2,20,191863,ReflectCo,12,3,17
+2024-06-27 07:45:00,MT752,High-Precision Motor,component,WS002,4,14,49915,MotorWorks,25,7,12
+2023-09-04 15:00:00,SN753,Position Sensor,component,WS002,1,10,19635,SensorTech,34,11,6
+2023-09-12 14:30:00,CP754,Industrial Computer,component,CS003,1,20,101744,CompTech,9,2,3
+2023-11-05 10:00:00,SW755,Control Software Package,component,CS003,1,5,502605,SoftwareSolutions,12,4,1
+2024-03-14 09:15:00,LM756,Advanced Lithography Machine,final_product,,1,186,15190878,OurCompany,5,1,0
+2024-05-23 14:30:00,OS757,Optical System,subsystem,LM000,1,86,4876774,OpticsCorp,2,1,44
+2024-02-26 11:45:00,WS758,Wafer Stage,subsystem,LM000,1,55,2027961,MotionTech,4,1,35
+2024-01-10 08:00:00,CS759,Control System,subsystem,LM000,1,45,1000771,ControlSolutions,5,1,21
+2024-05-05 16:20:00,FR760,Frame,component,LM000,1,32,494745,StructureCo,7,2,12
+2023-08-11 10:00:00,LN761,Lens Assembly,component,OS001,1,47,950737,PrecisionOptics,2,1,23
+2024-02-18 13:15:00,LS762,Light Source,component,OS001,1,31,480044,LaserTech,5,2,7
+2024-03-02 09:30:00,MR763,Mirror Set,component,OS001,2,19,197161,ReflectCo,8,3,15
+2023-09-17 07:45:00,MT764,High-Precision Motor,component,WS002,3,15,50127,MotorWorks,14,7,12
+2024-06-17 15:00:00,SN765,Position Sensor,component,WS002,2,9,20227,SensorTech,38,13,6
+2023-07-27 14:30:00,CP766,Industrial Computer,component,CS003,1,18,96405,CompTech,8,2,4
+2024-05-27 10:00:00,SW767,Control Software Package,component,CS003,1,5,493819,SoftwareSolutions,11,4,1
+2024-05-29 09:15:00,LM768,Advanced Lithography Machine,final_product,,1,179,15098365,OurCompany,4,1,0
+2024-01-01 14:30:00,OS769,Optical System,subsystem,LM000,1,81,5141437,OpticsCorp,2,1,46
+2024-03-18 11:45:00,WS770,Wafer Stage,subsystem,LM000,1,56,2040976,MotionTech,3,1,33
+2024-02-05 08:00:00,CS771,Control System,subsystem,LM000,1,49,1017047,ControlSolutions,5,1,22
+2024-04-14 16:20:00,FR772,Frame,component,LM000,1,28,515911,StructureCo,6,2,12
+2023-12-14 10:00:00,LN773,Lens Assembly,component,OS001,1,47,1008421,PrecisionOptics,2,1,23
+2023-11-17 13:15:00,LS774,Light Source,component,OS001,1,31,511391,LaserTech,4,1,8
+2024-04-04 09:30:00,MR775,Mirror Set,component,OS001,1,20,205138,ReflectCo,8,4,17
+2023-12-25 07:45:00,MT776,High-Precision Motor,component,WS002,4,14,49240,MotorWorks,15,7,12
+2024-06-15 15:00:00,SN777,Position Sensor,component,WS002,2,9,19495,SensorTech,38,11,5
+2024-02-03 14:30:00,CP778,Industrial Computer,component,CS003,1,18,96442,CompTech,7,2,4
+2023-10-26 10:00:00,SW779,Control Software Package,component,CS003,1,5,519518,SoftwareSolutions,11,4,2
+2023-08-19 09:15:00,LM780,Advanced Lithography Machine,final_product,,1,197,14429393,OurCompany,4,1,0
+2024-01-07 14:30:00,OS781,Optical System,subsystem,LM000,1,95,4975108,OpticsCorp,2,1,49
+2024-02-05 11:45:00,WS782,Wafer Stage,subsystem,LM000,1,65,2097549,MotionTech,3,2,35
+2024-04-20 08:00:00,CS783,Control System,subsystem,LM000,1,47,973619,ControlSolutions,4,2,22
+2024-07-08 16:20:00,FR784,Frame,component,LM000,1,30,487532,StructureCo,8,3,12
+2024-04-29 10:00:00,LN785,Lens Assembly,component,OS001,1,45,1043616,PrecisionOptics,1,1,24
+2024-06-26 13:15:00,LS786,Light Source,component,OS001,1,32,515664,LaserTech,6,1,8
+2024-02-10 09:30:00,MR787,Mirror Set,component,OS001,2,20,207551,ReflectCo,12,3,17
+2024-06-03 07:45:00,MT788,High-Precision Motor,component,WS002,3,14,49212,MotorWorks,15,7,12
+2023-08-10 15:00:00,SN789,Position Sensor,component,WS002,2,10,19553,SensorTech,27,11,5
+2024-06-17 14:30:00,CP790,Industrial Computer,component,CS003,1,19,100033,CompTech,7,3,4
+2023-08-21 10:00:00,SW791,Control Software Package,component,CS003,1,4,500541,SoftwareSolutions,11,5,2
+2024-02-13 09:15:00,LM792,Advanced Lithography Machine,final_product,,1,196,14650179,OurCompany,4,2,0
+2023-11-25 14:30:00,OS793,Optical System,subsystem,LM000,1,84,5050489,OpticsCorp,2,1,51
+2024-05-05 11:45:00,WS794,Wafer Stage,subsystem,LM000,1,56,2080781,MotionTech,3,1,36
+2024-01-04 08:00:00,CS795,Control System,subsystem,LM000,1,44,977329,ControlSolutions,5,1,22
+2023-12-18 16:20:00,FR796,Frame,component,LM000,1,32,520637,StructureCo,9,2,12
+2024-05-13 10:00:00,LN797,Lens Assembly,component,OS001,1,44,1043175,PrecisionOptics,1,1,25
+2024-05-19 13:15:00,LS798,Light Source,component,OS001,1,29,505203,LaserTech,6,1,7
+2024-01-12 09:30:00,MR799,Mirror Set,component,OS001,2,21,206279,ReflectCo,8,3,17
+2023-12-11 07:45:00,MT800,High-Precision Motor,component,WS002,4,16,50305,MotorWorks,17,8,11
+2024-06-15 15:00:00,SN801,Position Sensor,component,WS002,1,10,20699,SensorTech,29,11,6
+2023-08-10 14:30:00,CP802,Industrial Computer,component,CS003,1,20,104457,CompTech,8,2,4
+2024-04-13 10:00:00,SW803,Control Software Package,component,CS003,1,4,519778,SoftwareSolutions,7,5,1
+2024-02-18 09:15:00,LM804,Advanced Lithography Machine,final_product,,1,192,15139189,OurCompany,4,1,0
+2024-02-12 14:30:00,OS805,Optical System,subsystem,LM000,1,84,5143233,OpticsCorp,3,1,44
+2023-09-27 11:45:00,WS806,Wafer Stage,subsystem,LM000,1,65,2047954,MotionTech,4,2,32
+2024-03-13 08:00:00,CS807,Control System,subsystem,LM000,1,45,951492,ControlSolutions,5,2,24
+2023-09-10 16:20:00,FR808,Frame,component,LM000,1,28,501403,StructureCo,9,2,11
+2024-02-17 10:00:00,LN809,Lens Assembly,component,OS001,1,42,982635,PrecisionOptics,2,1,23
+2024-05-30 13:15:00,LS810,Light Source,component,OS001,1,29,502572,LaserTech,4,2,7
+2024-05-16 09:30:00,MR811,Mirror Set,component,OS001,2,19,205627,ReflectCo,12,3,14
+2024-06-24 07:45:00,MT812,High-Precision Motor,component,WS002,3,13,48897,MotorWorks,24,7,11
+2023-12-24 15:00:00,SN813,Position Sensor,component,WS002,1,9,20233,SensorTech,29,11,6
+2024-02-19 14:30:00,CP814,Industrial Computer,component,CS003,1,19,97161,CompTech,7,3,3
+2023-07-31 10:00:00,SW815,Control Software Package,component,CS003,1,5,512663,SoftwareSolutions,10,5,1
+2024-02-18 09:15:00,LM816,Advanced Lithography Machine,final_product,,1,168,14367027,OurCompany,5,2,0
+2023-09-14 14:30:00,OS817,Optical System,subsystem,LM000,1,97,4984668,OpticsCorp,3,1,46
+2024-01-21 11:45:00,WS818,Wafer Stage,subsystem,LM000,1,63,1927437,MotionTech,4,2,34
+2023-10-11 08:00:00,CS819,Control System,subsystem,LM000,1,42,1043121,ControlSolutions,6,2,22
+2023-12-07 16:20:00,FR820,Frame,component,LM000,1,31,491297,StructureCo,7,2,13
+2024-06-14 10:00:00,LN821,Lens Assembly,component,OS001,1,47,1000216,PrecisionOptics,2,1,22
+2024-01-06 13:15:00,LS822,Light Source,component,OS001,1,30,502421,LaserTech,4,2,8
+2024-03-10 09:30:00,MR823,Mirror Set,component,OS001,2,19,197968,ReflectCo,10,3,15
+2023-12-18 07:45:00,MT824,High-Precision Motor,component,WS002,3,13,49322,MotorWorks,25,8,13
+2024-07-20 15:00:00,SN825,Position Sensor,component,WS002,1,9,20095,SensorTech,27,13,6
+2023-11-29 14:30:00,CP826,Industrial Computer,component,CS003,1,21,100412,CompTech,10,3,4
+2023-08-29 10:00:00,SW827,Control Software Package,component,CS003,1,4,510693,SoftwareSolutions,11,4,1
+2024-02-12 09:15:00,LM828,Advanced Lithography Machine,final_product,,1,166,14412818,OurCompany,5,2,0
+2024-05-22 14:30:00,OS829,Optical System,subsystem,LM000,1,96,5006403,OpticsCorp,2,1,47
+2023-11-21 11:45:00,WS830,Wafer Stage,subsystem,LM000,1,57,2081496,MotionTech,4,1,35
+2023-08-28 08:00:00,CS831,Control System,subsystem,LM000,1,41,962666,ControlSolutions,6,1,21
+2024-01-16 16:20:00,FR832,Frame,component,LM000,1,31,489215,StructureCo,9,3,10
+2023-12-26 10:00:00,LN833,Lens Assembly,component,OS001,1,41,1020314,PrecisionOptics,2,1,25
+2024-05-29 13:15:00,LS834,Light Source,component,OS001,1,29,503705,LaserTech,4,1,7
+2023-08-08 09:30:00,MR835,Mirror Set,component,OS001,2,18,202268,ReflectCo,7,3,15
+2023-08-20 07:45:00,MT836,High-Precision Motor,component,WS002,4,15,50306,MotorWorks,25,8,11
+2024-05-01 15:00:00,SN837,Position Sensor,component,WS002,2,9,20018,SensorTech,34,11,5
+2024-02-17 14:30:00,CP838,Industrial Computer,component,CS003,1,18,99119,CompTech,9,2,4
+2023-09-15 10:00:00,SW839,Control Software Package,component,CS003,1,5,493853,SoftwareSolutions,11,5,1
+2023-12-07 09:15:00,LM840,Advanced Lithography Machine,final_product,,1,186,14735646,OurCompany,3,1,0
+2024-03-15 14:30:00,OS841,Optical System,subsystem,LM000,1,94,5241336,OpticsCorp,3,1,51
+2024-05-16 11:45:00,WS842,Wafer Stage,subsystem,LM000,1,55,2088548,MotionTech,3,1,34
+2023-10-11 08:00:00,CS843,Control System,subsystem,LM000,1,48,1046077,ControlSolutions,6,2,25
+2023-12-29 16:20:00,FR844,Frame,component,LM000,1,31,483979,StructureCo,8,3,12
+2024-04-17 10:00:00,LN845,Lens Assembly,component,OS001,1,46,954287,PrecisionOptics,1,1,22
+2024-04-21 13:15:00,LS846,Light Source,component,OS001,1,27,522712,LaserTech,4,1,7
+2023-12-27 09:30:00,MR847,Mirror Set,component,OS001,2,19,202778,ReflectCo,8,4,14
+2024-04-27 07:45:00,MT848,High-Precision Motor,component,WS002,4,14,48084,MotorWorks,15,8,13
+2023-08-23 15:00:00,SN849,Position Sensor,component,WS002,1,10,19251,SensorTech,31,13,5
+2024-03-22 14:30:00,CP850,Industrial Computer,component,CS003,1,18,95892,CompTech,8,3,4
+2024-07-18 10:00:00,SW851,Control Software Package,component,CS003,1,5,499011,SoftwareSolutions,9,5,1
+2024-01-30 09:15:00,LM852,Advanced Lithography Machine,final_product,,1,188,14334896,OurCompany,4,2,0
+2023-11-27 14:30:00,OS853,Optical System,subsystem,LM000,1,90,5008201,OpticsCorp,2,1,43
+2023-09-10 11:45:00,WS854,Wafer Stage,subsystem,LM000,1,59,1942987,MotionTech,4,1,32
+2023-12-13 08:00:00,CS855,Control System,subsystem,LM000,1,44,1043937,ControlSolutions,4,1,22
+2024-01-05 16:20:00,FR856,Frame,component,LM000,1,27,496301,StructureCo,9,2,12
+2023-10-30 10:00:00,LN857,Lens Assembly,component,OS001,1,47,1008698,PrecisionOptics,1,1,25
+2024-02-28 13:15:00,LS858,Light Source,component,OS001,1,31,522986,LaserTech,6,2,7
+2024-05-11 09:30:00,MR859,Mirror Set,component,OS001,1,21,190027,ReflectCo,7,4,15
+2024-05-04 07:45:00,MT860,High-Precision Motor,component,WS002,4,15,51125,MotorWorks,25,8,11
+2023-08-23 15:00:00,SN861,Position Sensor,component,WS002,2,10,19958,SensorTech,38,12,6
+2024-04-18 14:30:00,CP862,Industrial Computer,component,CS003,1,21,97969,CompTech,8,2,4
+2023-10-10 10:00:00,SW863,Control Software Package,component,CS003,1,5,478458,SoftwareSolutions,12,4,2
+2023-08-29 09:15:00,LM864,Advanced Lithography Machine,final_product,,1,178,14699966,OurCompany,5,2,0
+2023-12-31 14:30:00,OS865,Optical System,subsystem,LM000,1,85,5067327,OpticsCorp,2,1,46
+2024-05-06 11:45:00,WS866,Wafer Stage,subsystem,LM000,1,63,2058218,MotionTech,3,2,34
+2024-01-21 08:00:00,CS867,Control System,subsystem,LM000,1,43,995061,ControlSolutions,6,1,23
+2023-12-10 16:20:00,FR868,Frame,component,LM000,1,27,494530,StructureCo,6,3,11
+2023-10-10 10:00:00,LN869,Lens Assembly,component,OS001,1,41,1006512,PrecisionOptics,2,1,26
+2024-06-12 13:15:00,LS870,Light Source,component,OS001,1,30,482049,LaserTech,6,2,8
+2024-02-15 09:30:00,MR871,Mirror Set,component,OS001,2,21,201879,ReflectCo,11,3,16
+2024-03-30 07:45:00,MT872,High-Precision Motor,component,WS002,3,16,50221,MotorWorks,21,7,13
+2024-07-13 15:00:00,SN873,Position Sensor,component,WS002,1,10,20956,SensorTech,24,12,5
+2023-11-23 14:30:00,CP874,Industrial Computer,component,CS003,1,18,97326,CompTech,8,3,4
+2023-11-01 10:00:00,SW875,Control Software Package,component,CS003,1,4,504714,SoftwareSolutions,9,5,1
+2024-06-01 09:15:00,LM876,Advanced Lithography Machine,final_product,,1,177,14900014,OurCompany,3,2,0
+2024-01-01 14:30:00,OS877,Optical System,subsystem,LM000,1,81,5133160,OpticsCorp,2,1,51
+2024-01-28 11:45:00,WS878,Wafer Stage,subsystem,LM000,1,63,1925596,MotionTech,3,2,39
+2024-04-09 08:00:00,CS879,Control System,subsystem,LM000,1,41,1030523,ControlSolutions,4,1,22
+2023-11-07 16:20:00,FR880,Frame,component,LM000,1,28,484169,StructureCo,10,2,11
+2024-05-27 10:00:00,LN881,Lens Assembly,component,OS001,1,46,990139,PrecisionOptics,2,1,22
+2024-06-17 13:15:00,LS882,Light Source,component,OS001,1,29,489831,LaserTech,4,1,7
+2023-12-18 09:30:00,MR883,Mirror Set,component,OS001,2,20,203341,ReflectCo,10,4,15
+2024-04-11 07:45:00,MT884,High-Precision Motor,component,WS002,3,16,48046,MotorWorks,19,8,11
+2023-08-02 15:00:00,SN885,Position Sensor,component,WS002,1,10,19681,SensorTech,31,11,5
+2023-08-21 14:30:00,CP886,Industrial Computer,component,CS003,1,18,99624,CompTech,8,2,3
+2024-01-15 10:00:00,SW887,Control Software Package,component,CS003,1,4,514597,SoftwareSolutions,12,4,2
+2023-12-27 09:15:00,LM888,Advanced Lithography Machine,final_product,,1,179,14367669,OurCompany,3,2,0
+2023-12-16 14:30:00,OS889,Optical System,subsystem,LM000,1,87,4767547,OpticsCorp,2,1,50
+2023-12-11 11:45:00,WS890,Wafer Stage,subsystem,LM000,1,56,1968747,MotionTech,3,2,38
+2024-02-16 08:00:00,CS891,Control System,subsystem,LM000,1,47,1015382,ControlSolutions,4,2,23
+2024-04-26 16:20:00,FR892,Frame,component,LM000,1,27,496177,StructureCo,6,3,12
+2024-07-24 10:00:00,LN893,Lens Assembly,component,OS001,1,43,1015246,PrecisionOptics,2,1,25
+2023-11-18 13:15:00,LS894,Light Source,component,OS001,1,30,501111,LaserTech,4,2,8
+2024-05-12 09:30:00,MR895,Mirror Set,component,OS001,1,18,199094,ReflectCo,10,3,17
+2024-05-21 07:45:00,MT896,High-Precision Motor,component,WS002,3,14,49554,MotorWorks,14,7,12
+2024-04-21 15:00:00,SN897,Position Sensor,component,WS002,1,9,19847,SensorTech,37,11,5
+2023-12-08 14:30:00,CP898,Industrial Computer,component,CS003,1,18,96850,CompTech,5,2,3
+2024-07-07 10:00:00,SW899,Control Software Package,component,CS003,1,5,499381,SoftwareSolutions,7,4,1
+2024-02-08 09:15:00,LM900,Advanced Lithography Machine,final_product,,1,167,15363582,OurCompany,4,2,0
+2023-12-10 14:30:00,OS901,Optical System,subsystem,LM000,1,95,5134007,OpticsCorp,3,1,50
+2024-01-21 11:45:00,WS902,Wafer Stage,subsystem,LM000,1,62,2080264,MotionTech,5,1,33
+2024-02-21 08:00:00,CS903,Control System,subsystem,LM000,1,49,1047291,ControlSolutions,3,1,22
+2023-12-19 16:20:00,FR904,Frame,component,LM000,1,29,475597,StructureCo,8,3,11
+2024-06-21 10:00:00,LN905,Lens Assembly,component,OS001,1,46,1034959,PrecisionOptics,1,1,24
+2024-04-14 13:15:00,LS906,Light Source,component,OS001,1,28,514997,LaserTech,5,2,7
+2024-06-24 09:30:00,MR907,Mirror Set,component,OS001,1,21,205247,ReflectCo,10,3,17
+2024-01-19 07:45:00,MT908,High-Precision Motor,component,WS002,3,15,47748,MotorWorks,19,8,11
+2024-06-25 15:00:00,SN909,Position Sensor,component,WS002,1,9,20680,SensorTech,29,12,5
+2023-10-07 14:30:00,CP910,Industrial Computer,component,CS003,1,19,103816,CompTech,9,2,4
+2024-05-26 10:00:00,SW911,Control Software Package,component,CS003,1,5,514383,SoftwareSolutions,9,5,2
+2024-07-18 09:15:00,LM912,Advanced Lithography Machine,final_product,,1,195,14410612,OurCompany,4,2,0
+2023-12-10 14:30:00,OS913,Optical System,subsystem,LM000,1,81,5065910,OpticsCorp,2,1,44
+2024-04-26 11:45:00,WS914,Wafer Stage,subsystem,LM000,1,58,2060832,MotionTech,3,1,38
+2024-04-10 08:00:00,CS915,Control System,subsystem,LM000,1,42,969348,ControlSolutions,3,2,24
+2024-03-13 16:20:00,FR916,Frame,component,LM000,1,27,503880,StructureCo,7,3,12
+2024-07-25 10:00:00,LN917,Lens Assembly,component,OS001,1,42,1037695,PrecisionOptics,1,1,23
+2023-09-14 13:15:00,LS918,Light Source,component,OS001,1,28,490025,LaserTech,5,2,8
+2024-03-29 09:30:00,MR919,Mirror Set,component,OS001,2,20,206289,ReflectCo,11,4,16
+2024-06-05 07:45:00,MT920,High-Precision Motor,component,WS002,3,14,49106,MotorWorks,21,7,10
+2024-06-11 15:00:00,SN921,Position Sensor,component,WS002,1,9,19410,SensorTech,35,12,6
+2023-10-23 14:30:00,CP922,Industrial Computer,component,CS003,1,20,103745,CompTech,7,3,3
+2023-12-17 10:00:00,SW923,Control Software Package,component,CS003,1,5,514941,SoftwareSolutions,8,5,2
+2024-05-07 09:15:00,LM924,Advanced Lithography Machine,final_product,,1,192,15250929,OurCompany,5,2,0
+2024-02-16 14:30:00,OS925,Optical System,subsystem,LM000,1,82,5144794,OpticsCorp,2,1,48
+2024-06-20 11:45:00,WS926,Wafer Stage,subsystem,LM000,1,64,1912074,MotionTech,4,2,33
+2024-03-09 08:00:00,CS927,Control System,subsystem,LM000,1,48,952960,ControlSolutions,4,1,26
+2023-09-15 16:20:00,FR928,Frame,component,LM000,1,32,497199,StructureCo,7,2,12
+2023-09-10 10:00:00,LN929,Lens Assembly,component,OS001,1,48,1007695,PrecisionOptics,2,1,23
+2024-06-19 13:15:00,LS930,Light Source,component,OS001,1,30,509002,LaserTech,4,2,7
+2023-07-31 09:30:00,MR931,Mirror Set,component,OS001,2,20,201184,ReflectCo,11,3,16
+2024-01-08 07:45:00,MT932,High-Precision Motor,component,WS002,4,15,52054,MotorWorks,22,8,11
+2023-08-03 15:00:00,SN933,Position Sensor,component,WS002,1,9,20419,SensorTech,22,12,5
+2024-03-28 14:30:00,CP934,Industrial Computer,component,CS003,1,21,104465,CompTech,7,3,4
+2023-11-19 10:00:00,SW935,Control Software Package,component,CS003,1,4,519139,SoftwareSolutions,12,4,1
+2024-04-29 09:15:00,LM936,Advanced Lithography Machine,final_product,,1,192,14375238,OurCompany,3,1,0
+2024-07-07 14:30:00,OS937,Optical System,subsystem,LM000,1,88,5001458,OpticsCorp,3,1,49
+2024-02-28 11:45:00,WS938,Wafer Stage,subsystem,LM000,1,56,1991550,MotionTech,5,1,32
+2024-03-21 08:00:00,CS939,Control System,subsystem,LM000,1,47,983177,ControlSolutions,4,2,22
+2024-04-05 16:20:00,FR940,Frame,component,LM000,1,30,481564,StructureCo,10,3,10
+2023-12-27 10:00:00,LN941,Lens Assembly,component,OS001,1,43,957264,PrecisionOptics,1,1,22
+2024-05-29 13:15:00,LS942,Light Source,component,OS001,1,30,512422,LaserTech,6,1,7
+2023-11-03 09:30:00,MR943,Mirror Set,component,OS001,2,20,203481,ReflectCo,12,4,15
+2023-10-25 07:45:00,MT944,High-Precision Motor,component,WS002,4,13,51953,MotorWorks,25,7,10
+2024-06-02 15:00:00,SN945,Position Sensor,component,WS002,2,9,19427,SensorTech,25,11,5
+2024-07-21 14:30:00,CP946,Industrial Computer,component,CS003,1,21,98425,CompTech,8,2,3
+2023-10-11 10:00:00,SW947,Control Software Package,component,CS003,1,4,505356,SoftwareSolutions,10,5,1
+2024-01-12 09:15:00,LM948,Advanced Lithography Machine,final_product,,1,172,15351019,OurCompany,6,1,0
+2023-12-25 14:30:00,OS949,Optical System,subsystem,LM000,1,87,5008068,OpticsCorp,2,1,45
+2023-12-29 11:45:00,WS950,Wafer Stage,subsystem,LM000,1,65,2033024,MotionTech,3,1,39
+2023-10-18 08:00:00,CS951,Control System,subsystem,LM000,1,44,1019614,ControlSolutions,4,1,26
+2024-04-22 16:20:00,FR952,Frame,component,LM000,1,30,514687,StructureCo,7,3,11
+2023-12-30 10:00:00,LN953,Lens Assembly,component,OS001,1,41,1004478,PrecisionOptics,1,1,22
+2024-07-17 13:15:00,LS954,Light Source,component,OS001,1,32,480500,LaserTech,4,2,7
+2024-06-22 09:30:00,MR955,Mirror Set,component,OS001,1,19,199246,ReflectCo,8,4,14
+2023-11-02 07:45:00,MT956,High-Precision Motor,component,WS002,3,15,51969,MotorWorks,23,8,11
+2024-06-14 15:00:00,SN957,Position Sensor,component,WS002,1,9,19779,SensorTech,33,12,6
+2023-10-29 14:30:00,CP958,Industrial Computer,component,CS003,1,19,97914,CompTech,5,2,4
+2023-12-12 10:00:00,SW959,Control Software Package,component,CS003,1,4,504619,SoftwareSolutions,11,4,2
+2024-01-02 09:15:00,LM960,Advanced Lithography Machine,final_product,,1,164,14951332,OurCompany,3,2,0
+2023-09-23 14:30:00,OS961,Optical System,subsystem,LM000,1,84,5165674,OpticsCorp,3,1,48
+2023-11-02 11:45:00,WS962,Wafer Stage,subsystem,LM000,1,58,1997320,MotionTech,5,1,35
+2023-10-09 08:00:00,CS963,Control System,subsystem,LM000,1,44,1019220,ControlSolutions,6,2,22
+2023-07-27 16:20:00,FR964,Frame,component,LM000,1,29,484860,StructureCo,7,2,12
+2024-01-04 10:00:00,LN965,Lens Assembly,component,OS001,1,47,961949,PrecisionOptics,1,1,26
+2024-07-21 13:15:00,LS966,Light Source,component,OS001,1,29,519292,LaserTech,6,1,8
+2024-01-09 09:30:00,MR967,Mirror Set,component,OS001,1,19,203361,ReflectCo,10,4,17
+2023-10-06 07:45:00,MT968,High-Precision Motor,component,WS002,3,16,49140,MotorWorks,24,7,12
+2023-08-18 15:00:00,SN969,Position Sensor,component,WS002,1,10,19837,SensorTech,26,12,5
+2024-02-07 14:30:00,CP970,Industrial Computer,component,CS003,1,21,97131,CompTech,6,3,4
+2024-07-16 10:00:00,SW971,Control Software Package,component,CS003,1,5,500144,SoftwareSolutions,10,5,2
+2024-02-10 09:15:00,LM972,Advanced Lithography Machine,final_product,,1,175,14578268,OurCompany,5,1,0
+2023-09-20 14:30:00,OS973,Optical System,subsystem,LM000,1,97,4916221,OpticsCorp,3,1,45
+2024-04-28 11:45:00,WS974,Wafer Stage,subsystem,LM000,1,62,1985770,MotionTech,4,2,35
+2023-09-21 08:00:00,CS975,Control System,subsystem,LM000,1,44,1005771,ControlSolutions,6,2,24
+2023-12-16 16:20:00,FR976,Frame,component,LM000,1,32,479699,StructureCo,7,3,12
+2023-12-16 10:00:00,LN977,Lens Assembly,component,OS001,1,43,1004293,PrecisionOptics,1,1,22
+2024-03-02 13:15:00,LS978,Light Source,component,OS001,1,28,488641,LaserTech,6,1,8
+2024-06-11 09:30:00,MR979,Mirror Set,component,OS001,1,19,205491,ReflectCo,8,4,15
+2023-10-30 07:45:00,MT980,High-Precision Motor,component,WS002,3,14,49136,MotorWorks,18,7,11
+2024-02-11 15:00:00,SN981,Position Sensor,component,WS002,1,10,20566,SensorTech,28,10,5
+2024-06-16 14:30:00,CP982,Industrial Computer,component,CS003,1,21,97400,CompTech,7,2,4
+2024-04-28 10:00:00,SW983,Control Software Package,component,CS003,1,5,481341,SoftwareSolutions,12,5,1
+2024-05-31 09:15:00,LM984,Advanced Lithography Machine,final_product,,1,179,15583465,OurCompany,4,2,0
+2024-06-01 14:30:00,OS985,Optical System,subsystem,LM000,1,95,4890336,OpticsCorp,3,1,46
+2023-12-30 11:45:00,WS986,Wafer Stage,subsystem,LM000,1,65,2088467,MotionTech,3,2,35
+2023-12-12 08:00:00,CS987,Control System,subsystem,LM000,1,42,1022284,ControlSolutions,4,1,24
+2024-07-15 16:20:00,FR988,Frame,component,LM000,1,29,523408,StructureCo,10,3,12
+2024-06-23 10:00:00,LN989,Lens Assembly,component,OS001,1,42,1019799,PrecisionOptics,2,1,23
+2023-09-11 13:15:00,LS990,Light Source,component,OS001,1,32,506660,LaserTech,5,1,7
+2024-02-13 09:30:00,MR991,Mirror Set,component,OS001,2,19,209780,ReflectCo,8,3,16
+2024-02-16 07:45:00,MT992,High-Precision Motor,component,WS002,3,14,49427,MotorWorks,22,7,12
+2023-10-02 15:00:00,SN993,Position Sensor,component,WS002,2,10,20591,SensorTech,38,13,6
+2023-12-07 14:30:00,CP994,Industrial Computer,component,CS003,1,18,97407,CompTech,10,2,4
+2024-01-11 10:00:00,SW995,Control Software Package,component,CS003,1,4,518360,SoftwareSolutions,11,4,2
+2024-03-12 09:15:00,LM996,Advanced Lithography Machine,final_product,,1,191,14813257,OurCompany,5,1,0
+2023-10-13 14:30:00,OS997,Optical System,subsystem,LM000,1,84,4978922,OpticsCorp,3,1,48
+2024-05-25 11:45:00,WS998,Wafer Stage,subsystem,LM000,1,60,1932718,MotionTech,4,1,35
+2024-02-28 08:00:00,CS999,Control System,subsystem,LM000,1,42,1011741,ControlSolutions,3,2,22
