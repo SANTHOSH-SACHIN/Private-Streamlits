@@ -1,3 +1,4 @@
+torch==2.1.0
 dgl
 matplotlib==3.9.1
 
